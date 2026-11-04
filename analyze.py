@@ -98,15 +98,46 @@ def by_group(runs, meta, group="module"):
     return agg
 
 
+def load_questions_map(questions_dir="questions"):
+    """id -> full question object, for rescoring stored answers."""
+    out = {}
+    for p in Path(questions_dir).glob("*.json"):
+        try:
+            data = json.loads(p.read_text())
+        except json.JSONDecodeError:
+            continue
+        for q in data.get("questions", []):
+            out[q["id"]] = q
+    return out
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", default="results")
     ap.add_argument("--csv", default=None)
+    ap.add_argument("--rescore", action="store_true",
+                    help="recompute scores from stored answers (no LLM calls)")
     args = ap.parse_args(argv)
 
     runs = load_runs(args.results)
     if not runs:
         raise SystemExit(f"no result files in {args.results}")
+
+    if args.rescore:
+        import scoring
+        qmap = load_questions_map()
+        changed = 0
+        for r in runs:
+            q = qmap.get(r["question_id"])
+            if not q:
+                continue
+            res = scoring.score(q, r.get("answer") or "")
+            if res["correct"] != r.get("correct"):
+                changed += 1
+            r["score"] = res["score"]
+            r["correct"] = res["correct"]
+            r["score_detail"] = res["detail"]
+        print(f"rescored {len(runs)} runs ({changed} changed)\n")
 
     print(f"loaded {len(runs)} runs\n")
 

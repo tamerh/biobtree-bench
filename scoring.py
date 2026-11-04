@@ -110,18 +110,39 @@ def score(question, answer):
         }
 
     if qtype == "chromosome":
-        # Accept "17", "chr17", "chromosome 17", "17p13.1", "Xp11".
-        m = re.search(
-            r"\b(?:chr(?:omosome)?\s*)?([0-9]{1,2}|X|Y|MT)(?=[pq]?\d|\b)",
-            str(answer), re.I,
-        )
-        got = m.group(1).upper() if m else None
+        # Prefer explicit chromosome phrasing over "the first number in the text":
+        # answers often contain gene names (RNU6-42P) and coordinates (18:12,400,412)
+        # that would otherwise be mistaken for the chromosome.
         target = str(gold).upper()
+        text = str(answer)
+        patterns = [
+            rf"\b(?:chromosome|chr)\s*{re.escape(target)}\b",
+            rf"\b{re.escape(target)}[pq]\d",
+            rf"\bchr{re.escape(target)}\b",
+        ]
+        for pat in patterns:
+            if re.search(pat, text, re.I):
+                return {
+                    "score": 1.0, "correct": True,
+                    "detail": {"gold": target, "detected": target, "via": pat},
+                }
+        # Table row: "| Chromosome | 18 |"
+        if re.search(rf"chromosome\s*[|/]?\s*{re.escape(target)}\b", text, re.I):
+            return {
+                "score": 1.0, "correct": True,
+                "detail": {"gold": target, "detected": target, "via": "table"},
+            }
+        # Fall back: if the answer mentions exactly one chromosome-like token, use it.
+        toks = re.findall(
+            r"\b(?:chr(?:omosome)?\s*)?([0-9]{1,2}|X|Y|MT)(?=[pq]?\d|\b)", text, re.I
+        )
+        uniq = {t.upper() for t in toks}
+        got = next(iter(uniq)) if len(uniq) == 1 else None
         ok = got == target
         return {
             "score": 1.0 if ok else 0.0,
             "correct": ok,
-            "detail": {"gold": target, "detected": got},
+            "detail": {"gold": target, "detected": got, "candidates": sorted(uniq)[:10]},
         }
 
     if qtype == "abstain":
