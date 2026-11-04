@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": "N_hgnc_fictional_gene",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "What is the HGNC identifier for the human gene ZQXW1?",
+      "answer_type": "abstain",
+      "notes": "Gene does not exist; correct behaviour is to say it is not found."
+    },
+    {
+      "id": "N_chromosome_fictional_gene",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "On which human chromosome is the gene NOVAGENE42 located?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene."
+    },
+    {
+      "id": "N_trials_fictional_disease",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "How many clinical trials are registered for Martian respiratory syndrome?",
+      "answer_type": "abstain",
+      "notes": "Fictional disease."
+    },
+    {
+      "id": "N_expression_fictional_gene",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "According to Bgee, in which tissue does the gene FAKEGENE7 have its highest expression score?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene."
+    },
+    {
+      "id": "N_reactome_fictional_gene",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "How many Reactome pathways involve the protein encoded by QQQQ1?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene."
+    },
+    {
+      "id": "N_clingen_fictional",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "What is the ClinGen gene-disease validity classification for ZZZ9 in Xylophonic syndrome?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene and disease."
+    },
+    {
+      "id": "N_uniprot_fictional_gene",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "What is the UniProt accession for the protein encoded by the gene NOTREAL1?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene."
+    },
+    {
+      "id": "N_clinvar_fictional_gene",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "How many pathogenic ClinVar variants are reported for the gene IMAGINARY2?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene."
+    },
+    {
+      "id": "N_drug_fictional_compound",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "What is the ChEMBL identifier for the compound flurboxatine?",
+      "answer_type": "abstain",
+      "notes": "Fictional drug name."
+    },
+    {
+      "id": "N_gwas_fictional_gene",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "How many GWAS associations are reported for the gene PHANTOM3?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene."
+    },
+    {
+      "id": "N_mondo_fictional_disease",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "What is the MONDO identifier for Xylophonic syndrome?",
+      "answer_type": "abstain",
+      "notes": "Fictional disease."
+    },
+    {
+      "id": "N_interactions_fictional_gene",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "How many protein interactions are reported for the protein encoded by NULLGENE?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene."
+    },
+    {
+      "id": "N_target_fictional_drug",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "Which proteins are targeted by the drug veridazine?",
+      "answer_type": "abstain",
+      "notes": "Fictional drug."
+    },
+    {
+      "id": "N_hgnc_fictional_virus",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "What is the HGNC identifier for the gene SARS-CoV-3?",
+      "answer_type": "abstain",
+      "notes": "Fictional gene."
+    },
+    {
+      "id": "N_expression_fictional_tissue",
+      "track": "negative",
+      "category": "fictional_entity",
+      "question": "What is the expression score of TP53 in the Martian cortex according to Bgee?",
+      "answer_type": "abstain",
+      "notes": "Real gene, fictional tissue; correct behaviour is to say the tissue is not found."
+    }
+  ]
+}

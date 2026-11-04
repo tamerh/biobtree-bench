@@ -1,0 +1,1684 @@
+{
+  "questions": [
+    {
+      "id": "B_chromosome_TP53",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene TP53 located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "17",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000141510",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_BRCA1",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene BRCA1 located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "17",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000012048",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_BRCA2",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene BRCA2 located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "13",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000139618",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_EGFR",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene EGFR located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "7",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000146648",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_KRAS",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene KRAS located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "12",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000133703",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_PTEN",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene PTEN located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "10",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000171862",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_APOE",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene APOE located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "19",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000130203",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_SCN9A",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene SCN9A located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "2",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000169432",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_CFTR",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene CFTR located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "7",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000001626",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_DMD",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene DMD located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "X",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000198947",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_HBB",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene HBB located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "11",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000244734",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_F8",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene F8 located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "X",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000185010",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_G6PD",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene G6PD located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "X",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000160211",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_INS",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene INS located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "11",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000254647",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_LEPR",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene LEPR located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "1",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000116678",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_MC4R",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene MC4R located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "18",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000166603",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_MYH7",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene MYH7 located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "14",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000092054",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_LMNA",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene LMNA located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "1",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000160789",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_TTN",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene TTN located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "2",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000155657",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_chromosome_COL1A1",
+      "track": "track_b",
+      "category": "chromosome",
+      "question": "On which human chromosome is the gene COL1A1 located? Answer with the chromosome number or letter.",
+      "answer_type": "chromosome",
+      "gold": "17",
+      "source": {
+        "dataset": "ensembl",
+        "identifier": "ENSG00000108821",
+        "field": "seq_region"
+      }
+    },
+    {
+      "id": "B_top_tissue_TP53",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does TP53 have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "ventricular zone",
+      "accepted": [
+        "UBERON:0003053"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000141510",
+        "score": 95.11,
+        "tissue_id": "UBERON:0003053"
+      }
+    },
+    {
+      "id": "B_top_tissue_BRCA1",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does BRCA1 have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "ventricular zone",
+      "accepted": [
+        "UBERON:0003053"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000012048",
+        "score": 90.68,
+        "tissue_id": "UBERON:0003053"
+      }
+    },
+    {
+      "id": "B_top_tissue_BRCA2",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does BRCA2 have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "male germ line stem cell (sensu Vertebrata) in testis",
+      "accepted": [
+        "CL:0000089 ∩ UBERON:0000473"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000139618",
+        "score": 94.3,
+        "tissue_id": "CL:0000089 ∩ UBERON:0000473"
+      }
+    },
+    {
+      "id": "B_top_tissue_EGFR",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does EGFR have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "nipple",
+      "accepted": [
+        "UBERON:0002030"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000146648",
+        "score": 99.12,
+        "tissue_id": "UBERON:0002030"
+      }
+    },
+    {
+      "id": "B_top_tissue_KRAS",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does KRAS have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "trigeminal ganglion",
+      "accepted": [
+        "UBERON:0001675"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000133703",
+        "score": 97.68,
+        "tissue_id": "UBERON:0001675"
+      }
+    },
+    {
+      "id": "B_top_tissue_PTEN",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does PTEN have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "sperm",
+      "accepted": [
+        "CL:0000019"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000171862",
+        "score": 99.31,
+        "tissue_id": "CL:0000019"
+      }
+    },
+    {
+      "id": "B_top_tissue_APOE",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does APOE have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "right adrenal gland cortex",
+      "accepted": [
+        "UBERON:0035827"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000130203",
+        "score": 99.93,
+        "tissue_id": "UBERON:0035827"
+      }
+    },
+    {
+      "id": "B_top_tissue_SCN9A",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does SCN9A have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "sural nerve",
+      "accepted": [
+        "UBERON:0015488"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000169432",
+        "score": 90.9,
+        "tissue_id": "UBERON:0015488"
+      }
+    },
+    {
+      "id": "B_top_tissue_CFTR",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does CFTR have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "body of pancreas",
+      "accepted": [
+        "UBERON:0001150"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000001626",
+        "score": 99.02,
+        "tissue_id": "UBERON:0001150"
+      }
+    },
+    {
+      "id": "B_top_tissue_DMD",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does DMD have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "trigeminal ganglion",
+      "accepted": [
+        "UBERON:0001675"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000198947",
+        "score": 98.9,
+        "tissue_id": "UBERON:0001675"
+      }
+    },
+    {
+      "id": "B_top_tissue_HBB",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does HBB have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "vena cava",
+      "accepted": [
+        "UBERON:0004087"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000244734",
+        "score": 100.0,
+        "tissue_id": "UBERON:0004087"
+      }
+    },
+    {
+      "id": "B_top_tissue_F8",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does F8 have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "left ventricle myocardium",
+      "accepted": [
+        "UBERON:0006566"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000185010",
+        "score": 94.87,
+        "tissue_id": "UBERON:0006566"
+      }
+    },
+    {
+      "id": "B_top_tissue_G6PD",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does G6PD have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "stromal cell of endometrium",
+      "accepted": [
+        "CL:0002255"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000160211",
+        "score": 98.26,
+        "tissue_id": "CL:0002255"
+      }
+    },
+    {
+      "id": "B_top_tissue_INS",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does INS have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "type B pancreatic cell",
+      "accepted": [
+        "CL:0000169"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000254647",
+        "score": 100.0,
+        "tissue_id": "CL:0000169"
+      }
+    },
+    {
+      "id": "B_top_tissue_LEPR",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does LEPR have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "trabecular bone tissue",
+      "accepted": [
+        "UBERON:0002483"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000116678",
+        "score": 98.83,
+        "tissue_id": "UBERON:0002483"
+      }
+    },
+    {
+      "id": "B_top_tissue_MC4R",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does MC4R have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "pancreatic ductal cell",
+      "accepted": [
+        "CL:0002079"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000166603",
+        "score": 69.78,
+        "tissue_id": "CL:0002079"
+      }
+    },
+    {
+      "id": "B_top_tissue_MYH7",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does MYH7 have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "apex of heart",
+      "accepted": [
+        "UBERON:0002098"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000092054",
+        "score": 99.94,
+        "tissue_id": "UBERON:0002098"
+      }
+    },
+    {
+      "id": "B_top_tissue_LMNA",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does LMNA have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "nipple",
+      "accepted": [
+        "UBERON:0002030"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000160789",
+        "score": 99.41,
+        "tissue_id": "UBERON:0002030"
+      }
+    },
+    {
+      "id": "B_top_tissue_TTN",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does TTN have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "gluteal muscle",
+      "accepted": [
+        "UBERON:0002000"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000155657",
+        "score": 99.98,
+        "tissue_id": "UBERON:0002000"
+      }
+    },
+    {
+      "id": "B_top_tissue_COL1A1",
+      "track": "track_b",
+      "category": "top_tissue",
+      "question": "According to Bgee, in which tissue does COL1A1 have its highest expression score?",
+      "answer_type": "exact",
+      "gold": "stromal cell of endometrium",
+      "accepted": [
+        "CL:0002255"
+      ],
+      "source": {
+        "dataset": "bgee",
+        "identifier": "ENSG00000108821",
+        "score": 99.99,
+        "tissue_id": "CL:0002255"
+      }
+    },
+    {
+      "id": "B_reactome_count_TP53",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by TP53?",
+      "answer_type": "integer",
+      "gold": 47,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_BRCA1",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by BRCA1?",
+      "answer_type": "integer",
+      "gold": 28,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_BRCA2",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by BRCA2?",
+      "answer_type": "integer",
+      "gold": 14,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_EGFR",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by EGFR?",
+      "answer_type": "integer",
+      "gold": 37,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_KRAS",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by KRAS?",
+      "answer_type": "integer",
+      "gold": 71,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_PTEN",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by PTEN?",
+      "answer_type": "integer",
+      "gold": 12,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_APOE",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by APOE?",
+      "answer_type": "integer",
+      "gold": 12,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_SCN9A",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by SCN9A?",
+      "answer_type": "integer",
+      "gold": 3,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_CFTR",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by CFTR?",
+      "answer_type": "integer",
+      "gold": 11,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_DMD",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by DMD?",
+      "answer_type": "integer",
+      "gold": 3,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_HBB",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by HBB?",
+      "answer_type": "integer",
+      "gold": 10,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_F8",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by F8?",
+      "answer_type": "integer",
+      "gold": 18,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_G6PD",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by G6PD?",
+      "answer_type": "integer",
+      "gold": 3,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_INS",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by INS?",
+      "answer_type": "integer",
+      "gold": 14,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_LEPR",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by LEPR?",
+      "answer_type": "integer",
+      "gold": 1,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_MC4R",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by MC4R?",
+      "answer_type": "integer",
+      "gold": 3,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_LMNA",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by LMNA?",
+      "answer_type": "integer",
+      "gold": 8,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_TTN",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by TTN?",
+      "answer_type": "integer",
+      "gold": 2,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_COL1A1",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by COL1A1?",
+      "answer_type": "integer",
+      "gold": 27,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_reactome_count_FBN1",
+      "track": "track_b",
+      "category": "reactome_count",
+      "question": "How many Reactome pathways involve the protein encoded by FBN1?",
+      "answer_type": "integer",
+      "gold": 7,
+      "source": {
+        "chain": ">>hgnc>>uniprot>>reactome"
+      }
+    },
+    {
+      "id": "B_hgnc_id_TP53",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene TP53?",
+      "answer_type": "exact",
+      "gold": "HGNC:11998",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_BRCA1",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene BRCA1?",
+      "answer_type": "exact",
+      "gold": "HGNC:1100",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_BRCA2",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene BRCA2?",
+      "answer_type": "exact",
+      "gold": "HGNC:1101",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_EGFR",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene EGFR?",
+      "answer_type": "exact",
+      "gold": "HGNC:3236",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_KRAS",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene KRAS?",
+      "answer_type": "exact",
+      "gold": "HGNC:6407",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_PTEN",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene PTEN?",
+      "answer_type": "exact",
+      "gold": "HGNC:9588",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_APOE",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene APOE?",
+      "answer_type": "exact",
+      "gold": "HGNC:613",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_SCN9A",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene SCN9A?",
+      "answer_type": "exact",
+      "gold": "HGNC:10597",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_CFTR",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene CFTR?",
+      "answer_type": "exact",
+      "gold": "HGNC:1884",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_DMD",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene DMD?",
+      "answer_type": "exact",
+      "gold": "HGNC:2928",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_HBB",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene HBB?",
+      "answer_type": "exact",
+      "gold": "HGNC:4827",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_F8",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene F8?",
+      "answer_type": "exact",
+      "gold": "HGNC:3546",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_G6PD",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene G6PD?",
+      "answer_type": "exact",
+      "gold": "HGNC:4057",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_INS",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene INS?",
+      "answer_type": "exact",
+      "gold": "HGNC:6081",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_LEPR",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene LEPR?",
+      "answer_type": "exact",
+      "gold": "HGNC:6554",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_MC4R",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene MC4R?",
+      "answer_type": "exact",
+      "gold": "HGNC:6932",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_MYH7",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene MYH7?",
+      "answer_type": "exact",
+      "gold": "HGNC:7577",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_LMNA",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene LMNA?",
+      "answer_type": "exact",
+      "gold": "HGNC:6636",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_TTN",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene TTN?",
+      "answer_type": "exact",
+      "gold": "HGNC:12403",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_hgnc_id_COL1A1",
+      "track": "track_b",
+      "category": "hgnc_id",
+      "question": "What is the HGNC identifier for the gene COL1A1?",
+      "answer_type": "exact",
+      "gold": "HGNC:2197",
+      "source": {
+        "dataset": "hgnc"
+      }
+    },
+    {
+      "id": "B_clingen_TP53",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for TP53 in Li-Fraumeni syndrome?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "Li-Fraumeni syndrome"
+      }
+    },
+    {
+      "id": "B_clingen_BRCA1",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for BRCA1 in BRCA1-related cancer predisposition?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "BRCA1-related cancer predisposition"
+      }
+    },
+    {
+      "id": "B_clingen_BRCA2",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for BRCA2 in Fanconi anemia complementation group D1?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "Fanconi anemia complementation group D1"
+      }
+    },
+    {
+      "id": "B_clingen_EGFR",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for EGFR in non-small cell lung carcinoma?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "non-small cell lung carcinoma"
+      }
+    },
+    {
+      "id": "B_clingen_KRAS",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for KRAS in cardiofaciocutaneous syndrome?",
+      "answer_type": "enum",
+      "gold": "Strong",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "cardiofaciocutaneous syndrome"
+      }
+    },
+    {
+      "id": "B_clingen_PTEN",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for PTEN in PTEN hamartoma tumor syndrome?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "PTEN hamartoma tumor syndrome"
+      }
+    },
+    {
+      "id": "B_clingen_SCN9A",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for SCN9A in epilepsy?",
+      "answer_type": "enum",
+      "gold": "Refuted",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "epilepsy"
+      }
+    },
+    {
+      "id": "B_clingen_CFTR",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for CFTR in cystic fibrosis?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "cystic fibrosis"
+      }
+    },
+    {
+      "id": "B_clingen_DMD",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for DMD in progressive muscular dystrophy?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "progressive muscular dystrophy"
+      }
+    },
+    {
+      "id": "B_clingen_HBB",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for HBB in beta-thalassemia HBB/LCRB?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "beta-thalassemia HBB/LCRB"
+      }
+    },
+    {
+      "id": "B_clingen_F8",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for F8 in hemophilia A?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "hemophilia A"
+      }
+    },
+    {
+      "id": "B_clingen_G6PD",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for G6PD in G6PD deficiency?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "G6PD deficiency"
+      }
+    },
+    {
+      "id": "B_clingen_INS",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for INS in monogenic diabetes?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "monogenic diabetes"
+      }
+    },
+    {
+      "id": "B_clingen_MYH7",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for MYH7 in arrhythmogenic right ventricular cardiomyopathy?",
+      "answer_type": "enum",
+      "gold": "Limited",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "arrhythmogenic right ventricular cardiomyopathy"
+      }
+    },
+    {
+      "id": "B_clingen_LMNA",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for LMNA in dilated cardiomyopathy 1A?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "dilated cardiomyopathy 1A"
+      }
+    },
+    {
+      "id": "B_clingen_TTN",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for TTN in dilated cardiomyopathy 1G?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "dilated cardiomyopathy 1G"
+      }
+    },
+    {
+      "id": "B_clingen_COL1A1",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for COL1A1 in Caffey disease?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "Caffey disease"
+      }
+    },
+    {
+      "id": "B_clingen_FBN1",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for FBN1 in Shprintzen-Goldberg syndrome?",
+      "answer_type": "enum",
+      "gold": "Disputed",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "Shprintzen-Goldberg syndrome"
+      }
+    },
+    {
+      "id": "B_clingen_NF1",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for NF1 in neurofibromatosis type 1?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "neurofibromatosis type 1"
+      }
+    },
+    {
+      "id": "B_clingen_RB1",
+      "track": "track_b",
+      "category": "clingen",
+      "question": "What is the ClinGen gene-disease validity classification for RB1 in retinoblastoma?",
+      "answer_type": "enum",
+      "gold": "Definitive",
+      "accepted": [
+        "Definitive",
+        "Strong",
+        "Moderate",
+        "Limited",
+        "Disputed",
+        "Refuted",
+        "No Known Disease Relationship"
+      ],
+      "source": {
+        "dataset": "clingen_gene_validity",
+        "disease": "retinoblastoma"
+      }
+    },
+    {
+      "id": "B_trials_count_alkaptonuria",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for alkaptonuria?",
+      "answer_type": "integer",
+      "gold": 10,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_Marfan_syndrome",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for Marfan syndrome?",
+      "answer_type": "integer",
+      "gold": 58,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_tuberous_sclerosis",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for tuberous sclerosis?",
+      "answer_type": "integer",
+      "gold": 96,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_von_Hippel-Lindau_disease",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for von Hippel-Lindau disease?",
+      "answer_type": "integer",
+      "gold": 46,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_achondroplasia",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for achondroplasia?",
+      "answer_type": "integer",
+      "gold": 46,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_Gaucher_disease",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for Gaucher disease?",
+      "answer_type": "integer",
+      "gold": 99,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_Wilson_disease",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for Wilson disease?",
+      "answer_type": "integer",
+      "gold": 70,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_hemochromatosis",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for hemochromatosis?",
+      "answer_type": "integer",
+      "gold": 62,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_polycystic_kidney_disease",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for polycystic kidney disease?",
+      "answer_type": "integer",
+      "gold": 25,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_Niemann-Pick_disease",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for Niemann-Pick disease?",
+      "answer_type": "integer",
+      "gold": 17,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_Hurler_syndrome",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for Hurler syndrome?",
+      "answer_type": "integer",
+      "gold": 50,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_maple_syrup_urine_disease",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for maple syrup urine disease?",
+      "answer_type": "integer",
+      "gold": 11,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_homocystinuria",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for homocystinuria?",
+      "answer_type": "integer",
+      "gold": 23,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_epidermolysis_bullosa",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for epidermolysis bullosa?",
+      "answer_type": "integer",
+      "gold": 63,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_neurofibromatosis_type_2",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for neurofibromatosis type 2?",
+      "answer_type": "integer",
+      "gold": 43,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_Li-Fraumeni_syndrome",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for Li-Fraumeni syndrome?",
+      "answer_type": "integer",
+      "gold": 21,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_Fanconi_anemia",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for Fanconi anemia?",
+      "answer_type": "integer",
+      "gold": 85,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_ataxia_telangiectasia",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for ataxia telangiectasia?",
+      "answer_type": "integer",
+      "gold": 35,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_primary_ciliary_dyskinesia",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for primary ciliary dyskinesia?",
+      "answer_type": "integer",
+      "gold": 76,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    },
+    {
+      "id": "B_trials_count_hereditary_spherocytosis",
+      "track": "track_b",
+      "category": "trials_count",
+      "question": "How many clinical trials are registered for hereditary spherocytosis?",
+      "answer_type": "integer",
+      "gold": 3,
+      "source": {
+        "chain": ">>mondo>>clinical_trials"
+      }
+    }
+  ]
+}

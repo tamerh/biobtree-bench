@@ -1,0 +1,49 @@
+"""Benchmark configuration (env-driven, stdlib only)."""
+
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+QUESTIONS_DIR = BASE_DIR / "questions"
+RESULTS_DIR = BASE_DIR / "results"
+TRANSCRIPTS_DIR = RESULTS_DIR / "transcripts"
+
+# MCP server (JSON-RPC over HTTP)
+MCP_URL = os.environ.get("MCP_URL", "http://127.0.0.1:8000/mcp")
+MCP_TIMEOUT = float(os.environ.get("MCP_TIMEOUT", "120"))
+
+# LLM endpoint (OpenAI-compatible)
+OPENROUTER_URL = os.environ.get("OPENROUTER_URL", "https://openrouter.ai/api/v1")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+
+# Defaults recorded in every run
+DEFAULT_MODELS = [
+    "anthropic/claude-sonnet-5.5",
+    "openai/gpt-5.1",
+    "anthropic/claude-haiku-5.5",
+]
+DEFAULT_CONDITIONS = ["no_tools", "raw_tools", "atlas"]
+
+TEMPERATURE = float(os.environ.get("BENCH_TEMPERATURE", "0"))
+MAX_TOKENS = int(os.environ.get("BENCH_MAX_TOKENS", "4096"))
+MAX_ITERATIONS = int(os.environ.get("BENCH_MAX_ITERATIONS", "10"))
+
+# Per-tool-result cap handed back to the model (chars). Atlas returns its own
+# budgeted payload, so it is not truncated here.
+TOOL_RESULT_MAX_CHARS = int(os.environ.get("BENCH_TOOL_RESULT_MAX_CHARS", "20000"))
+
+# Which MCP tools each condition may use.
+CONDITION_TOOLS = {
+    "no_tools": [],
+    "raw_tools": ["biobtree_search", "biobtree_map", "biobtree_entry"],
+    "atlas": ["biobtree_atlas"],
+}
+
+SYSTEM_PROMPT = (
+    "You are a biomedical research assistant. Answer the user's question as "
+    "accurately and completely as possible. Use the available tools when they "
+    "help you find verified identifiers, exact counts, or data the model may "
+    "not know. If the tools do not contain the answer, say so explicitly rather "
+    "than guessing. Cite identifiers (gene symbols, accessions, ontology IDs) "
+    "where relevant."
+)
