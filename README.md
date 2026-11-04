@@ -60,9 +60,13 @@ python analyze.py --results results/ --csv results/paired.csv
 
 | condition | tools exposed |
 |---|---|
-| `no_tools` | none |
-| `raw_tools` | `biobtree_search`, `biobtree_map`, `biobtree_entry` |
-| `atlas` | `biobtree_atlas` |
+| `no_tools` | none (baseline) |
+| **`mcp`** | all four — the model chooses (the real system) |
+| `ablation_raw` | `biobtree_search`, `biobtree_map`, `biobtree_entry` |
+| `ablation_atlas` | `biobtree_atlas` |
+
+The main claim is **`mcp` vs `no_tools`**. The forced subsets are ablations for
+attribution, not part of the product claim.
 
 Tool schemas are fetched from the MCP server at run time, so the benchmark
 always tests the real interface.

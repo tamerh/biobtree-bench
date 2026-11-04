@@ -22,7 +22,7 @@ DEFAULT_MODELS = [
     "openai/gpt-5.1",
     "anthropic/claude-haiku-5.5",
 ]
-DEFAULT_CONDITIONS = ["no_tools", "raw_tools", "atlas"]
+DEFAULT_CONDITIONS = ["no_tools", "mcp"]
 
 TEMPERATURE = float(os.environ.get("BENCH_TEMPERATURE", "0"))
 MAX_TOKENS = int(os.environ.get("BENCH_MAX_TOKENS", "4096"))
@@ -33,10 +33,13 @@ MAX_ITERATIONS = int(os.environ.get("BENCH_MAX_ITERATIONS", "10"))
 TOOL_RESULT_MAX_CHARS = int(os.environ.get("BENCH_TOOL_RESULT_MAX_CHARS", "20000"))
 
 # Which MCP tools each condition may use.
+# `mcp` is the real system: all tools registered, the model chooses.
+# The forced subsets are ablations, not part of the main claim.
 CONDITION_TOOLS = {
     "no_tools": [],
-    "raw_tools": ["biobtree_search", "biobtree_map", "biobtree_entry"],
-    "atlas": ["biobtree_atlas"],
+    "mcp": ["biobtree_search", "biobtree_map", "biobtree_entry", "biobtree_atlas"],
+    "ablation_raw": ["biobtree_search", "biobtree_map", "biobtree_entry"],
+    "ablation_atlas": ["biobtree_atlas"],
 }
 
 SYSTEM_PROMPT = (
