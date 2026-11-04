@@ -72,6 +72,32 @@ def paired(runs, cond_a, cond_b):
     return per_model
 
 
+def load_question_meta(questions_dir="questions"):
+    """id -> {module, category, track} from the question files."""
+    meta = {}
+    for p in Path(questions_dir).glob("*.json"):
+        try:
+            data = json.loads(p.read_text())
+        except json.JSONDecodeError:
+            continue
+        for q in data.get("questions", []):
+            meta[q["id"]] = {
+                "module": q.get("module") or q.get("category") or q.get("track"),
+                "track": q.get("track"),
+            }
+    return meta
+
+
+def by_group(runs, meta, group="module"):
+    agg = defaultdict(lambda: defaultdict(lambda: [0, 0]))
+    for r in runs:
+        g = meta.get(r["question_id"], {}).get(group) or "unknown"
+        cell = agg[g][r["condition"]]
+        cell[0] += 1
+        cell[1] += 1 if r.get("correct") else 0
+    return agg
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", default="results")
@@ -95,6 +121,20 @@ def main(argv=None):
               f"{a['tool_calls'] / max(a['n'], 1):>7.1f}{a['errors']:>5}")
 
     conditions = sorted({r["condition"] for r in runs})
+
+    meta = load_question_meta()
+    if meta:
+        print("\naccuracy by module")
+        grouped = by_group(runs, meta)
+        conds = sorted({r["condition"] for r in runs})
+        print(f"{'module':<28}" + "".join(f"{c:>12}" for c in conds))
+        for g in sorted(grouped):
+            row = f"{g:<28}"
+            for c in conds:
+                n, ok = grouped[g].get(c, [0, 0])
+                row += f"{(ok / n if n else 0):>12.2f}"
+            print(row)
+
     if len(conditions) >= 2:
         print("\npaired comparisons (McNemar exact, two-sided)")
         for i, ca in enumerate(conditions):
