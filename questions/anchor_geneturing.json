@@ -1,0 +1,85 @@
+{
+  "questions": [
+    {
+      "id": "G_gene_location_FAM66D",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene location",
+      "question": "FAM66D gene is located on human genome chromosome",
+      "answer_type": "chromosome",
+      "gold": "8",
+      "original_gold": "chr8"
+    },
+    {
+      "id": "G_gene_location_TTTY7",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene location",
+      "question": "TTTY7 gene is located on human genome chromosome",
+      "answer_type": "chromosome",
+      "gold": "Y",
+      "original_gold": "chrY"
+    },
+    {
+      "id": "G_snp_location_rs1430464868",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "SNP location",
+      "question": "SNP rs1430464868 is located on human genome chromosome",
+      "answer_type": "chromosome",
+      "gold": "13",
+      "original_gold": "chr13"
+    },
+    {
+      "id": "G_snp_location_rs545148486",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "SNP location",
+      "question": "SNP rs545148486 is located on human genome chromosome",
+      "answer_type": "chromosome",
+      "gold": "16",
+      "original_gold": "chr16"
+    },
+    {
+      "id": "G_gene_alias_LMP10",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene alias",
+      "question": "The official gene symbol of gene LMP10 is",
+      "answer_type": "exact",
+      "gold": "PSMB10",
+      "original_gold": "PSMB10"
+    },
+    {
+      "id": "G_name_conversion_ENSG00000215251",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene name conversion",
+      "question": "The official gene symbol of ENSG00000215251 is",
+      "answer_type": "exact",
+      "gold": "FASTKD5",
+      "original_gold": "FASTKD5"
+    },
+    {
+      "id": "G_snp_gene_rs1217074595",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene SNP association",
+      "question": "The name of the gene associated with SNP rs1217074595 is",
+      "answer_type": "exact",
+      "gold": "LINC01270",
+      "original_gold": "LINC01270"
+    },
+    {
+      "id": "G_tf_regulation_ETV4_ERBB2",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "TF regulation",
+      "question": "The regulatory relationship between transcription factor ETV4 and gene ERBB2 is",
+      "answer_type": "enum",
+      "gold": "Repression",
+      "accepted": ["Activation", "Repression", "No"],
+      "original_gold": "Repression"
+    }
+  ]
+}
