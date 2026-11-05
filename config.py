@@ -28,16 +28,24 @@ TEMPERATURE = float(os.environ.get("BENCH_TEMPERATURE", "0"))
 MAX_TOKENS = int(os.environ.get("BENCH_MAX_TOKENS", "4096"))
 MAX_ITERATIONS = int(os.environ.get("BENCH_MAX_ITERATIONS", "10"))
 
-# Per-tool-result cap handed back to the model (chars). Atlas returns its own
-# budgeted payload, so it is not truncated here.
-TOOL_RESULT_MAX_CHARS = int(os.environ.get("BENCH_TOOL_RESULT_MAX_CHARS", "20000"))
+# Per-tool-result cap handed back to the model (chars). The MCP server already
+# truncates structurally at 50k (valid JSON + `dropped_inputs`), so this is only
+# a guard for non-JSON payloads (e.g. TOOL ERROR strings). Keep it at the server
+# limit: cutting valid JSON here would reintroduce the unparseable-result bug.
+TOOL_RESULT_MAX_CHARS = int(os.environ.get("BENCH_TOOL_RESULT_MAX_CHARS", "50000"))
 
 # Which MCP tools each condition may use.
 # `mcp` is the real system: all tools registered, the model chooses.
 # The forced subsets are ablations, not part of the main claim.
 CONDITION_TOOLS = {
     "no_tools": [],
-    "mcp": ["biobtree_search", "biobtree_map", "biobtree_entry", "biobtree_atlas"],
+    "mcp": [
+        "biobtree_search",
+        "biobtree_map",
+        "biobtree_entry",
+        "biobtree_atlas",
+        "biobtree_enrich",
+    ],
     "ablation_raw": ["biobtree_search", "biobtree_map", "biobtree_entry"],
     "ablation_atlas": ["biobtree_atlas"],
 }

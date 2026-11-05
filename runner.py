@@ -83,8 +83,17 @@ def run_one(question, model, condition, mcp, llm, max_iterations):
                     except MCPError as e:
                         result = f"TOOL ERROR: {e}"
                     result_for_model = result
-                    if name != "biobtree_atlas":
-                        result_for_model = result[: config.TOOL_RESULT_MAX_CHARS]
+                    if name != "biobtree_atlas" and len(result) > config.TOOL_RESULT_MAX_CHARS:
+                        # The MCP server bounds tool results structurally (valid
+                        # JSON + dropped_inputs). Only cut non-JSON payloads here;
+                        # slicing valid JSON would make it unparseable.
+                        try:
+                            json.loads(result)
+                        except json.JSONDecodeError:
+                            result_for_model = (
+                                result[: config.TOOL_RESULT_MAX_CHARS]
+                                + "\n... [truncated]"
+                            )
                     tool_log.append(
                         {
                             "tool": name,
