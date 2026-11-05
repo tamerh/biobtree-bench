@@ -17,6 +17,7 @@ import re
 
 _PUNCT = re.compile(r"[^\w\s.+-]")
 _WS = re.compile(r"\s+")
+LETTERS = ["A", "B", "C", "D"]
 
 
 def normalize(text):
@@ -143,6 +144,45 @@ def score(question, answer):
             "score": 1.0 if ok else 0.0,
             "correct": ok,
             "detail": {"gold": target, "detected": got, "candidates": sorted(uniq)[:10]},
+        }
+
+    if qtype == "mcq":
+        # gold is the option letter; gold_text is the option content.
+        letter = str(gold or "").strip().upper()
+        options = question.get("options") or []
+        gold_text = question.get("gold_text")
+        text = str(answer or "")
+        letter_hit = any(
+            re.search(p, text)
+            for p in (
+                rf"(?i)\banswer\s*(?:is|:|\-)?\s*\(?{re.escape(letter)}\)?\b",
+                rf"(?i)^\s*\(?{re.escape(letter)}\)?\s*[\.\)\:\-]",
+                rf"(?i)^\s*\(?{re.escape(letter)}\)?\s*$",
+                rf"(?i)\boption\s+{re.escape(letter)}\b",
+                rf"(?i)\(\s*{re.escape(letter)}\s*\)",
+                rf"(?i)\*\*\(?{re.escape(letter)}\)?(?:\s*[\.\)\:])?\*\*",
+            )
+        )
+        text_hit = bool(gold_text and _contains(gold_text, text))
+        other_hit = next(
+            (
+                o
+                for i, o in enumerate(options)
+                if LETTERS[i] != letter and _contains(o, text)
+            ),
+            None,
+        )
+        ok = letter_hit or text_hit
+        return {
+            "score": 1.0 if ok else 0.0,
+            "correct": ok,
+            "detail": {
+                "gold": letter,
+                "gold_text": gold_text,
+                "letter_hit": letter_hit,
+                "text_hit": text_hit,
+                "other_option": other_hit,
+            },
         }
 
     if qtype == "abstain":

@@ -1,0 +1,2564 @@
+{
+  "questions": [
+    {
+      "id": "LABBENCH_gene_location_3c44bd92",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr10q22 according to Ensembl Release 110?\n\nA. RNU6-673P\nB. ENSG00000285630\nC. DUX4L10\nD. SLC9A3P3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RNU6-673P",
+        "ENSG00000285630",
+        "DUX4L10",
+        "SLC9A3P3"
+      ],
+      "gold": "A",
+      "gold_text": "RNU6-673P"
+    },
+    {
+      "id": "LABBENCH_gene_location_6e71f9d4",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr11p13 according to Ensembl Release 110?\n\nA. OR52B4\nB. OR52P2P\nC. CIR1P3\nD. FADS2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "OR52B4",
+        "OR52P2P",
+        "CIR1P3",
+        "FADS2"
+      ],
+      "gold": "C",
+      "gold_text": "CIR1P3"
+    },
+    {
+      "id": "LABBENCH_gene_location_4417ac8d",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr11q12 according to Ensembl Release 110?\n\nA. LINC02752\nB. KLHL35\nC. OR9Q1\nD. EEF1A1P47\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LINC02752",
+        "KLHL35",
+        "OR9Q1",
+        "EEF1A1P47"
+      ],
+      "gold": "C",
+      "gold_text": "OR9Q1"
+    },
+    {
+      "id": "LABBENCH_gene_location_dcafe811",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr11q23 according to Ensembl Release 110?\n\nA. OR5B1P\nB. VPS11-DT\nC. EIF3F\nD. OR51F5P\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "OR5B1P",
+        "VPS11-DT",
+        "EIF3F",
+        "OR51F5P"
+      ],
+      "gold": "B",
+      "gold_text": "VPS11-DT"
+    },
+    {
+      "id": "LABBENCH_gene_location_cd1d577a",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr12p13 according to Ensembl Release 110?\n\nA. LINC02354\nB. MYG1-AS1\nC. DCP1B\nD. NDFIP1P1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LINC02354",
+        "MYG1-AS1",
+        "DCP1B",
+        "NDFIP1P1"
+      ],
+      "gold": "C",
+      "gold_text": "DCP1B"
+    },
+    {
+      "id": "LABBENCH_gene_location_6a69817e",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr12q23 according to Ensembl Release 110?\n\nA. RPL36AP41\nB. ST8SIA1\nC. DYRK2\nD. RNA5SP368\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RPL36AP41",
+        "ST8SIA1",
+        "DYRK2",
+        "RNA5SP368"
+      ],
+      "gold": "D",
+      "gold_text": "RNA5SP368"
+    },
+    {
+      "id": "LABBENCH_gene_location_d24deade",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr13q12 according to Ensembl Release 110?\n\nA. ENSG00000278390\nB. PRR20A\nC. KMT5AP1\nD. EEF1AKMT1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ENSG00000278390",
+        "PRR20A",
+        "KMT5AP1",
+        "EEF1AKMT1"
+      ],
+      "gold": "D",
+      "gold_text": "EEF1AKMT1"
+    },
+    {
+      "id": "LABBENCH_gene_location_2781b74a",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr13q21 according to Ensembl Release 110?\n\nA. SLC25A5P4\nB. DOCK9-DT\nC. RNU6-82P\nD. HMGB3P4\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SLC25A5P4",
+        "DOCK9-DT",
+        "RNU6-82P",
+        "HMGB3P4"
+      ],
+      "gold": "A",
+      "gold_text": "SLC25A5P4"
+    },
+    {
+      "id": "LABBENCH_gene_location_cead6cf5",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr13q34 according to Ensembl Release 110?\n\nA. PCDH9-AS4\nB. RBM22P2\nC. LINC00454\nD. LINC00402\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PCDH9-AS4",
+        "RBM22P2",
+        "LINC00454",
+        "LINC00402"
+      ],
+      "gold": "C",
+      "gold_text": "LINC00454"
+    },
+    {
+      "id": "LABBENCH_gene_location_d0ef18af",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr14q21 according to Ensembl Release 110?\n\nA. ACTN1\nB. SLC22A17\nC. FKBP1BP1\nD. OR11H4\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ACTN1",
+        "SLC22A17",
+        "FKBP1BP1",
+        "OR11H4"
+      ],
+      "gold": "C",
+      "gold_text": "FKBP1BP1"
+    },
+    {
+      "id": "LABBENCH_gene_location_25d6bcd7",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr15q24 according to Ensembl Release 110?\n\nA. SNORD109B\nB. LINC00929\nC. PPIP5K1\nD. COMMD4P1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SNORD109B",
+        "LINC00929",
+        "PPIP5K1",
+        "COMMD4P1"
+      ],
+      "gold": "D",
+      "gold_text": "COMMD4P1"
+    },
+    {
+      "id": "LABBENCH_gene_location_c939ae03",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr16q21 according to Ensembl Release 110?\n\nA. DYNLRB2\nB. RNA5SP405\nC. PRSS54\nD. ZNF778-DT\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "DYNLRB2",
+        "RNA5SP405",
+        "PRSS54",
+        "ZNF778-DT"
+      ],
+      "gold": "C",
+      "gold_text": "PRSS54"
+    },
+    {
+      "id": "LABBENCH_gene_location_28b45116",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr16q22 according to Ensembl Release 110?\n\nA. NUTF2\nB. IL9RP3\nC. NPIPA9\nD. PYCARD-AS1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "NUTF2",
+        "IL9RP3",
+        "NPIPA9",
+        "PYCARD-AS1"
+      ],
+      "gold": "A",
+      "gold_text": "NUTF2"
+    },
+    {
+      "id": "LABBENCH_gene_location_0cb5c321",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr17p13 according to Ensembl Release 110?\n\nA. GAA\nB. SMG6\nC. AATK\nD. CSHL1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "GAA",
+        "SMG6",
+        "AATK",
+        "CSHL1"
+      ],
+      "gold": "B",
+      "gold_text": "SMG6"
+    },
+    {
+      "id": "LABBENCH_gene_location_45b37479",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr17q24 according to Ensembl Release 110?\n\nA. SLC25A11\nB. RN7SL404P\nC. MIR6864\nD. TEX2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SLC25A11",
+        "RN7SL404P",
+        "MIR6864",
+        "TEX2"
+      ],
+      "gold": "B",
+      "gold_text": "RN7SL404P"
+    },
+    {
+      "id": "LABBENCH_gene_location_710e3e94",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr1q41 according to Ensembl Release 110?\n\nA. GAPDHP51\nB. HLX\nC. RPL7AP21\nD. STXBP3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "GAPDHP51",
+        "HLX",
+        "RPL7AP21",
+        "STXBP3"
+      ],
+      "gold": "B",
+      "gold_text": "HLX"
+    },
+    {
+      "id": "LABBENCH_gene_location_a88bddf7",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr20p11 according to Ensembl Release 110?\n\nA. CSTL1\nB. RNU6-1018P\nC. FRG1DP\nD. RNU6-994P\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CSTL1",
+        "RNU6-1018P",
+        "FRG1DP",
+        "RNU6-994P"
+      ],
+      "gold": "A",
+      "gold_text": "CSTL1"
+    },
+    {
+      "id": "LABBENCH_gene_location_4639f798",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr2p12 according to Ensembl Release 110?\n\nA. H2ACP2\nB. RPS15AP13\nC. LOC124906195\nD. LYPD1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "H2ACP2",
+        "RPS15AP13",
+        "LOC124906195",
+        "LYPD1"
+      ],
+      "gold": "C",
+      "gold_text": "LOC124906195"
+    },
+    {
+      "id": "LABBENCH_gene_location_81c0d5f1",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr2q13 according to Ensembl Release 110?\n\nA. RPL22P11\nB. SLC35F5\nC. ZNF514\nD. SEC61GP1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RPL22P11",
+        "SLC35F5",
+        "ZNF514",
+        "SEC61GP1"
+      ],
+      "gold": "A",
+      "gold_text": "RPL22P11"
+    },
+    {
+      "id": "LABBENCH_gene_location_56c333bc",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr2q22 according to Ensembl Release 110?\n\nA. BOK-AS1\nB. MTND3P9\nC. ENSG00000212168\nD. LINC01850\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "BOK-AS1",
+        "MTND3P9",
+        "ENSG00000212168",
+        "LINC01850"
+      ],
+      "gold": "B",
+      "gold_text": "MTND3P9"
+    },
+    {
+      "id": "LABBENCH_gene_location_7529910a",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr2q31 according to Ensembl Release 110?\n\nA. MYO3B-AS1\nB. PRSS56\nC. RN7SL117P\nD. LINC01792\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MYO3B-AS1",
+        "PRSS56",
+        "RN7SL117P",
+        "LINC01792"
+      ],
+      "gold": "A",
+      "gold_text": "MYO3B-AS1"
+    },
+    {
+      "id": "LABBENCH_gene_location_32254953",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr3p13 according to Ensembl Release 110?\n\nA. GMFBP1\nB. RPL23AP43\nC. RNU7-19P\nD. VN2R1P\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "GMFBP1",
+        "RPL23AP43",
+        "RNU7-19P",
+        "VN2R1P"
+      ],
+      "gold": "C",
+      "gold_text": "RNU7-19P"
+    },
+    {
+      "id": "LABBENCH_gene_location_d57da2d6",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr3p23 according to Ensembl Release 110?\n\nA. LINC02038\nB. TFG\nC. H3P11\nD. CISH\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LINC02038",
+        "TFG",
+        "H3P11",
+        "CISH"
+      ],
+      "gold": "C",
+      "gold_text": "H3P11"
+    },
+    {
+      "id": "LABBENCH_gene_location_d0461709",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr3p25 according to Ensembl Release 110?\n\nA. RN7SL4P\nB. KCNH8\nC. DZIP3\nD. ZDHHC23\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RN7SL4P",
+        "KCNH8",
+        "DZIP3",
+        "ZDHHC23"
+      ],
+      "gold": "A",
+      "gold_text": "RN7SL4P"
+    },
+    {
+      "id": "LABBENCH_gene_location_0f28b020",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr3p26 according to Ensembl Release 110?\n\nA. LINC01988\nB. LINC01986\nC. PRADC1P1\nD. CAMK2N2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LINC01988",
+        "LINC01986",
+        "PRADC1P1",
+        "CAMK2N2"
+      ],
+      "gold": "B",
+      "gold_text": "LINC01986"
+    },
+    {
+      "id": "LABBENCH_gene_location_64a88d0f",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr4q22 according to Ensembl Release 110?\n\nA. GRID2\nB. MIR5591\nC. PARM1-AS1\nD. RXFP1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "GRID2",
+        "MIR5591",
+        "PARM1-AS1",
+        "RXFP1"
+      ],
+      "gold": "A",
+      "gold_text": "GRID2"
+    },
+    {
+      "id": "LABBENCH_gene_location_4ea770a7",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr4q25 according to Ensembl Release 110?\n\nA. SYNPO2\nB. CRMP1\nC. OSTC\nD. PPBP\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SYNPO2",
+        "CRMP1",
+        "OSTC",
+        "PPBP"
+      ],
+      "gold": "C",
+      "gold_text": "OSTC"
+    },
+    {
+      "id": "LABBENCH_gene_location_fbc22ad9",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr4q28 according to Ensembl Release 110?\n\nA. CLNK\nB. LINC02516\nC. RPL7L1P13\nD. NPY5R\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CLNK",
+        "LINC02516",
+        "RPL7L1P13",
+        "NPY5R"
+      ],
+      "gold": "B",
+      "gold_text": "LINC02516"
+    },
+    {
+      "id": "LABBENCH_gene_location_5943e512",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr5q13 according to Ensembl Release 110?\n\nA. CDC20B\nB. CERT1\nC. AMACR\nD. SLC36A1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CDC20B",
+        "CERT1",
+        "AMACR",
+        "SLC36A1"
+      ],
+      "gold": "B",
+      "gold_text": "CERT1"
+    },
+    {
+      "id": "LABBENCH_gene_location_ab2bb457",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr6p11 according to Ensembl Release 110?\n\nA. ENSG00000225096\nB. LRFN2\nC. RPS16P5\nD. RNU2-45P\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ENSG00000225096",
+        "LRFN2",
+        "RPS16P5",
+        "RNU2-45P"
+      ],
+      "gold": "A",
+      "gold_text": "ENSG00000225096"
+    },
+    {
+      "id": "LABBENCH_gene_location_4aea9093",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr6p24 according to Ensembl Release 110?\n\nA. FTH1P5\nB. H1-1\nC. RNU1-64P\nD. GRM1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "FTH1P5",
+        "H1-1",
+        "RNU1-64P",
+        "GRM1"
+      ],
+      "gold": "C",
+      "gold_text": "RNU1-64P"
+    },
+    {
+      "id": "LABBENCH_gene_location_0d7b48d8",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr6q21 according to Ensembl Release 110?\n\nA. LUADT1\nB. GSTA2\nC. RPS2P28\nD. RN7SL617P\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LUADT1",
+        "GSTA2",
+        "RPS2P28",
+        "RN7SL617P"
+      ],
+      "gold": "D",
+      "gold_text": "RN7SL617P"
+    },
+    {
+      "id": "LABBENCH_gene_location_254bc711",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr7p13 according to Ensembl Release 110?\n\nA. SRSF8CP\nB. POLR2J4\nC. CFTR-AS1\nD. STRA8\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SRSF8CP",
+        "POLR2J4",
+        "CFTR-AS1",
+        "STRA8"
+      ],
+      "gold": "B",
+      "gold_text": "POLR2J4"
+    },
+    {
+      "id": "LABBENCH_gene_location_c3abb9a6",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr7q22 according to Ensembl Release 110?\n\nA. NCF1\nB. UNCX\nC. ARPC1B\nD. TRBV5-1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "NCF1",
+        "UNCX",
+        "ARPC1B",
+        "TRBV5-1"
+      ],
+      "gold": "C",
+      "gold_text": "ARPC1B"
+    },
+    {
+      "id": "LABBENCH_gene_location_a71c2c8f",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr7q34 according to Ensembl Release 110?\n\nA. ENSG00000253028\nB. HECW1-IT1\nC. TRBV5-4\nD. FAM157D\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ENSG00000253028",
+        "HECW1-IT1",
+        "TRBV5-4",
+        "FAM157D"
+      ],
+      "gold": "C",
+      "gold_text": "TRBV5-4"
+    },
+    {
+      "id": "LABBENCH_gene_location_d73d7d30",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr8p12 according to Ensembl Release 110?\n\nA. XPO7\nB. MIR5681B\nC. RPL5P23\nD. RBPMS\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "XPO7",
+        "MIR5681B",
+        "RPL5P23",
+        "RBPMS"
+      ],
+      "gold": "D",
+      "gold_text": "RBPMS"
+    },
+    {
+      "id": "LABBENCH_gene_location_5d266cea",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr9p12 according to Ensembl Release 110?\n\nA. MIR4674\nB. HSD17B3\nC. RN7SL763P\nD. SWI5\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MIR4674",
+        "HSD17B3",
+        "RN7SL763P",
+        "SWI5"
+      ],
+      "gold": "C",
+      "gold_text": "RN7SL763P"
+    },
+    {
+      "id": "LABBENCH_gene_location_a7d7fb3b",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr9p21 according to Ensembl Release 110?\n\nA. ENSG00000287838\nB. IFT74-AS1\nC. IL9RP1\nD. BARX1-DT\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ENSG00000287838",
+        "IFT74-AS1",
+        "IL9RP1",
+        "BARX1-DT"
+      ],
+      "gold": "B",
+      "gold_text": "IFT74-AS1"
+    },
+    {
+      "id": "LABBENCH_gene_location_89fed08f",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr9p23 according to Ensembl Release 110?\n\nA. RN7SL5P\nB. PLGRKT\nC. RAB28P2\nD. ADGRF5P1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RN7SL5P",
+        "PLGRKT",
+        "RAB28P2",
+        "ADGRF5P1"
+      ],
+      "gold": "A",
+      "gold_text": "RN7SL5P"
+    },
+    {
+      "id": "LABBENCH_gene_location_7f69693e",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / gene_location",
+      "question": "Which of the following human genes is located at chr9q21 according to Ensembl Release 110?\n\nA. RNA5SP290\nB. RAB14\nC. MAMDC2\nD. SMU1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RNA5SP290",
+        "RAB14",
+        "MAMDC2",
+        "SMU1"
+      ],
+      "gold": "C",
+      "gold_text": "MAMDC2"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_7f2f3bfb",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA LET_7G_5P according to miRDB v6.0?\n\nA. RANBP2\nB. NR4A2\nC. CYSRT1\nD. FARP1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RANBP2",
+        "NR4A2",
+        "CYSRT1",
+        "FARP1"
+      ],
+      "gold": "A",
+      "gold_text": "RANBP2"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_9bb22772",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR16_5P according to miRDB v6.0?\n\nA. SPATA31C2\nB. OR10J4\nC. HECTD1\nD. SPAG9\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SPATA31C2",
+        "OR10J4",
+        "HECTD1",
+        "SPAG9"
+      ],
+      "gold": "C",
+      "gold_text": "HECTD1"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_38271723",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR186_3P according to miRDB v6.0?\n\nA. KANSL1L\nB. EIF4ENIF1\nC. TCF21\nD. WDR45\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "KANSL1L",
+        "EIF4ENIF1",
+        "TCF21",
+        "WDR45"
+      ],
+      "gold": "A",
+      "gold_text": "KANSL1L"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_6f08a582",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR194_5P according to miRDB v6.0?\n\nA. PJA2\nB. PALB2\nC. ATP1A4\nD. XRN1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PJA2",
+        "PALB2",
+        "ATP1A4",
+        "XRN1"
+      ],
+      "gold": "A",
+      "gold_text": "PJA2"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_2172fa38",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR1973 according to miRDB v6.0?\n\nA. FBXW5\nB. PRRT1B\nC. MAFF\nD. ICMT\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "FBXW5",
+        "PRRT1B",
+        "MAFF",
+        "ICMT"
+      ],
+      "gold": "C",
+      "gold_text": "MAFF"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_42589b6e",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR2115_3P according to miRDB v6.0?\n\nA. VMAC\nB. PDX1\nC. C20orf141\nD. PRICKLE2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "VMAC",
+        "PDX1",
+        "C20orf141",
+        "PRICKLE2"
+      ],
+      "gold": "D",
+      "gold_text": "PRICKLE2"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_96dd97d9",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR2276_3P according to miRDB v6.0?\n\nA. PTTG1\nB. SPACA5\nC. XYLT1\nD. ZNF292\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PTTG1",
+        "SPACA5",
+        "XYLT1",
+        "ZNF292"
+      ],
+      "gold": "C",
+      "gold_text": "XYLT1"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_3e8ae44d",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR27A_5P according to miRDB v6.0?\n\nA. FRMD6\nB. SPICE1\nC. KDM2A\nD. PDHB\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "FRMD6",
+        "SPICE1",
+        "KDM2A",
+        "PDHB"
+      ],
+      "gold": "B",
+      "gold_text": "SPICE1"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_fa7968cc",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR29B_1_5P according to miRDB v6.0?\n\nA. PNISR\nB. ZNF280A\nC. ZNF571\nD. B4GALT7\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PNISR",
+        "ZNF280A",
+        "ZNF571",
+        "B4GALT7"
+      ],
+      "gold": "A",
+      "gold_text": "PNISR"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_990e1295",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR3125 according to miRDB v6.0?\n\nA. IPP\nB. PRH2\nC. PIGBOS1\nD. CYRIB\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "IPP",
+        "PRH2",
+        "PIGBOS1",
+        "CYRIB"
+      ],
+      "gold": "D",
+      "gold_text": "CYRIB"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_3a4261ef",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR3140_5P according to miRDB v6.0?\n\nA. ATP6V1B1\nB. GBP2\nC. TMCC3\nD. EDEM3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ATP6V1B1",
+        "GBP2",
+        "TMCC3",
+        "EDEM3"
+      ],
+      "gold": "D",
+      "gold_text": "EDEM3"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_44571518",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR3190_3P according to miRDB v6.0?\n\nA. ZFPL1\nB. AMMECR1\nC. SERTAD3\nD. CIMAP1B\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ZFPL1",
+        "AMMECR1",
+        "SERTAD3",
+        "CIMAP1B"
+      ],
+      "gold": "C",
+      "gold_text": "SERTAD3"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_bcd83dac",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR320E according to miRDB v6.0?\n\nA. HNRNPH1\nB. OR5D18\nC. CDC25A\nD. BTD\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "HNRNPH1",
+        "OR5D18",
+        "CDC25A",
+        "BTD"
+      ],
+      "gold": "C",
+      "gold_text": "CDC25A"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_6ece278c",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR372_3P according to miRDB v6.0?\n\nA. PATE3\nB. CELF2\nC. EYA4\nD. EPB41L4A\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PATE3",
+        "CELF2",
+        "EYA4",
+        "EPB41L4A"
+      ],
+      "gold": "B",
+      "gold_text": "CELF2"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_59e556e5",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR378F according to miRDB v6.0?\n\nA. TDRP\nB. FCGR1A\nC. PCGF6\nD. SNX31\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TDRP",
+        "FCGR1A",
+        "PCGF6",
+        "SNX31"
+      ],
+      "gold": "B",
+      "gold_text": "FCGR1A"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_10626f47",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR383_3P according to miRDB v6.0?\n\nA. WDR7\nB. SMAD9\nC. AP1M1\nD. HOOK2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "WDR7",
+        "SMAD9",
+        "AP1M1",
+        "HOOK2"
+      ],
+      "gold": "B",
+      "gold_text": "SMAD9"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_feb0a017",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4275 according to miRDB v6.0?\n\nA. MSL2\nB. INPP1\nC. SH3TC2\nD. LRRC70\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MSL2",
+        "INPP1",
+        "SH3TC2",
+        "LRRC70"
+      ],
+      "gold": "C",
+      "gold_text": "SH3TC2"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_b2722367",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4287 according to miRDB v6.0?\n\nA. ITGBL1\nB. TAF1C\nC. BNC2\nD. NPEPL1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ITGBL1",
+        "TAF1C",
+        "BNC2",
+        "NPEPL1"
+      ],
+      "gold": "B",
+      "gold_text": "TAF1C"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_8013b3b2",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4463 according to miRDB v6.0?\n\nA. SHMT1\nB. BAAT\nC. RBM46\nD. XKR9\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SHMT1",
+        "BAAT",
+        "RBM46",
+        "XKR9"
+      ],
+      "gold": "D",
+      "gold_text": "XKR9"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_74c3ab6b",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4521 according to miRDB v6.0?\n\nA. ERICH3\nB. MAPKAPK2\nC. OSBPL7\nD. ZNF22-AS1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ERICH3",
+        "MAPKAPK2",
+        "OSBPL7",
+        "ZNF22-AS1"
+      ],
+      "gold": "D",
+      "gold_text": "ZNF22-AS1"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_22c780a2",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4650_3P according to miRDB v6.0?\n\nA. NBN\nB. MARCHF1\nC. ZFP36L2\nD. KLKB1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "NBN",
+        "MARCHF1",
+        "ZFP36L2",
+        "KLKB1"
+      ],
+      "gold": "A",
+      "gold_text": "NBN"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_acb3a089",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4658 according to miRDB v6.0?\n\nA. UBA3\nB. STT3A\nC. RESP18\nD. KLF14\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "UBA3",
+        "STT3A",
+        "RESP18",
+        "KLF14"
+      ],
+      "gold": "A",
+      "gold_text": "UBA3"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_560ef289",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4667_5P according to miRDB v6.0?\n\nA. PCDHGA2\nB. SLC40A1\nC. COL4A5\nD. ZBP1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PCDHGA2",
+        "SLC40A1",
+        "COL4A5",
+        "ZBP1"
+      ],
+      "gold": "A",
+      "gold_text": "PCDHGA2"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_9ca5569d",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4758_3P according to miRDB v6.0?\n\nA. AP5Z1\nB. AQP8\nC. CLDN14\nD. FAM53A\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "AP5Z1",
+        "AQP8",
+        "CLDN14",
+        "FAM53A"
+      ],
+      "gold": "D",
+      "gold_text": "FAM53A"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_a3169de2",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4764_5P according to miRDB v6.0?\n\nA. PDYN\nB. EVI5\nC. HSBP1L1\nD. NMUR2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PDYN",
+        "EVI5",
+        "HSBP1L1",
+        "NMUR2"
+      ],
+      "gold": "B",
+      "gold_text": "EVI5"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_2e7631d1",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR4795_5P according to miRDB v6.0?\n\nA. UNC5C\nB. NTN3\nC. ATP5MGL\nD. ITPA\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "UNC5C",
+        "NTN3",
+        "ATP5MGL",
+        "ITPA"
+      ],
+      "gold": "A",
+      "gold_text": "UNC5C"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_69bba127",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR493_3P according to miRDB v6.0?\n\nA. CREB1\nB. GCGR\nC. CCDC136\nD. CEP70\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CREB1",
+        "GCGR",
+        "CCDC136",
+        "CEP70"
+      ],
+      "gold": "A",
+      "gold_text": "CREB1"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_e0a6d718",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR513A_5P according to miRDB v6.0?\n\nA. SPRYD3\nB. CXCR1\nC. ELANE\nD. FXYD4\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SPRYD3",
+        "CXCR1",
+        "ELANE",
+        "FXYD4"
+      ],
+      "gold": "A",
+      "gold_text": "SPRYD3"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_bae1239f",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR548AS_5P according to miRDB v6.0?\n\nA. RFTN1\nB. FBXO10\nC. THSD7A\nD. GAGE7\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RFTN1",
+        "FBXO10",
+        "THSD7A",
+        "GAGE7"
+      ],
+      "gold": "C",
+      "gold_text": "THSD7A"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_8e2ca4ae",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR635 according to miRDB v6.0?\n\nA. ASB7\nB. ADRA1A\nC. ARL6IP6\nD. WDR81\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ASB7",
+        "ADRA1A",
+        "ARL6IP6",
+        "WDR81"
+      ],
+      "gold": "B",
+      "gold_text": "ADRA1A"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_91e56449",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR642A_3P_MIR642B_3P according to miRDB v6.0?\n\nA. MAB21L4\nB. RHOT1\nC. TTC1\nD. SRM\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MAB21L4",
+        "RHOT1",
+        "TTC1",
+        "SRM"
+      ],
+      "gold": "B",
+      "gold_text": "RHOT1"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_b2f23b04",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR643 according to miRDB v6.0?\n\nA. PAFAH1B2\nB. LIMS3\nC. TSNAXIP1\nD. NBEAL2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PAFAH1B2",
+        "LIMS3",
+        "TSNAXIP1",
+        "NBEAL2"
+      ],
+      "gold": "A",
+      "gold_text": "PAFAH1B2"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_833c2ce1",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR675_3P according to miRDB v6.0?\n\nA. TMEM209\nB. MPV17L\nC. CDH11\nD. DNM1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TMEM209",
+        "MPV17L",
+        "CDH11",
+        "DNM1"
+      ],
+      "gold": "C",
+      "gold_text": "CDH11"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_eca619e0",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR6791_3P according to miRDB v6.0?\n\nA. MYH8\nB. ALPL\nC. FOXP3\nD. SOWAHB\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MYH8",
+        "ALPL",
+        "FOXP3",
+        "SOWAHB"
+      ],
+      "gold": "D",
+      "gold_text": "SOWAHB"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_daa4e697",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR6810_3P according to miRDB v6.0?\n\nA. RBM3\nB. DCANP1\nC. WIPF2\nD. RABGEF1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RBM3",
+        "DCANP1",
+        "WIPF2",
+        "RABGEF1"
+      ],
+      "gold": "D",
+      "gold_text": "RABGEF1"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_9fab257c",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR6817_5P according to miRDB v6.0?\n\nA. SNX30\nB. CUL7\nC. LRRC58\nD. FXR1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SNX30",
+        "CUL7",
+        "LRRC58",
+        "FXR1"
+      ],
+      "gold": "D",
+      "gold_text": "FXR1"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_0586555e",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR6854_3P according to miRDB v6.0?\n\nA. UFD1\nB. HDGFL3\nC. CHSY3\nD. LST1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "UFD1",
+        "HDGFL3",
+        "CHSY3",
+        "LST1"
+      ],
+      "gold": "C",
+      "gold_text": "CHSY3"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_a7a89faf",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR6861_5P according to miRDB v6.0?\n\nA. CCDC3\nB. ENTREP3\nC. LRRC14\nD. CREB3L3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CCDC3",
+        "ENTREP3",
+        "LRRC14",
+        "CREB3L3"
+      ],
+      "gold": "D",
+      "gold_text": "CREB3L3"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_72cf5bbd",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR6873_5P according to miRDB v6.0?\n\nA. PTGDR\nB. SPAG9\nC. FAM163A\nD. CTSG\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PTGDR",
+        "SPAG9",
+        "FAM163A",
+        "CTSG"
+      ],
+      "gold": "B",
+      "gold_text": "SPAG9"
+    },
+    {
+      "id": "LABBENCH_mirna_targets_fec11ed9",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / mirna_targets",
+      "question": "Which of the following genes is a computationally predicted human gene target of the miRNA MIR8068 according to miRDB v6.0?\n\nA. PTTG1IP\nB. ITIH6\nC. VIM\nD. CRISPLD2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PTTG1IP",
+        "ITIH6",
+        "VIM",
+        "CRISPLD2"
+      ],
+      "gold": "B",
+      "gold_text": "ITIH6"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_3e834859",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set AKT_UP_MTOR_DN.V1_UP, which contains genes up-regulated by everolimus [PubChem=6442177] in mouse prostate tissue transgenically expressing human AKT1 gene [GeneID=207]  vs untreated controls. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. FBXO11\nB. ALDH3A2\nC. MYO6\nD. MPZL2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "FBXO11",
+        "ALDH3A2",
+        "MYO6",
+        "MPZL2"
+      ],
+      "gold": "D",
+      "gold_text": "MPZL2"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_7827cf73",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set ATM_DN.V1_DN, which contains genes down-regulated in HEK293 cells (kidney fibroblasts) upon knockdown of ATM [GeneID=472] gene by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. ADRB3\nB. TNS3\nC. NAGK\nD. TMEM127\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ADRB3",
+        "TNS3",
+        "NAGK",
+        "TMEM127"
+      ],
+      "gold": "A",
+      "gold_text": "ADRB3"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_40817d24",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set BCAT_BILD_ET_AL_DN, which contains genes down-regulated in primary epithelial breast cancer cell culture over-expressing activated CTNNB1 [GeneID=1499] gene. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. DSCAM\nB. CNP\nC. DZIP1\nD. ATP10D\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "DSCAM",
+        "CNP",
+        "DZIP1",
+        "ATP10D"
+      ],
+      "gold": "D",
+      "gold_text": "ATP10D"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_7849c4df",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set BMI1_DN.V1_DN, which contains genes down-regulated in DAOY cells (medulloblastoma) upon knockdown of BMI1 [GeneID=648] gene by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. RBM4\nB. MRRF\nC. KCNJ16\nD. VEGFD\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RBM4",
+        "MRRF",
+        "KCNJ16",
+        "VEGFD"
+      ],
+      "gold": "C",
+      "gold_text": "KCNJ16"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_d5fb8db9",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set BMI1_DN_MEL18_DN.V1_UP, which contains genes up-regulated in DAOY cells (medulloblastoma) upon knockdown of BMI1 and PCGF2 [GeneID=648] [GeneID=7703] genes by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. ZNF835\nB. INHBE\nC. APOBEC3A\nD. FOSL2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ZNF835",
+        "INHBE",
+        "APOBEC3A",
+        "FOSL2"
+      ],
+      "gold": "B",
+      "gold_text": "INHBE"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_70bf8bd5",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set BRCA1_DN.V1_DN, which contains genes down-regulated in MCF10A cells (breast cancer) upon knockdown of BRCA1 [GeneID=672] gene by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. PPP1R15B\nB. SPATA31A1\nC. SSX3\nD. PLEC\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PPP1R15B",
+        "SPATA31A1",
+        "SSX3",
+        "PLEC"
+      ],
+      "gold": "B",
+      "gold_text": "SPATA31A1"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_c1df4a98",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set CAHOY_ASTROGLIAL, which contains genes up-regulated in astrogia cells. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. MSN\nB. H4C2\nC. STX3\nD. GDAP1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MSN",
+        "H4C2",
+        "STX3",
+        "GDAP1"
+      ],
+      "gold": "A",
+      "gold_text": "MSN"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_ed2faddf",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set CAHOY_NEURONAL, which contains genes up-regulated in neurons. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. TCAF1\nB. EVI2B\nC. RASL10A\nD. KIR3DL3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TCAF1",
+        "EVI2B",
+        "RASL10A",
+        "KIR3DL3"
+      ],
+      "gold": "C",
+      "gold_text": "RASL10A"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_7d39a3c0",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set CAMP_UP.V1_DN, which contains genes down-regulated in primary thyrocyte cultures in response to cAMP signaling pathway activation by thyrotropin (TSH). This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. NFKB1\nB. P3H2\nC. ADAMTS7\nD. PDE1A\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "NFKB1",
+        "P3H2",
+        "ADAMTS7",
+        "PDE1A"
+      ],
+      "gold": "A",
+      "gold_text": "NFKB1"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_306eda47",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set CTIP_DN.V1_DN, which contains genes down-regulated in MCF10A cells (breast cancer) upon knockdown of RBBP8 [GeneSymbol=RBBP8] gene by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. LINC00115\nB. MMP9\nC. NOX1\nD. RUNX3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LINC00115",
+        "MMP9",
+        "NOX1",
+        "RUNX3"
+      ],
+      "gold": "D",
+      "gold_text": "RUNX3"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_f8e0dc89",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set CYCLIN_D1_UP.V1_DN, which contains genes down-regulated in MCF-7 cells (breast cancer) over-expressing CCND1 [GeneID=595] gene. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. PRKCQ\nB. PRKAR1A\nC. NFX1\nD. MLLT6\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PRKCQ",
+        "PRKAR1A",
+        "NFX1",
+        "MLLT6"
+      ],
+      "gold": "A",
+      "gold_text": "PRKCQ"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_95795ee7",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set ERBB2_UP.V1_UP, which contains genes up-regulated in MCF-7 cells (breast cancer) positive for ESR1 [GeneID=2099] and engineered to express ligand-activatable ERBB2 [GeneID=2064]. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. RASA3\nB. HOXA11\nC. ELOVL7\nD. DRAM1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RASA3",
+        "HOXA11",
+        "ELOVL7",
+        "DRAM1"
+      ],
+      "gold": "D",
+      "gold_text": "DRAM1"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_38c50fe0",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set ESC_J1_UP_EARLY.V1_DN, which contains genes down-regulated during early stages of differentiation of embryoid bodies from J1 embryonic stem cells. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. ZMYM5\nB. KCNMB1\nC. ANXA3\nD. CHD7\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ZMYM5",
+        "KCNMB1",
+        "ANXA3",
+        "CHD7"
+      ],
+      "gold": "C",
+      "gold_text": "ANXA3"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_9cdb7d1b",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set ESC_V6.5_UP_EARLY.V1_DN, which contains genes down-regulated during early stages of differentiation of embryoid bodies from V6.5 embryonic stem cells. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. CD37\nB. TNS1\nC. INO80E\nD. UGT2B4\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CD37",
+        "TNS1",
+        "INO80E",
+        "UGT2B4"
+      ],
+      "gold": "A",
+      "gold_text": "CD37"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_1f8efa75",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set ESC_V6.5_UP_LATE.V1_UP, which contains genes up-regulated during late stages of differentiation of embryoid bodies from V6.5 embryonic stem cells. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. MSX2\nB. RNF115\nC. CYP2C18\nD. FAM187A\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MSX2",
+        "RNF115",
+        "CYP2C18",
+        "FAM187A"
+      ],
+      "gold": "A",
+      "gold_text": "MSX2"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_9ce7579d",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set GCNP_SHH_UP_EARLY.V1_DN, which contains genes down-regulated in granule cell neuron precursors (GCNPs) after stimulation with Shh for 3h. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. EPB41L4A-AS1\nB. WWC2\nC. NPR1\nD. ANKRD28\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "EPB41L4A-AS1",
+        "WWC2",
+        "NPR1",
+        "ANKRD28"
+      ],
+      "gold": "B",
+      "gold_text": "WWC2"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_5dff18e0",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set GCNP_SHH_UP_LATE.V1_UP, which contains genes up-regulated in granule cell neuron precursors (GCNPs) after stimulation with Shh for 24h. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. SCP2\nB. NTMT1\nC. NEK1\nD. MGAT4C\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SCP2",
+        "NTMT1",
+        "NEK1",
+        "MGAT4C"
+      ],
+      "gold": "B",
+      "gold_text": "NTMT1"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_9d2df1ec",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set GLI1_UP.V1_DN, which contains genes down-regulated in RK3E cells (kidney epithelium) over-expressing GLI1 [GeneID=2735]. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. PPIL1\nB. UCK1\nC. SV2C\nD. FGF16\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PPIL1",
+        "UCK1",
+        "SV2C",
+        "FGF16"
+      ],
+      "gold": "A",
+      "gold_text": "PPIL1"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_04fe6f2b",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set GLI1_UP.V1_UP, which contains genes up-regulated in RK3E cells (kidney epithelium) over-expressing GLI1 [GeneID=2735]. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. MS4A2\nB. TDRKH\nC. MTNR1A\nD. CCND2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MS4A2",
+        "TDRKH",
+        "MTNR1A",
+        "CCND2"
+      ],
+      "gold": "D",
+      "gold_text": "CCND2"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_8fc24cf3",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set HINATA_NFKB_IMMU_INF, which contains immune or inflammatory genes induced by NF-kappaB in primary keratinocytes and fibroblasts. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. SLC6A8\nB. STXBP5L\nC. NFKB1\nD. ST3GAL6\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SLC6A8",
+        "STXBP5L",
+        "NFKB1",
+        "ST3GAL6"
+      ],
+      "gold": "C",
+      "gold_text": "NFKB1"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_0ddf5a90",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set HOXA9_DN.V1_UP, which contains genes up-regulated in MOLM-14 cells (AML) with knockdown of HOXA9 [GeneID=3205] gene by RNAi vs controls. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. DTNBP1\nB. NUP58\nC. FMN1\nD. OLFML2A\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "DTNBP1",
+        "NUP58",
+        "FMN1",
+        "OLFML2A"
+      ],
+      "gold": "B",
+      "gold_text": "NUP58"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_6d340c41",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set JNK_DN.V1_UP, which contains genes up-regulated in JNK inhibitor-treated (SP600125[PubChem=8515]) keratinocytes. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. NR2E3\nB. LCN6\nC. HLA-G\nD. SCN2B\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "NR2E3",
+        "LCN6",
+        "HLA-G",
+        "SCN2B"
+      ],
+      "gold": "D",
+      "gold_text": "SCN2B"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_a87485dd",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set KRAS.600_UP.V1_UP, which contains genes up-regulated in four lineages of epithelial cell lines over-expressing an oncogenic form of KRAS [GeneID=3845] gene. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. SLC35E1\nB. RETNLB\nC. MANEAL\nD. ADAM8\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SLC35E1",
+        "RETNLB",
+        "MANEAL",
+        "ADAM8"
+      ],
+      "gold": "D",
+      "gold_text": "ADAM8"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_b3d65c29",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set KRAS.BREAST_UP.V1_UP, which contains genes up-regulated in epithelial breast cancer cell lines over-expressing an oncogenic form of KRAS [GeneID=3845] gene. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. GRHL2\nB. FGFRL1\nC. RIOX2\nD. GULP1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "GRHL2",
+        "FGFRL1",
+        "RIOX2",
+        "GULP1"
+      ],
+      "gold": "D",
+      "gold_text": "GULP1"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_01238ca6",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set KRAS.DF.V1_DN, which contains genes down-regulated in epithelial lung cancer cell lines over-expressing an oncogenic form of KRAS [GeneID=3845] gene. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. SLC9A5\nB. OFCC1\nC. APBB1IP\nD. DEFB4A\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SLC9A5",
+        "OFCC1",
+        "APBB1IP",
+        "DEFB4A"
+      ],
+      "gold": "D",
+      "gold_text": "DEFB4A"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_a13af4dc",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set LEF1_UP.V1_DN, which contains genes down-regulated in DLD1 cells (colon carcinoma) over-expressing LEF1 [GeneID=51176]. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. ERCC6L\nB. MLLT3\nC. SETD1A\nD. TFE3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ERCC6L",
+        "MLLT3",
+        "SETD1A",
+        "TFE3"
+      ],
+      "gold": "B",
+      "gold_text": "MLLT3"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_8c0420c4",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set LTE2_UP.V1_DN, which contains genes down-regulated in MCF-7 cells (breast cancer) positive for ESR1 [GeneID=2099] MCF-7 cells (breast cancer) and long-term adapted for estrogen-independent growth. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. IFI16\nB. CT62\nC. MC3R\nD. COL9A3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "IFI16",
+        "CT62",
+        "MC3R",
+        "COL9A3"
+      ],
+      "gold": "D",
+      "gold_text": "COL9A3"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_74e4791c",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set LTE2_UP.V1_UP, which contains genes up-regulated in MCF-7 cells (breast cancer) positive for ESR1 [GeneID=2099] MCF-7 cells (breast cancer) and long-term adapted for estrogen-independent growth. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. PLCB4\nB. TCF21\nC. PYGB\nD. DNAL4\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PLCB4",
+        "TCF21",
+        "PYGB",
+        "DNAL4"
+      ],
+      "gold": "A",
+      "gold_text": "PLCB4"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_1b46a1f7",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set MEK_UP.V1_DN, which contains genes down-regulated in MCF-7 cells (breast cancer) positive for ESR1 [GeneID=2099] MCF-7 cells (breast cancer) stably over-expressing constitutively active MAP2K1 [GeneID=5604] gene. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. CD151\nB. MPDZ\nC. ODAM\nD. HBA1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CD151",
+        "MPDZ",
+        "ODAM",
+        "HBA1"
+      ],
+      "gold": "B",
+      "gold_text": "MPDZ"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_bc678c93",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set NRL_DN.V1_DN, which contains genes down-regulated in retina cells from NRL [GeneID=4901] knockout mice. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. PER2\nB. RXRG\nC. HMGB3\nD. NKX6-3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PER2",
+        "RXRG",
+        "HMGB3",
+        "NKX6-3"
+      ],
+      "gold": "B",
+      "gold_text": "RXRG"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_9c09c33b",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set PTEN_DN.V2_UP, which contains genes up-regulated in HCT116 cells (colon carcinoma) upon knockdown of PTEN [GeneID=5728] by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. FGB\nB. PTPN3\nC. GPR183\nD. FNBP1L\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "FGB",
+        "PTPN3",
+        "GPR183",
+        "FNBP1L"
+      ],
+      "gold": "C",
+      "gold_text": "GPR183"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_71287064",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set RAPA_EARLY_UP.V1_UP, which contains genes up-regulated in BJAB (lymphoma) cells by rapamycin (sirolimus) [PubChem=6610346]. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. TAS2R10\nB. ISOC1\nC. TNFAIP2\nD. NDUFS2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TAS2R10",
+        "ISOC1",
+        "TNFAIP2",
+        "NDUFS2"
+      ],
+      "gold": "C",
+      "gold_text": "TNFAIP2"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_9d7eeeea",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set RB_DN.V1_DN, which contains genes down-regulated in primary keratinocytes from RB1 [GeneID=5925] skin specific knockout mice. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. COL18A1\nB. TAS2R9\nC. XPA\nD. RHAG\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "COL18A1",
+        "TAS2R9",
+        "XPA",
+        "RHAG"
+      ],
+      "gold": "A",
+      "gold_text": "COL18A1"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_6e503f8c",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set RB_P107_DN.V1_DN, which contains genes down-regulated in primary keratinocytes from RB1 and RBL1 [GeneID=5925] [GeneID=5933] skin specific knockout mice. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. LDOC1\nB. SYNJ2BP\nC. PLK3\nD. ANGPT2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LDOC1",
+        "SYNJ2BP",
+        "PLK3",
+        "ANGPT2"
+      ],
+      "gold": "C",
+      "gold_text": "PLK3"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_f4147894",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set RB_P130_DN.V1_UP, which contains genes up-regulated in primary keratinocytes from RB1 and RBL2 [GeneID=5925] [GeneID=5934] skin specific knockout mice. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. CALHM5\nB. NKX2-8\nC. MROH5\nD. EPHB4\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CALHM5",
+        "NKX2-8",
+        "MROH5",
+        "EPHB4"
+      ],
+      "gold": "B",
+      "gold_text": "NKX2-8"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_c7c4edfa",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set RELA_DN.V1_DN, which contains genes down-regulated in HEK293 cells (kidney fibroblasts) upon knockdown of RELA [GeneID=5970] gene by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. FBLN7\nB. ZDHHC23\nC. ACTR1B\nD. C1orf21\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "FBLN7",
+        "ZDHHC23",
+        "ACTR1B",
+        "C1orf21"
+      ],
+      "gold": "D",
+      "gold_text": "C1orf21"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_6fc506a7",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set RELA_DN.V1_UP, which contains genes up-regulated in HEK293 cells (kidney fibroblasts) upon knockdown of RELA [GeneID=5970] gene by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. GPR183\nB. SPINT1\nC. KHDC1\nD. IFNA8\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "GPR183",
+        "SPINT1",
+        "KHDC1",
+        "IFNA8"
+      ],
+      "gold": "A",
+      "gold_text": "GPR183"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_f9d5a71d",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set RPS14_DN.V1_UP, which contains genes up-regulated in CD34+ hematopoietic progenitor cells after knockdown of RPS14 [GeneID=6208] by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. SUSD4\nB. WNT6\nC. GNB5\nD. KLRK1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SUSD4",
+        "WNT6",
+        "GNB5",
+        "KLRK1"
+      ],
+      "gold": "C",
+      "gold_text": "GNB5"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_02a60f97",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set SRC_UP.V1_DN, which contains genes down-regulated in primary epithelial breast cancer cell culture over-expressing SRC [GeneID=6714] gene. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. LINC02914\nB. STON1\nC. SNX32\nD. NBEA\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LINC02914",
+        "STON1",
+        "SNX32",
+        "NBEA"
+      ],
+      "gold": "C",
+      "gold_text": "SNX32"
+    },
+    {
+      "id": "LABBENCH_oncogenic_signatures_918f970f",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / oncogenic_signatures",
+      "question": "Which of the following genes is most likely contained in the gene set STK33_NOMO_UP, which contains genes up-regulated in NOMO-1 cells (AML) after knockdown of STK33 [GeneID=65975] by RNAi. This gene set is a part of the C6 collection: oncogenic signature gene sets.\n\nA. BIRC2\nB. PTGFRN\nC. PDK2\nD. LRRC8A\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "BIRC2",
+        "PTGFRN",
+        "PDK2",
+        "LRRC8A"
+      ],
+      "gold": "B",
+      "gold_text": "PTGFRN"
+    },
+    {
+      "id": "LABBENCH_vax_response_9018d665",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set CAO_BLOOD_FLUMIST_AGE_05_14YO_1DY_DN, which contains genes down-regulated in blood 1d vs 0d in children (0.5-14y) after exposure to FluMist , time point 1D. Comment: ~80% of cohort were white, ~50/50 Female:male. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. RAD9B\nB. EIF3B\nC. MFSD12\nD. ELP1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RAD9B",
+        "EIF3B",
+        "MFSD12",
+        "ELP1"
+      ],
+      "gold": "C",
+      "gold_text": "MFSD12"
+    },
+    {
+      "id": "LABBENCH_vax_response_94fdf213",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set CAO_BLOOD_FLUMIST_AGE_05_14YO_7DY_UP, which contains genes up-regulated in blood 7d vs 0d in children (0.5-14y) after exposure to FluMist , time point 7D. Comment: ~80% of cohort were white, ~50/50 Female:male. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. CBFA2T2\nB. CCDC59\nC. DGKD\nD. ICA1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CBFA2T2",
+        "CCDC59",
+        "DGKD",
+        "ICA1"
+      ],
+      "gold": "D",
+      "gold_text": "ICA1"
+    },
+    {
+      "id": "LABBENCH_vax_response_7d5070a8",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set ERWIN_COHEN_PBMC_TC_83_AGE_18_45YO_NAIVE_NOT_PREVIOUSLY_IMMUNIZED_24HR_DEG_CANONICAL_PATHWAY_MEMBERS_UP, which contains genes up-regulated in peripheral blood mononuclear cell 24h vs 0h in adults (18-45) (naive (not previously immunized)) after exposure to Live attenuated vaccine TC-83 , time point 24H. Comment: significant genes chosen for membership in canonical pathways. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. LINC00534\nB. PPP1R13B\nC. RBFADN\nD. SLAMF7\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LINC00534",
+        "PPP1R13B",
+        "RBFADN",
+        "SLAMF7"
+      ],
+      "gold": "D",
+      "gold_text": "SLAMF7"
+    },
+    {
+      "id": "LABBENCH_vax_response_be2f3876",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set FULLER_PBMC_F_TULARENSIS_VACCINE_LVS_AGE_22_54YO_336HR_DN, which contains genes down-regulated in peripheral blood mononuclear cell 336h vs 0h in adults (22-54) after exposure to F. tularensis vaccine LVS , time point 336H. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. SPACA1\nB. ZNF398\nC. RNF157\nD. CD58\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SPACA1",
+        "ZNF398",
+        "RNF157",
+        "CD58"
+      ],
+      "gold": "D",
+      "gold_text": "CD58"
+    },
+    {
+      "id": "LABBENCH_vax_response_2b5acf2a",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set GARCIA_PINERES_PBMC_HPV_16_L1_VLP_AGE_18_25YO_2MO_DN, which contains genes down-regulated in peripheral blood mononuclear cell 2m vs 0m in young adults (18-25) after exposure to HPV-16 L1 VLP , time point 2M. Comment: Gene Expression with Neutralizing Antibody Levels. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. ELFN1\nB. DENND10\nC. TIMM9\nD. TAS2R1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ELFN1",
+        "DENND10",
+        "TIMM9",
+        "TAS2R1"
+      ],
+      "gold": "D",
+      "gold_text": "TAS2R1"
+    },
+    {
+      "id": "LABBENCH_vax_response_749fa02f",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set GARCIA_PINERES_PBMC_HPV_16_L1_VLP_AGE_18_25YO_STIMULATED_VS_UNSTIMULATED_0DY_VACCINATION_INDEPENDENT_DN, which contains genes down-regulated in peripheral blood mononuclear cell stimulated vs unstimulated in young adults (18-25) after exposure to HPV-16 L1 VLP , time point 0D. Comment: List of Genes induced by VLP directly, independently of vaccination (p<0.05 and FC>1.30). This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. RPH3AL\nB. RNF114\nC. STEEP1\nD. CD9\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RPH3AL",
+        "RNF114",
+        "STEEP1",
+        "CD9"
+      ],
+      "gold": "D",
+      "gold_text": "CD9"
+    },
+    {
+      "id": "LABBENCH_vax_response_63c6ae88",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set GAUCHER_PBMC_YF_VAX_STAMARIL_UNKNOWN_AGE_14DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell 14d vs 0d in unknown after exposure to YF-Vax/Stamaril , time point 14D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. CD46\nB. VPS37B\nC. SLC25A4\nD. CNDP2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "CD46",
+        "VPS37B",
+        "SLC25A4",
+        "CNDP2"
+      ],
+      "gold": "A",
+      "gold_text": "CD46"
+    },
+    {
+      "id": "LABBENCH_vax_response_8de75104",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set GAUCHER_PBMC_YF_VAX_STAMARIL_UNKNOWN_AGE_28DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell 28d vs 0d in unknown after exposure to YF-Vax/Stamaril , time point 28D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. TMPO\nB. PTOV1-AS1\nC. DUSP7\nD. NAP1L1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TMPO",
+        "PTOV1-AS1",
+        "DUSP7",
+        "NAP1L1"
+      ],
+      "gold": "D",
+      "gold_text": "NAP1L1"
+    },
+    {
+      "id": "LABBENCH_vax_response_dc24689b",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_B_CELL_2011_2012_TIV_ADULT_1DY_UP, which contains genes up-regulated in B cell 1d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 1D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. ATP6V0C\nB. RNF144B\nC. SYK\nD. CD300LF\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ATP6V0C",
+        "RNF144B",
+        "SYK",
+        "CD300LF"
+      ],
+      "gold": "A",
+      "gold_text": "ATP6V0C"
+    },
+    {
+      "id": "LABBENCH_vax_response_8f89afaa",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_B_CELL_2011_2012_TIV_ADULT_7DY_DN, which contains genes down-regulated in B cell 7d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 7D. Comment: Down-regulated DE RNA transcripts (down >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. TRIM24\nB. FYTTD1\nC. IGKV1-6\nD. ABCC3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TRIM24",
+        "FYTTD1",
+        "IGKV1-6",
+        "ABCC3"
+      ],
+      "gold": "C",
+      "gold_text": "IGKV1-6"
+    },
+    {
+      "id": "LABBENCH_vax_response_a5892ac6",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_MYELOID_DENDRITIC_CELL_2011_2012_TIV_ADULT_1DY_UP, which contains genes up-regulated in myeloid dendritic cell 1d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 1D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. MYO1G\nB. PEDS1-UBE2V1\nC. KCNA5\nD. IGHJ2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MYO1G",
+        "PEDS1-UBE2V1",
+        "KCNA5",
+        "IGHJ2"
+      ],
+      "gold": "B",
+      "gold_text": "PEDS1-UBE2V1"
+    },
+    {
+      "id": "LABBENCH_vax_response_b7d66443",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_NEUTROPHIL_2011_2012_TIV_ADULT_1DY_UP, which contains genes up-regulated in neutrophil 1d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 1D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. APOL3\nB. UBE2Q2P2\nC. CLC\nD. ZNF609\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "APOL3",
+        "UBE2Q2P2",
+        "CLC",
+        "ZNF609"
+      ],
+      "gold": "A",
+      "gold_text": "APOL3"
+    },
+    {
+      "id": "LABBENCH_vax_response_1245a3ba",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_NEUTROPHIL_2011_2012_TIV_ADULT_3DY_UP, which contains genes up-regulated in neutrophil 3d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 3D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. MRC1\nB. PEX10\nC. C12orf60\nD. SRY\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MRC1",
+        "PEX10",
+        "C12orf60",
+        "SRY"
+      ],
+      "gold": "C",
+      "gold_text": "C12orf60"
+    },
+    {
+      "id": "LABBENCH_vax_response_717cab73",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_NK_CELL_2011_2012_TIV_ADULT_3DY_UP, which contains genes up-regulated in natural killer cell 3d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 3D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. BACH1-AS1\nB. PDP1\nC. CERS4\nD. C1D\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "BACH1-AS1",
+        "PDP1",
+        "CERS4",
+        "C1D"
+      ],
+      "gold": "D",
+      "gold_text": "C1D"
+    },
+    {
+      "id": "LABBENCH_vax_response_b33e162a",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_PBMC_INACTIVATED_INFLUENZA_ADULT_7DY_UP, which contains genes up-regulated in peripheral blood mononuclear cell 7d vs 0d in adults after exposure to Inactivated influenza vaccine , time point 7D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. BET1L\nB. LINC00680\nC. ATP5MK\nD. TMEM121\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "BET1L",
+        "LINC00680",
+        "ATP5MK",
+        "TMEM121"
+      ],
+      "gold": "D",
+      "gold_text": "TMEM121"
+    },
+    {
+      "id": "LABBENCH_vax_response_02a0cb49",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_T_CELL_2011_2012_TIV_ADULT_1DY_UP, which contains genes up-regulated in T cell 1d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 1D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. LGALS12\nB. SHANK1\nC. RN7SK\nD. ASB16-AS1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LGALS12",
+        "SHANK1",
+        "RN7SK",
+        "ASB16-AS1"
+      ],
+      "gold": "C",
+      "gold_text": "RN7SK"
+    },
+    {
+      "id": "LABBENCH_vax_response_bbb05801",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_T_CELL_2011_2012_TIV_ADULT_3DY_DN, which contains genes down-regulated in T cell 3d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 3D. Comment: Down-regulated DE RNA transcripts (down >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. LARGE1\nB. UBD\nC. ACBD3-AS1\nD. PBLD\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "LARGE1",
+        "UBD",
+        "ACBD3-AS1",
+        "PBLD"
+      ],
+      "gold": "C",
+      "gold_text": "ACBD3-AS1"
+    },
+    {
+      "id": "LABBENCH_vax_response_4cfdcc17",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOEK_T_CELL_2011_2012_TIV_ADULT_3DY_UP, which contains genes up-regulated in T cell 3d vs 0d in adults after exposure to 2011-2012 trivalent inactivated vaccine (A/California/7/09 (H1N1), A/Perth /16/2009 (H3N2), B/Brisbane/60/2008) , time point 3D. Comment: Up-regulated DE RNA transcripts (up >= 1.5x) shared between both TIV-vaccinated donors. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. GRID2\nB. FOSL2\nC. ZNG1E\nD. RTL10\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "GRID2",
+        "FOSL2",
+        "ZNG1E",
+        "RTL10"
+      ],
+      "gold": "C",
+      "gold_text": "ZNG1E"
+    },
+    {
+      "id": "LABBENCH_vax_response_c2ede898",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOFT_CD4_POSITIVE_ALPHA_BETA_MEMORY_T_CELL_BCG_VACCINE_AGE_18_45YO_7DY_UP, which contains genes up-regulated in CD4-positive, alpha-beta memory T cell 7d vs 0d in adults (18-45) after exposure to BCG vaccine , time point 7D , administered PO (oral). Comment: top 100 most significantly altered genes comparing Day 0 and Day 7 responses directly ex vivo. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. TJP2\nB. TESK2\nC. HEPH\nD. KANSL1L\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TJP2",
+        "TESK2",
+        "HEPH",
+        "KANSL1L"
+      ],
+      "gold": "A",
+      "gold_text": "TJP2"
+    },
+    {
+      "id": "LABBENCH_vax_response_9a5fe936",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOFT_CD4_POSITIVE_ALPHA_BETA_MEMORY_T_CELL_BCG_VACCINE_AGE_18_45YO_ID_56D_TOP_100_DEG_AFTER_IN_VITRO_RE_STIMULATION_DN, which contains genes down-regulated in CD4-positive, alpha-beta memory T cell 56d vs 0d in adults (18-45) after exposure to BCG vaccine , time point 56D , administered ID (intradermal). Comment: top 100 most differentially expressed genes comparing Day 0 and Day 56 responses after in vitro re-stimulation with BCG-infected autologous dendritic cells. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. MTMR6\nB. SSH1\nC. NFKB1\nD. BBC3\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "MTMR6",
+        "SSH1",
+        "NFKB1",
+        "BBC3"
+      ],
+      "gold": "B",
+      "gold_text": "SSH1"
+    },
+    {
+      "id": "LABBENCH_vax_response_89e967b8",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOWARD_NEUTROPHIL_INACT_MONOV_INFLUENZA_A_INDONESIA_05_2005_H5N1_AGE_18_49YO_1DY_DN, which contains genes down-regulated in neutrophil 1d vs 0d in adults (18-49) after exposure to inactivated monovalent influenza A/Indonesia/05/2005 H5N1 split-virus vaccine , time point 1D , administered i.m.. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. XYLT1\nB. HYAL3\nC. GINS4\nD. MFSD14A\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "XYLT1",
+        "HYAL3",
+        "GINS4",
+        "MFSD14A"
+      ],
+      "gold": "A",
+      "gold_text": "XYLT1"
+    },
+    {
+      "id": "LABBENCH_vax_response_b8f1eb37",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set HOWARD_PBMC_INACT_MONOV_INFLUENZA_A_INDONESIA_05_2005_H5N1_AGE_19_39YO_AS03_ADJUVANT_VS_BUFFER_1DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell vaccinated with AS03 adjuvant vs phosphate-bufferred saline in adults (19-39) after exposure to inactivated monovalent influenza A/Indonesia/05/2005 H5N1 split-virus vaccine , time point 1D , administered i.m.. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. TGM4\nB. COMTD1\nC. RAD51\nD. HSPG2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TGM4",
+        "COMTD1",
+        "RAD51",
+        "HSPG2"
+      ],
+      "gold": "D",
+      "gold_text": "HSPG2"
+    },
+    {
+      "id": "LABBENCH_vax_response_5f1cbe72",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set LI_PBMC_MENACTRA_AGE_18_45YO_7DY_UP, which contains genes up-regulated in peripheral blood mononuclear cell 3d vs 0d in adults (18-45) after exposure to Menactra , time point 7D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. ZDHHC19\nB. TNFRSF17\nC. LILRB5\nD. SMAP2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ZDHHC19",
+        "TNFRSF17",
+        "LILRB5",
+        "SMAP2"
+      ],
+      "gold": "B",
+      "gold_text": "TNFRSF17"
+    },
+    {
+      "id": "LABBENCH_vax_response_d71fdd87",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set LI_PBMC_MENACTRA_AGE_18_45YO_ANTI_DT_ANTIBODY_CORRELATION_PROFILE_3DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell 3d vs 0d in adults (18-45) (anti-DT antibody-correlation profile) after exposure to Menactra , time point 3D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. DAXX\nB. CEBPB\nC. A2M\nD. RASSF1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "DAXX",
+        "CEBPB",
+        "A2M",
+        "RASSF1"
+      ],
+      "gold": "C",
+      "gold_text": "A2M"
+    },
+    {
+      "id": "LABBENCH_vax_response_cee51a3f",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set LI_PBMC_MENOMUNE_A_C_Y_W_135_AGE_18_45YO_CORRELATED_WITH_ANTIBODY_RESPONSE_3DY_NEGATIVE, which contains genes negatively correlated with antibody response in peripheral blood mononuclear cell in adults (18-45) after exposure to Menomune A/C/Y/W-135 , time point 3D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. PCDHA13\nB. MAP3K5\nC. SEMA6B\nD. CD86\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PCDHA13",
+        "MAP3K5",
+        "SEMA6B",
+        "CD86"
+      ],
+      "gold": "D",
+      "gold_text": "CD86"
+    },
+    {
+      "id": "LABBENCH_vax_response_872da43c",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set NAKAYA_PBMC_FLUARIX_FLUVIRIN_AGE_18_50YO_CORRELATED_WITH_HAI_28DY_RESPONSE_AT_3DY_POSITIVE, which contains genes positively correlated with HAI response at 28d in peripheral blood mononuclear cell in adults (18-50) after exposure to Fluarix/Fluvirin , time point 3D. Comment: Supplementary Table 5: All genes whose expression (d3/d0 or d7/d0) correlates to the fold increase in HAI titers (d28/d0).. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. NOD2\nB. CHST4\nC. AGPAT2\nD. ZNHIT1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "NOD2",
+        "CHST4",
+        "AGPAT2",
+        "ZNHIT1"
+      ],
+      "gold": "A",
+      "gold_text": "NOD2"
+    },
+    {
+      "id": "LABBENCH_vax_response_da79c577",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set NAKAYA_PBMC_FLUMIST_AGE_18_50YO_3DY_IFN_SUBSET_UP, which contains genes up-regulated in peripheral blood mononuclear cell 3d vs 0d in adults (18-50) after exposure to FluMist , time point 3D. Comment: Molecular signature induced by LAIV vaccination. (a) Interferon (IFN)-related genes differentially expressed after LAIV vaccination. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. R3HDM1\nB. TRAV8-2\nC. CACNB2\nD. TRIM22\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "R3HDM1",
+        "TRAV8-2",
+        "CACNB2",
+        "TRIM22"
+      ],
+      "gold": "D",
+      "gold_text": "TRIM22"
+    },
+    {
+      "id": "LABBENCH_vax_response_56fa5328",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set NAKAYA_PLASMACYTOID_DENDRITIC_CELL_FLUMIST_AGE_18_50YO_7DY_DN, which contains genes down-regulated in plasmacytoid dendritic cell 7d vs 0d in young adults (18-50) after exposure to FluMist , time point 7D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. GFOD1\nB. MARCHF7\nC. C2orf27A\nD. HES1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "GFOD1",
+        "MARCHF7",
+        "C2orf27A",
+        "HES1"
+      ],
+      "gold": "D",
+      "gold_text": "HES1"
+    },
+    {
+      "id": "LABBENCH_vax_response_f6ff903c",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set PATEL_SKIN_OF_BODY_ZOSTAVAX_AGE_70_93YO_VZV_CHALLENGE_3DY_DN, which contains genes down-regulated in skin of body 3d vs 0hr in adults (70-93) (VZV challenge) after exposure to Zostavax , time point 3D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. SLC22A3\nB. COX17P1\nC. AGMAT\nD. ZBTB11-AS1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SLC22A3",
+        "COX17P1",
+        "AGMAT",
+        "ZBTB11-AS1"
+      ],
+      "gold": "A",
+      "gold_text": "SLC22A3"
+    },
+    {
+      "id": "LABBENCH_vax_response_c372e579",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set QIU_PBMC_HEPTATITIS_B_SURFACE_ANTIGEN_AGE_UNDER50_NON_RESPONDERS_VS_RESPONDERS_28DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell non-responders vs responders in adults (<50) after exposure to Heptatitis B surface antigen vaccine (HBsAg) , time point 28D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. RPL34\nB. SIGLEC7\nC. IL6\nD. STRADB\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "RPL34",
+        "SIGLEC7",
+        "IL6",
+        "STRADB"
+      ],
+      "gold": "D",
+      "gold_text": "STRADB"
+    },
+    {
+      "id": "LABBENCH_vax_response_16d86938",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set RICHERT_PBMC_HIV_LIPO_5_AGE_37_48YO_STIMULATED_VS_UNSTIMULATED_0W_14W_METALLOTHIONEIN_SUBSET_UP, which contains genes up-regulated in peripheral blood mononuclear cell stimulated vs unstimulated in adults (37-48) after exposure to HIV-LIPO-5 , time point 0W and 14 W. Comment: metallothionein genes, 0W and 14W combined (identical signatures). This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. ADPGK-AS1\nB. GABBR2\nC. MT1X\nD. SPRY2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "ADPGK-AS1",
+        "GABBR2",
+        "MT1X",
+        "SPRY2"
+      ],
+      "gold": "C",
+      "gold_text": "MT1X"
+    },
+    {
+      "id": "LABBENCH_vax_response_b090c7ea",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set RICHERT_PBMC_HIV_LIPO_5_AGE_37_48YO_STIMULATED_VS_UNSTIMULATED_14W_SIGNIFICANT_VARIATION_UP, which contains genes up-regulated in peripheral blood mononuclear cell stimulated vs unstimulated in adults (37-48) after exposure to HIV-LIPO-5 , time point 14W. Comment: genes with a significant variation at W14 after 24-h HIV-LIPO-5 stimulation, IFN-gamma, CXCL9, IL2RA, TNFAIP6, CCL3L1 and IL-6 were overexpressed with a fold change |FC| >1.8. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. TCEA1\nB. IL6\nC. HEXB\nD. C5orf34\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TCEA1",
+        "IL6",
+        "HEXB",
+        "C5orf34"
+      ],
+      "gold": "B",
+      "gold_text": "IL6"
+    },
+    {
+      "id": "LABBENCH_vax_response_0fa4cc67",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set SCHERER_PBMC_APSV_WETVAX_AGE_18_40YO_5_TO_7DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell (5 to 7)d vs 0d in adults (18-40) after exposure to APSV Wetvax , time point 5 to 7D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. SLX9\nB. POC5\nC. OSER1\nD. ATG101\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "SLX9",
+        "POC5",
+        "OSER1",
+        "ATG101"
+      ],
+      "gold": "C",
+      "gold_text": "OSER1"
+    },
+    {
+      "id": "LABBENCH_vax_response_eb3a2ce6",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set SCHERER_PBMC_APSV_WETVAX_AGE_18_40YO_5_TO_7DY_UP, which contains genes up-regulated in peripheral blood mononuclear cell (5 to 7)d vs 0d in adults (18-40) after exposure to APSV Wetvax , time point 5 to 7D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. IRF1\nB. CREBZF\nC. DUSP4\nD. HIGD1B\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "IRF1",
+        "CREBZF",
+        "DUSP4",
+        "HIGD1B"
+      ],
+      "gold": "A",
+      "gold_text": "IRF1"
+    },
+    {
+      "id": "LABBENCH_vax_response_490f065d",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set SCHERER_PBMC_YF_VAX_AGE_18_40YO_ANYD_UP, which contains genes up-regulated in peripheral blood mononuclear cell in adults (18-40) after exposure to YF-Vax , time point anyD. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. INTS4\nB. C1S\nC. NCOA3\nD. NRBP2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "INTS4",
+        "C1S",
+        "NCOA3",
+        "NRBP2"
+      ],
+      "gold": "D",
+      "gold_text": "NRBP2"
+    },
+    {
+      "id": "LABBENCH_vax_response_8f035bc2",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set SOBOLEV_PBMC_PANDEMRIX_AGE_18_64YO_HIGH_VS_LOW_RESPONDERS_MEDIUM_HIGH_ADVERSE_EVENTS_SCORE_1DY_TRANSIENT_UP, which contains genes up-regulated in peripheral blood mononuclear cell high vs low responders in adults (18-64) (medium-high adverse events score) after exposure to Pandemrix , time point 1D. Comment: High AE individuals show day +1 and pre-vaccine differences to asymptomatic study subjects. (e) Genes expressed differentially in low AE vs medium/high AE study subjects on post-vaccine day +1. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. NLRC5\nB. MRPL37\nC. LRRC75B\nD. IGKV1D-33\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "NLRC5",
+        "MRPL37",
+        "LRRC75B",
+        "IGKV1D-33"
+      ],
+      "gold": "C",
+      "gold_text": "LRRC75B"
+    },
+    {
+      "id": "LABBENCH_vax_response_08dd88d4",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_RESPONDERS_7DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell 7d vs 0d in young adults (21-30) (responders) after exposure to Inactivated influenza vaccine , time point 7D. Comment: most (70-80%) of cohort were white. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. PPFIA4\nB. SLC39A13\nC. FARSB\nD. MROH1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "PPFIA4",
+        "SLC39A13",
+        "FARSB",
+        "MROH1"
+      ],
+      "gold": "C",
+      "gold_text": "FARSB"
+    },
+    {
+      "id": "LABBENCH_vax_response_b3fc0a7b",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_21_30YO_VS_70PLS_0DY_UP, which contains genes up-regulated in peripheral blood mononuclear cell young adults vs seniors in young adults (21-30), seniors (70+) after exposure to Inactivated influenza vaccine , time point 0D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. AAK1\nB. SHFL\nC. MRPS23\nD. EMC3-AS1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "AAK1",
+        "SHFL",
+        "MRPS23",
+        "EMC3-AS1"
+      ],
+      "gold": "A",
+      "gold_text": "AAK1"
+    },
+    {
+      "id": "LABBENCH_vax_response_21f68c28",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set THAKAR_PBMC_INACTIVATED_INFLUENZA_AGE_70PLS_NONRESPONDER_2DY_UP, which contains genes up-regulated in peripheral blood mononuclear cell 2d vs 0d in seniors (70+) (nonresponder) after exposure to Inactivated influenza vaccine , time point 2D. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. DDX21\nB. PPM1B\nC. SLC4A4\nD. DERL2\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "DDX21",
+        "PPM1B",
+        "SLC4A4",
+        "DERL2"
+      ],
+      "gold": "B",
+      "gold_text": "PPM1B"
+    },
+    {
+      "id": "LABBENCH_vax_response_f0f1ff6f",
+      "track": "anchor",
+      "source": "LAB-Bench",
+      "module": "DbQA / vax_response",
+      "question": "Which of the following genes is most likely contained in the gene set ZAK_PBMC_MRKAD5_HIV_1_GAG_POL_NEF_AGE_20_50YO_AD5_NAB_TITERS_GT_200_VS_LTE_200_1DY_DN, which contains genes down-regulated in peripheral blood mononuclear cell Ad5 nAb titers > 200 vs Ad5 nAb titers <= 200 in adults (20-50) (Ad5 nAb titers > 200) after exposure to MRKAd5 HIV-1 gag/pol/nef , time point 1D. Comment: Impaired up-regulation. Genes with MRKAd5/HIV-induced expression responses significantly impacted by Ad5 nAbs (24hrs). Table includes specific cell types.. This gene set is a part of the C7 subcollection VAX: vaccine response gene sets.\n\nA. TBC1D5\nB. CELF2-AS1\nC. TET2\nD. SERTAD1\n\nAnswer with the option letter (A-D).",
+      "answer_type": "mcq",
+      "options": [
+        "TBC1D5",
+        "CELF2-AS1",
+        "TET2",
+        "SERTAD1"
+      ],
+      "gold": "D",
+      "gold_text": "SERTAD1"
+    }
+  ]
+}
