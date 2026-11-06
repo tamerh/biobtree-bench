@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "id": "G100_102_tf_regulation",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "TF regulation",
+      "question": "The regulatory relationship between transcription factor NFKB1 and gene CCL2 is",
+      "answer_type": "enum",
+      "original_gold": "Activation",
+      "gold": "Activation",
+      "accepted": [
+        "Activation",
+        "Repression",
+        "No"
+      ]
+    },
+    {
+      "id": "G100_107_tf_regulation",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "TF regulation",
+      "question": "The regulatory relationship between transcription factor CDX2 and gene ACAT2 is",
+      "answer_type": "enum",
+      "original_gold": "Activation",
+      "gold": "Activation",
+      "accepted": [
+        "Activation",
+        "Repression",
+        "No"
+      ]
+    },
+    {
+      "id": "G100_114_tf_regulation",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "TF regulation",
+      "question": "The regulatory relationship between transcription factor FOXA1 and gene BCL2 is",
+      "answer_type": "enum",
+      "original_gold": "Repression",
+      "gold": "Repression",
+      "accepted": [
+        "Activation",
+        "Repression",
+        "No"
+      ]
+    },
+    {
+      "id": "G100_116_tf_regulation",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "TF regulation",
+      "question": "The regulatory relationship between transcription factor APC and gene NOS2 is",
+      "answer_type": "enum",
+      "original_gold": "Activation",
+      "gold": "Activation",
+      "accepted": [
+        "Activation",
+        "Repression",
+        "No"
+      ]
+    },
+    {
+      "id": "G100_133_gene_ontology",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene ontology",
+      "question": "The enriched gene ontology term associated with CTNNB1, MUSTN1, TCF7L2, SLC2A10, PXYLP1 is",
+      "answer_type": "exact",
+      "original_gold": "positive regulation of proteoglycan biosynthetic process",
+      "gold": "positive regulation of proteoglycan biosynthetic process"
+    },
+    {
+      "id": "G100_163_gene_disease_association",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene disease association",
+      "question": "The name of the gene related to Sclerosing cholangitis is",
+      "answer_type": "exact",
+      "original_gold": "DCDC2",
+      "gold": "DCDC2",
+      "accepted": [
+        "DCDC2"
+      ]
+    },
+    {
+      "id": "G100_168_gene_disease_association",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene disease association",
+      "question": "The name of the gene related to Neurodevelopmental disorder with gait disturbance is",
+      "answer_type": "exact",
+      "original_gold": "TCEAL1",
+      "gold": "TCEAL1",
+      "accepted": [
+        "TCEAL1"
+      ]
+    },
+    {
+      "id": "G100_171_gene_disease_association",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene disease association",
+      "question": "The name of the gene related to Craniofacial-skeletal-dermatologic dysplasia is",
+      "answer_type": "exact",
+      "original_gold": "FGFR2",
+      "gold": "FGFR2",
+      "accepted": [
+        "FGFR2"
+      ]
+    },
+    {
+      "id": "G100_176_gene_disease_association",
+      "track": "anchor",
+      "source": "GeneTuring",
+      "module": "Gene disease association",
+      "question": "The name of the gene related to Hypomyelinating neuropathy is",
+      "answer_type": "exact",
+      "original_gold": "EGR2, MPZ, CNTNAP1",
+      "gold": "EGR2, MPZ, CNTNAP1",
+      "accepted": [
+        "EGR2",
+        "MPZ",
+        "CNTNAP1"
+      ]
+    }
+  ]
+}

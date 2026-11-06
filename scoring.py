@@ -23,7 +23,7 @@ LETTERS = ["A", "B", "C", "D"]
 def normalize(text):
     if text is None:
         return ""
-    text = str(text).lower()
+    text = str(text).lower().replace("_", " ")
     text = _PUNCT.sub(" ", text)
     return _WS.sub(" ", text).strip()
 

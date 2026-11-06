@@ -25,7 +25,9 @@ MODULES = {
     "Gene name conversion": "exact",
     "Gene SNP association": "exact",
     "TF regulation": "enum",
+    "Gene ontology": "exact",
     "Protein-coding genes": "protein_coding",
+    "Gene disease association": "exact",
 }
 
 
@@ -51,6 +53,9 @@ def to_question(row, idx):
     elif qtype == "enum":
         q["gold"] = gold
         q["accepted"] = ["Activation", "Repression", "No"]
+    elif module == "Gene disease association":
+        q["gold"] = gold
+        q["accepted"] = [x.strip() for x in re.split(r"[,;]", gold) if x.strip()]
     elif qtype == "protein_coding":
         # GeneTuring gold is TRUE (protein-coding) or NA (not applicable).
         q["answer_type"] = "enum"
