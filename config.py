@@ -15,6 +15,8 @@ MCP_TIMEOUT = float(os.environ.get("MCP_TIMEOUT", "120"))
 # LLM endpoint (OpenAI-compatible)
 OPENROUTER_URL = os.environ.get("OPENROUTER_URL", "https://openrouter.ai/api/v1")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+# Required by the OpenCode Go inference endpoint; harmless elsewhere.
+OPENCODE_SESSION = os.environ.get("OPENCODE_SESSION", "")
 
 # Defaults recorded in every run
 DEFAULT_MODELS = [
@@ -25,7 +27,7 @@ DEFAULT_MODELS = [
 DEFAULT_CONDITIONS = ["no_tools", "mcp"]
 
 TEMPERATURE = float(os.environ.get("BENCH_TEMPERATURE", "0"))
-MAX_TOKENS = int(os.environ.get("BENCH_MAX_TOKENS", "4096"))
+MAX_TOKENS = int(os.environ.get("BENCH_MAX_TOKENS", "16384"))
 MAX_ITERATIONS = int(os.environ.get("BENCH_MAX_ITERATIONS", "10"))
 
 # Per-tool-result cap handed back to the model (chars). The MCP server already
@@ -48,6 +50,9 @@ CONDITION_TOOLS = {
     ],
     "ablation_raw": ["biobtree_search", "biobtree_map", "biobtree_entry"],
     "ablation_atlas": ["biobtree_atlas"],
+    # General web baseline: no BioBTree, no curated database. Same model and
+    # iteration budget, so the comparison is "web agent vs MCP agent".
+    "web": ["web_search", "web_fetch"],
 }
 
 SYSTEM_PROMPT = (

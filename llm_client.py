@@ -1,4 +1,4 @@
-"""OpenAI-compatible chat client (OpenRouter by default), stdlib only."""
+"""OpenAI-compatible chat client (OpenRouter or OpenCode Go; stdlib only)."""
 
 import json
 import time
@@ -33,27 +33,47 @@ class LLMClient:
             payload["tools"] = tools
             payload["tool_choice"] = "auto"
 
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.api_key}",
+            "HTTP-Referer": "https://sugi.bio",
+            "X-Title": "biobtree-benchmark",
+            "User-Agent": "biobtree-benchmark/1.0",
+        }
+        # Required by the OpenCode Go inference endpoint; ignored elsewhere.
+        if config.OPENCODE_SESSION:
+            headers["x-opencode-session"] = config.OPENCODE_SESSION
+
         req = urllib.request.Request(
             f"{self.base_url}/chat/completions",
             data=json.dumps(payload).encode("utf-8"),
-            headers={
-                "Content-Type": "application/json",
-                "Authorization": f"Bearer {self.api_key}",
-                "HTTP-Referer": "https://sugi.bio",
-                "X-Title": "biobtree-benchmark",
-            },
+            headers=headers,
             method="POST",
         )
 
         start = time.time()
-        try:
-            with urllib.request.urlopen(req, timeout=self.timeout) as r:
-                body = json.loads(r.read().decode("utf-8"))
-        except urllib.error.HTTPError as e:
-            detail = e.read().decode("utf-8", "replace")[:500]
-            raise LLMError(f"HTTP {e.code}: {detail}") from e
-        except Exception as e:  # noqa: BLE001
-            raise LLMError(f"request failed: {e}") from e
+        body = None
+        last_err = None
+        for attempt in range(4):
+            try:
+                with urllib.request.urlopen(req, timeout=self.timeout) as r:
+                    body = json.loads(r.read().decode("utf-8"))
+                break
+            except urllib.error.HTTPError as e:
+                detail = e.read().decode("utf-8", "replace")[:500]
+                last_err = LLMError(f"HTTP {e.code}: {detail}")
+                if e.code in (429, 500, 502, 503, 504) and attempt < 3:
+                    time.sleep(2 ** attempt)
+                    continue
+                raise last_err from e
+            except Exception as e:  # noqa: BLE001
+                last_err = LLMError(f"request failed: {e}")
+                if attempt < 3:
+                    time.sleep(2 ** attempt)
+                    continue
+                raise last_err from e
+        if body is None:
+            raise last_err or LLMError("request failed")
         latency = time.time() - start
 
         if "error" in body:
@@ -62,6 +82,10 @@ class LLMClient:
         choice = (body.get("choices") or [{}])[0]
         msg = choice.get("message", {}) or {}
         usage = body.get("usage", {}) or {}
+        oc = usage.get("opencode") or {}
+        cost = usage.get("cost")
+        if not cost:
+            cost = oc.get("list_cost", 0)
 
         return {
             "content": msg.get("content") or "",
@@ -70,6 +94,8 @@ class LLMClient:
                 "prompt_tokens": usage.get("prompt_tokens", 0),
                 "completion_tokens": usage.get("completion_tokens", 0),
                 "total_tokens": usage.get("total_tokens", 0),
+                "cost_usd": float(cost or 0),
+                "allowance_usd": float(oc.get("allowance") or 0),
             },
             "raw_model": body.get("model", model),
             "finish_reason": choice.get("finish_reason"),

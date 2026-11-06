@@ -19,6 +19,7 @@ import config
 import scoring
 from llm_client import LLMClient, LLMError
 from mcp_client import MCPClient, MCPError
+from web_client import WebClient
 
 
 def slug(text):
@@ -40,18 +41,22 @@ def load_questions(path):
     return data
 
 
-def run_one(question, model, condition, mcp, llm, max_iterations):
+def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
     """Execute one (question, model, condition) cell."""
     tool_names = config.CONDITION_TOOLS[condition]
-    tools = mcp.openai_tools(tool_names) if tool_names else None
+    provider = web if condition == "web" else mcp
+    tools = provider.openai_tools(tool_names) if tool_names else None
 
     messages = [
         {"role": "system", "content": config.SYSTEM_PROMPT},
         {"role": "user", "content": question["question"]},
     ]
 
-    usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
+    usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0,
+             "cost_usd": 0.0, "allowance_usd": 0.0}
     tool_log = []
+    finish_reasons = []
+    comp_tokens = []
     iterations = 0
     answer = ""
     error = None
@@ -60,6 +65,9 @@ def run_one(question, model, condition, mcp, llm, max_iterations):
     try:
         for iterations in range(1, max_iterations + 1):
             resp = llm.chat(model, messages, tools=tools)
+            finish_reasons.append(resp.get("finish_reason"))
+            comp_tokens.append((resp["usage"].get("completion_tokens", 0),
+                                resp["usage"].get("total_tokens", 0) - resp["usage"].get("prompt_tokens", 0)))
             for k in usage:
                 usage[k] += resp["usage"].get(k, 0)
 
@@ -79,7 +87,7 @@ def run_one(question, model, condition, mcp, llm, max_iterations):
                     except json.JSONDecodeError:
                         args = {}
                     try:
-                        result = mcp.call_tool(name, args)
+                        result = provider.call_tool(name, args)
                     except MCPError as e:
                         result = f"TOOL ERROR: {e}"
                     result_for_model = result
@@ -139,6 +147,8 @@ def run_one(question, model, condition, mcp, llm, max_iterations):
         "correct": result["correct"],
         "score_detail": result["detail"],
         "error": error,
+        "finish_reasons": finish_reasons,
+        "comp_tokens": comp_tokens,
         "config": {
             "mcp_url": config.MCP_URL,
             "max_iterations": max_iterations,
@@ -172,11 +182,13 @@ def main(argv=None):
     tr_dir = out_dir / "transcripts"
 
     mcp = MCPClient()
+    web = WebClient()
     try:
         available = {t["name"] for t in mcp.list_tools()}
     except MCPError as e:
         sys.exit(f"cannot reach MCP at {config.MCP_URL}: {e}")
-    missing = {n for c in args.conditions for n in config.CONDITION_TOOLS[c]} - available
+    mcp_conditions = [c for c in args.conditions if c != "web"]
+    missing = {n for c in mcp_conditions for n in config.CONDITION_TOOLS[c]} - available
     if missing:
         sys.exit(f"MCP is missing tools: {sorted(missing)}")
 
@@ -203,7 +215,7 @@ def main(argv=None):
                 print(f"[{done}/{total}] {q['id']} | {model} | {cond} ... ",
                       end="", flush=True)
                 rec, tool_log, messages = run_one(
-                    q, model, cond, mcp, llm, args.max_iterations
+                    q, model, cond, mcp, llm, args.max_iterations, web=web
                 )
                 (out_dir / f"{rec['run_id']}.json").write_text(
                     json.dumps(rec, indent=2, ensure_ascii=False)
