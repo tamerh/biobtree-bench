@@ -54,7 +54,8 @@ class LLMClient:
         start = time.time()
         body = None
         last_err = None
-        for attempt in range(4):
+        attempts = 6
+        for attempt in range(attempts):
             try:
                 with urllib.request.urlopen(req, timeout=self.timeout) as r:
                     body = json.loads(r.read().decode("utf-8"))
@@ -62,14 +63,22 @@ class LLMClient:
             except urllib.error.HTTPError as e:
                 detail = e.read().decode("utf-8", "replace")[:500]
                 last_err = LLMError(f"HTTP {e.code}: {detail}")
-                if e.code in (429, 500, 502, 503, 504) and attempt < 3:
-                    time.sleep(2 ** attempt)
+                retryable = e.code in (429, 500, 502, 503, 504)
+                # Capacity errors ("overloaded", "prefill_cap_refused") need
+                # longer waits than a normal rate limit.
+                capacity = any(
+                    k in detail.lower()
+                    for k in ("overloaded", "capacity", "prefill_cap")
+                )
+                if retryable and attempt < attempts - 1:
+                    wait = min(2 ** attempt, 30) * (3 if capacity else 1)
+                    time.sleep(min(wait, 90))
                     continue
                 raise last_err from e
             except Exception as e:  # noqa: BLE001
                 last_err = LLMError(f"request failed: {e}")
-                if attempt < 3:
-                    time.sleep(2 ** attempt)
+                if attempt < attempts - 1:
+                    time.sleep(min(2 ** attempt, 30))
                     continue
                 raise last_err from e
         if body is None:

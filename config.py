@@ -53,6 +53,17 @@ CONDITION_TOOLS = {
     # General web baseline: no BioBTree, no curated database. Same model and
     # iteration budget, so the comparison is "web agent vs MCP agent".
     "web": ["web_search", "web_fetch"],
+    # Tool-surface dilution test: the standard MCP surface plus the variant
+    # evidence tool. Used only for the dilution/tool-selection probe, not for
+    # the primary tables (those are frozen on the 5-tool surface).
+    "mcp_variant": [
+        "biobtree_search",
+        "biobtree_map",
+        "biobtree_entry",
+        "biobtree_atlas",
+        "biobtree_enrich",
+        "biobtree_variant",
+    ],
 }
 
 SYSTEM_PROMPT = (

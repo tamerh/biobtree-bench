@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "name": "tool_selection_probe",
+    "purpose": "Diagnostic only: does adding a sixth MCP tool (biobtree_variant) change which tool the model reaches for first? Not part of the scored benchmark; answers are not graded.",
+    "expected_tool": "the tool a competent agent should call first for this question",
+    "note": "Questions are phrased naturally; no tool names or hints appear in the text."
+  },
+  "questions": [
+    {"id": "TS_entry_01", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "List the aliases recorded for HGNC:11998."},
+    {"id": "TS_entry_02", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "What is the full record for the Ensembl gene ENSG00000141510?"},
+    {"id": "TS_entry_03", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "What chromosome and coordinates are recorded for the RefSeq transcript NM_000546?"},
+    {"id": "TS_entry_04", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "Show the attributes recorded for MONDO:0007254."},
+    {"id": "TS_entry_05", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "Give the recorded details for rs1042522."},
+    {"id": "TS_entry_06", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "What is the HGNC record for BRCA1?"},
+    {"id": "TS_entry_07", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "Show what is stored for the GO term GO:0006915."},
+    {"id": "TS_entry_08", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "What does the record for the UniProt accession P04637 contain?"},
+    {"id": "TS_entry_09", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "Give the stored attributes for the MGnify or Pfam entry PF00069."},
+    {"id": "TS_entry_10", "module": "tool_selection", "expected_tool": "biobtree_entry", "question": "What are the recorded properties of the disease OMIM:219700?"},
+
+    {"id": "TS_map_01", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which Ensembl gene does TP53 map to?"},
+    {"id": "TS_map_02", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which RefSeq transcripts are linked to BRCA1?"},
+    {"id": "TS_map_03", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which diseases are linked to the gene CFTR through MONDO?"},
+    {"id": "TS_map_04", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Map EGFR to its UniProt accessions."},
+    {"id": "TS_map_05", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which GO terms are linked to TP53 through Ensembl?"},
+    {"id": "TS_map_06", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which miRNAs are predicted to target HECTD1 in miRDB?"},
+    {"id": "TS_map_07", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which Entrez gene corresponds to HGNC:11998?"},
+    {"id": "TS_map_08", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which pathways is AKT1 linked to through Reactome?"},
+    {"id": "TS_map_09", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which phenotypes are linked to the gene SCN1A?"},
+    {"id": "TS_map_10", "module": "tool_selection", "expected_tool": "biobtree_map", "question": "Which drugs target EGFR through ChEMBL?"},
+
+    {"id": "TS_atlas_01", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "Give me a curated summary of BRCA1."},
+    {"id": "TS_atlas_02", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "Summarize the disease cystic fibrosis."},
+    {"id": "TS_atlas_03", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "What is a concise overview of the drug imatinib?"},
+    {"id": "TS_atlas_04", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "Provide a background summary for the gene TP53."},
+    {"id": "TS_atlas_05", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "Give me the key facts about sickle cell anemia."},
+    {"id": "TS_atlas_06", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "Summarize the gene LDLR for a clinician."},
+    {"id": "TS_atlas_07", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "What do we know about the drug metformin at a glance?"},
+    {"id": "TS_atlas_08", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "Give a short profile of the disease familial hypercholesterolemia."},
+    {"id": "TS_atlas_09", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "Provide a digest for the gene CFTR."},
+    {"id": "TS_atlas_10", "module": "tool_selection", "expected_tool": "biobtree_atlas", "question": "Summarize the drug trastuzumab."},
+
+    {"id": "TS_variant_01", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "What is the ClinVar classification of BRCA1 c.68_69del?"},
+    {"id": "TS_variant_02", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "Is BRCA1 c.5266dupC pathogenic?"},
+    {"id": "TS_variant_03", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "What is the gnomAD frequency of CFTR F508del?"},
+    {"id": "TS_variant_04", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "Give the evidence page for TP53 p.Arg175His."},
+    {"id": "TS_variant_05", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "What do the calibrated predictors say about BRCA2 c.9976A>T?"},
+    {"id": "TS_variant_06", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "What is the review status for the variant LDLR c.10580G>A?"},
+    {"id": "TS_variant_07", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "Look up the structural variant nsv483076."},
+    {"id": "TS_variant_08", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "What is the clinical significance of the variant rs80357906?"},
+    {"id": "TS_variant_09", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "Show the evidence for the variant SCN1A p.Trp280Arg."},
+    {"id": "TS_variant_10", "module": "tool_selection", "expected_tool": "biobtree_variant", "question": "Is the variant LMNA p.Glu82Lys classified as pathogenic?"}
+  ]
+}
