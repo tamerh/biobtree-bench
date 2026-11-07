@@ -55,6 +55,8 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
     usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0,
              "cost_usd": 0.0, "allowance_usd": 0.0}
     tool_log = []
+    llm_seconds = 0.0
+    tool_seconds = 0.0
     finish_reasons = []
     comp_tokens = []
     iterations = 0
@@ -64,7 +66,9 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
 
     try:
         for iterations in range(1, max_iterations + 1):
+            _t0 = time.time()
             resp = llm.chat(model, messages, tools=tools)
+            llm_seconds += time.time() - _t0
             finish_reasons.append(resp.get("finish_reason"))
             comp_tokens.append((resp["usage"].get("completion_tokens", 0),
                                 resp["usage"].get("total_tokens", 0) - resp["usage"].get("prompt_tokens", 0)))
@@ -86,10 +90,13 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
                         args = json.loads(fn.get("arguments") or "{}")
                     except json.JSONDecodeError:
                         args = {}
+                    _t1 = time.time()
                     try:
                         result = provider.call_tool(name, args)
                     except MCPError as e:
                         result = f"TOOL ERROR: {e}"
+                    _tool_s = time.time() - _t1
+                    tool_seconds += _tool_s
                     result_for_model = result
                     if name != "biobtree_atlas" and len(result) > config.TOOL_RESULT_MAX_CHARS:
                         # The MCP server bounds tool results structurally (valid
@@ -107,6 +114,7 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
                             "tool": name,
                             "arguments": args,
                             "result_chars": len(result),
+                            "duration_s": round(_tool_s, 3),
                             "result": result,
                         }
                     )
@@ -149,6 +157,11 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
         "error": error,
         "finish_reasons": finish_reasons,
         "comp_tokens": comp_tokens,
+        "timing": {
+            "llm_s": round(llm_seconds, 3),
+            "tool_s": round(tool_seconds, 3),
+            "total_s": round(elapsed, 3),
+        },
         "config": {
             "mcp_url": config.MCP_URL,
             "max_iterations": max_iterations,

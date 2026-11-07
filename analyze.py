@@ -37,7 +37,7 @@ def mcnemar_exact(b, c):
 def summarize(runs):
     agg = defaultdict(lambda: {"n": 0, "correct": 0, "tokens": 0, "latency": 0.0,
                                "tool_calls": 0, "errors": 0, "cost": 0.0,
-                               "allowance": 0.0})
+                               "allowance": 0.0, "llm_s": 0.0, "tool_s": 0.0})
     for r in runs:
         key = (r["model"], r["condition"])
         a = agg[key]
@@ -48,6 +48,9 @@ def summarize(runs):
         a["tool_calls"] += len(r.get("tool_calls") or [])
         a["errors"] += 1 if r.get("error") else 0
         a["cost"] += (r.get("usage") or {}).get("cost_usd", 0) or 0
+        tm = r.get("timing") or {}
+        a["llm_s"] += tm.get("llm_s", 0) or 0
+        a["tool_s"] += tm.get("tool_s", 0) or 0
         a["allowance"] += (r.get("usage") or {}).get("allowance_usd", 0) or 0
     return agg
 
@@ -146,12 +149,14 @@ def main(argv=None):
 
     agg = summarize(runs)
     print(f"{'model':<34}{'condition':<12}{'n':>4}{'acc':>7}{'tok/run':>10}"
-          f"{'lat/run':>9}{'calls':>7}{'err':>5}{'cost$':>8}")
+          f"{'lat/run':>9}{'llm_s':>7}{'tool_s':>7}{'calls':>7}{'err':>5}{'cost$':>8}")
     for (model, cond), a in sorted(agg.items()):
         acc = a["correct"] / a["n"] if a["n"] else 0
         print(f"{model:<34}{cond:<12}{a['n']:>4}{acc:>7.2f}"
               f"{a['tokens'] // max(a['n'], 1):>10}"
               f"{a['latency'] / max(a['n'], 1):>9.2f}"
+              f"{a['llm_s'] / max(a['n'], 1):>7.1f}"
+              f"{a['tool_s'] / max(a['n'], 1):>7.1f}"
               f"{a['tool_calls'] / max(a['n'], 1):>7.1f}{a['errors']:>5}"
               f"{a['cost']:>8.3f}")
 
