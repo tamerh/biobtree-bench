@@ -230,8 +230,17 @@ class WebClient:
         except Exception as e:  # noqa: BLE001
             return json.dumps({"error": f"fetch failed: {e}", "url": url})
 
+        ctype_l = ctype.lower()
+        if not any(x in ctype_l for x in ("text/", "html", "xml", "json", "javascript")):
+            return json.dumps(
+                {
+                    "url": url,
+                    "error": f"unsupported content type: {ctype or 'unknown'}",
+                    "note": "only text, HTML, XML and JSON are extracted",
+                }
+            )
         text = raw.decode(charset, "replace")
-        if "html" in ctype.lower() or "<html" in text[:500].lower():
+        if "html" in ctype_l or "<html" in text[:500].lower():
             text = _strip_html(text)
         text = text.strip()
         truncated = len(text) > max_chars
