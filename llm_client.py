@@ -98,6 +98,7 @@ class LLMClient:
 
         return {
             "content": msg.get("content") or "",
+            "reasoning_content": msg.get("reasoning_content") or msg.get("reasoning") or "",
             "tool_calls": msg.get("tool_calls") or [],
             "usage": {
                 "prompt_tokens": usage.get("prompt_tokens", 0),

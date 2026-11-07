@@ -17,6 +17,9 @@ OPENROUTER_URL = os.environ.get("OPENROUTER_URL", "https://openrouter.ai/api/v1"
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 # Required by the OpenCode Go inference endpoint; harmless elsewhere.
 OPENCODE_SESSION = os.environ.get("OPENCODE_SESSION", "")
+# DeepSeek thinking mode via OpenRouter requires the previous reasoning_content
+# to be echoed back on tool-call continuations. Harmless to leave off elsewhere.
+PASS_REASONING_BACK = ("openrouter.ai" in OPENROUTER_URL)
 
 # Defaults recorded in every run
 DEFAULT_MODELS = [

@@ -76,13 +76,14 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
                 usage[k] += resp["usage"].get(k, 0)
 
             if resp["tool_calls"]:
-                messages.append(
-                    {
-                        "role": "assistant",
-                        "content": resp["content"] or "",
-                        "tool_calls": resp["tool_calls"],
-                    }
-                )
+                assistant_msg = {
+                    "role": "assistant",
+                    "content": resp["content"] or "",
+                    "tool_calls": resp["tool_calls"],
+                }
+                if config.PASS_REASONING_BACK and resp.get("reasoning_content"):
+                    assistant_msg["reasoning_content"] = resp["reasoning_content"]
+                messages.append(assistant_msg)
                 for tc in resp["tool_calls"]:
                     fn = tc.get("function", {})
                     name = fn.get("name", "")
