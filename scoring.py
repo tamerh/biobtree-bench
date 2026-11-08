@@ -24,6 +24,8 @@ def normalize(text):
     if text is None:
         return ""
     text = str(text).lower().replace("_", " ")
+    # 1,685 -> 1685 so comma-formatted counts match plain gold numbers
+    text = re.sub(r"(?<=\d),(?=\d{3}\b)", "", text)
     text = _PUNCT.sub(" ", text)
     return _WS.sub(" ", text).strip()
 
