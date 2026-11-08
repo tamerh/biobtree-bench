@@ -22,6 +22,16 @@ from mcp_client import MCPClient, MCPError
 from web_client import WebClient
 
 
+def is_infra_error(rec):
+    err = (rec or {}).get("error") or ""
+    return (
+        err.startswith("LLMError")
+        or err.startswith("MCPError")
+        or "HTTP" in err
+        or "cannot reach MCP" in err
+    )
+
+
 def slug(text):
     return re.sub(r"[^A-Za-z0-9._-]+", "_", str(text)).strip("_")
 
@@ -188,6 +198,8 @@ def main(argv=None):
     ap.add_argument("--max-iterations", type=int, default=config.MAX_ITERATIONS)
     ap.add_argument("--out", default=str(config.RESULTS_DIR))
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--resume", action="store_true",
+                    help="skip cells already written without an infrastructure error")
     args = ap.parse_args(argv)
 
     questions = load_questions(args.questions)
@@ -230,6 +242,17 @@ def main(argv=None):
         for model in args.models:
             for cond in args.conditions:
                 done += 1
+                if args.resume:
+                    rid = f"{q['id']}__{slug(model)}__{cond}"
+                    fp = out_dir / f"{rid}.json"
+                    if fp.exists():
+                        try:
+                            prev = json.loads(fp.read_text())
+                        except json.JSONDecodeError:
+                            prev = None
+                        if prev is not None and not is_infra_error(prev):
+                            print(f"[{done}/{total}] {q['id']} | {model} | {cond} ... skip")
+                            continue
                 print(f"[{done}/{total}] {q['id']} | {model} | {cond} ... ",
                       end="", flush=True)
                 rec, tool_log, messages = run_one(
