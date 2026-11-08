@@ -43,6 +43,7 @@ def main():
         "coordinate": ["10:87933148:G:A"],
         "locus": ["chr10:87933100-87933200"],
         "absent": ["rs99999999999"],
+        "gene": ["BRCA1"],
     }
     print("== resolution ==")
     for name, ents in probes.items():

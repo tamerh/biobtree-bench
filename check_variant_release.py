@@ -24,6 +24,7 @@ CHECKS = [
     ("clinical SV VCV (7q11.23 del)", {"entities": ["VCV005020085"]}, "results"),
     ("clinical SV VCV (2q22 del)", {"entities": ["VCV005038037"]}, "results"),
     ("rsID", {"entities": ["rs80357906"]}, "results"),
+    ("gene page", {"entities": ["BRCA1"]}, "results"),
 ]
 
 
