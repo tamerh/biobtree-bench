@@ -1,0 +1,126 @@
+{
+ "meta": {
+  "name": "complex_tasks",
+  "created": "2026-11-08",
+  "golds": "miRDB v6.0 file; ClinVar variant_summary GRCh38; Reactome UniProt2Reactome; gnomAD r4 GraphQL",
+  "n": 14
+ },
+ "questions": [
+  {
+   "id": "CX1_mirdb_count_493",
+   "module": "complex_count",
+   "question": "How many predicted human targets does hsa-miR-493-3p have in miRDB v6.0?",
+   "answer_type": "integer",
+   "gold": 731,
+   "track": "complex"
+  },
+  {
+   "id": "CX2_mirdb_count_4521",
+   "module": "complex_count",
+   "question": "How many predicted human targets does hsa-miR-4521 have in miRDB v6.0?",
+   "answer_type": "integer",
+   "gold": 684,
+   "track": "complex"
+  },
+  {
+   "id": "CX3_mirdb_count_186",
+   "module": "complex_count",
+   "question": "How many predicted human targets does hsa-miR-186-3p have in miRDB v6.0?",
+   "answer_type": "integer",
+   "gold": 1685,
+   "track": "complex"
+  },
+  {
+   "id": "CX4_mirdb_count_let7g",
+   "module": "complex_count",
+   "question": "How many predicted human targets does hsa-let-7g-5p have in miRDB v6.0?",
+   "answer_type": "integer",
+   "gold": 1784,
+   "track": "complex"
+  },
+  {
+   "id": "CX5_mirdb_member_yes",
+   "module": "complex_membership",
+   "question": "Is the RefSeq transcript NM_001320793 a predicted target of hsa-miR-493-3p in miRDB?",
+   "answer_type": "boolean",
+   "gold": true,
+   "track": "complex"
+  },
+  {
+   "id": "CX6_mirdb_member_no",
+   "module": "complex_membership",
+   "question": "Is the RefSeq transcript NM_004379 a predicted target of hsa-miR-493-3p in miRDB?",
+   "answer_type": "boolean",
+   "gold": false,
+   "track": "complex"
+  },
+  {
+   "id": "CX7_clinvar_absent",
+   "module": "complex_membership",
+   "question": "Is the variant rs99999999990 present in ClinVar?",
+   "answer_type": "boolean",
+   "gold": false,
+   "track": "complex"
+  },
+  {
+   "id": "CX8_clinvar_present",
+   "module": "complex_membership",
+   "question": "Is the variant rs1131690830 present in ClinVar?",
+   "answer_type": "boolean",
+   "gold": true,
+   "track": "complex"
+  },
+  {
+   "id": "CX9_clinvar_class_flcn",
+   "module": "complex_classification",
+   "question": "What is the ClinVar clinical significance of rs1131690830?",
+   "answer_type": "exact",
+   "gold": "Pathogenic",
+   "track": "complex"
+  },
+  {
+   "id": "CX10_clinvar_class_nbn",
+   "module": "complex_classification",
+   "question": "What is the ClinVar clinical significance of rs587780101?",
+   "answer_type": "exact",
+   "gold": "Uncertain significance",
+   "track": "complex"
+  },
+  {
+   "id": "CX11_reactome_abc",
+   "module": "complex_multihop",
+   "question": "Is CFTR annotated to the Reactome pathway 'ABC-family protein mediated transport'?",
+   "answer_type": "boolean",
+   "gold": true,
+   "track": "complex"
+  },
+  {
+   "id": "CX12_reactome_rho",
+   "module": "complex_multihop",
+   "question": "Is CFTR annotated to the Reactome pathway 'RHO GTPases regulate CFTR trafficking'?",
+   "answer_type": "boolean",
+   "gold": true,
+   "track": "complex"
+  },
+  {
+   "id": "CX13_gnomad_af",
+   "module": "complex_numeric",
+   "question": "What is the gnomAD v4 joint allele frequency of rs80357906?",
+   "answer_type": "numeric",
+   "gold": 6.754e-05,
+   "tolerance": 0.15,
+   "track": "complex"
+  },
+  {
+   "id": "CX14_multihop_variant",
+   "module": "complex_multihop",
+   "question": "Which gene contains the variant rs80357906, and what is its ClinVar clinical significance?",
+   "answer_type": "all_of",
+   "accepted": [
+    "BRCA1",
+    "Pathogenic"
+   ],
+   "track": "complex"
+  }
+ ]
+}

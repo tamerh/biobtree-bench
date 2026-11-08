@@ -185,6 +185,20 @@ def score(question, answer):
             },
         }
 
+    if qtype == "numeric":
+        try:
+            target = float(gold)
+        except (TypeError, ValueError):
+            return {"score": 0.0, "correct": False, "detail": "bad gold"}
+        tol = float(question.get("tolerance", 0.15))
+        nums = [float(x) for x in re.findall(r"(?<![\d.])(\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)", str(answer))]
+        hit = next((n for n in nums if abs(n - target) <= tol * abs(target)), None)
+        return {
+            "score": 1.0 if hit is not None else 0.0,
+            "correct": hit is not None,
+            "detail": {"gold": target, "tolerance": tol, "numbers": nums[:20]},
+        }
+
     if qtype == "all_of":
         candidates = list(accepted) + ([gold] if isinstance(gold, str) else list(gold or []))
         hits = [c for c in candidates if _contains(c, answer)]
