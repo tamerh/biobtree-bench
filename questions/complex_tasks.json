@@ -9,87 +9,67 @@
   {
    "id": "CX1_count_1",
    "module": "complex_count",
-   "question": "In miRDB v6.0, how many predicted human target sites (transcripts) and how many distinct human genes does hsa-miR-493-3p have? Give both numbers.",
-   "answer_type": "all_of",
-   "accepted": [
-    "731",
-    "361"
-   ],
+   "question": "How many predicted target sites (transcripts) does miRDB v6.0 list for hsa-miR-493-3p? Count the prediction rows for that miRNA.",
+   "answer_type": "integer",
    "meta": {
     "miRNA": "hsa-miR-493-3p",
     "transcripts": 731,
-    "genes": 361,
-    "gold_source": "miRDB v6.0 file + NCBI gene2refseq (human)"
+    "gold_source": "miRDB v6.0 prediction file (row count)"
    },
-   "track": "complex"
+   "track": "complex",
+   "gold": 731
   },
   {
    "id": "CX2_count_2",
    "module": "complex_count",
-   "question": "In miRDB v6.0, how many predicted human target sites (transcripts) and how many distinct human genes does hsa-miR-4521 have? Give both numbers.",
-   "answer_type": "all_of",
-   "accepted": [
-    "684",
-    "337"
-   ],
+   "question": "How many predicted target sites (transcripts) does miRDB v6.0 list for hsa-miR-4521? Count the prediction rows for that miRNA.",
+   "answer_type": "integer",
    "meta": {
     "miRNA": "hsa-miR-4521",
     "transcripts": 684,
-    "genes": 337,
-    "gold_source": "miRDB v6.0 file + NCBI gene2refseq (human)"
+    "gold_source": "miRDB v6.0 prediction file (row count)"
    },
-   "track": "complex"
+   "track": "complex",
+   "gold": 684
   },
   {
    "id": "CX3_count_3",
    "module": "complex_count",
-   "question": "In miRDB v6.0, how many predicted human target sites (transcripts) and how many distinct human genes does hsa-miR-186-3p have? Give both numbers.",
-   "answer_type": "all_of",
-   "accepted": [
-    "1685",
-    "814"
-   ],
+   "question": "How many predicted target sites (transcripts) does miRDB v6.0 list for hsa-miR-186-3p? Count the prediction rows for that miRNA.",
+   "answer_type": "integer",
    "meta": {
     "miRNA": "hsa-miR-186-3p",
     "transcripts": 1685,
-    "genes": 814,
-    "gold_source": "miRDB v6.0 file + NCBI gene2refseq (human)"
+    "gold_source": "miRDB v6.0 prediction file (row count)"
    },
-   "track": "complex"
+   "track": "complex",
+   "gold": 1685
   },
   {
    "id": "CX4_count_4",
    "module": "complex_count",
-   "question": "In miRDB v6.0, how many predicted human target sites (transcripts) and how many distinct human genes does hsa-let-7g-5p have? Give both numbers.",
-   "answer_type": "all_of",
-   "accepted": [
-    "1784",
-    "990"
-   ],
+   "question": "How many predicted target sites (transcripts) does miRDB v6.0 list for hsa-let-7g-5p? Count the prediction rows for that miRNA.",
+   "answer_type": "integer",
    "meta": {
     "miRNA": "hsa-let-7g-5p",
     "transcripts": 1784,
-    "genes": 990,
-    "gold_source": "miRDB v6.0 file + NCBI gene2refseq (human)"
+    "gold_source": "miRDB v6.0 prediction file (row count)"
    },
-   "track": "complex"
+   "track": "complex",
+   "gold": 1784
   },
   {
    "id": "CX5_count_5",
    "module": "complex_count",
-   "question": "In miRDB v6.0, how many predicted human target sites (transcripts) and how many distinct human genes does hsa-miR-3190-3p have? Give both numbers.",
-   "answer_type": "all_of",
-   "accepted": [
-    "1406",
-    "654"
-   ],
+   "question": "How many predicted target sites (transcripts) does miRDB v6.0 list for hsa-miR-3190-3p? Count the prediction rows for that miRNA.",
+   "answer_type": "integer",
    "meta": {
     "miRNA": "hsa-miR-3190-3p",
     "transcripts": 1406,
-    "genes": 654,
-    "gold_source": "miRDB v6.0 file + NCBI gene2refseq (human)"
+    "gold_source": "miRDB v6.0 prediction file (row count)"
    },
-   "track": "complex"
+   "track": "complex",
+   "gold": 1406
   },
   {
    "id": "CX6_mirdb_member_yes",
