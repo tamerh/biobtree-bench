@@ -22,7 +22,12 @@ from pathlib import Path
 
 def is_infra_error(rec):
     err = rec.get("error") or ""
-    return err.startswith("LLMError") or "HTTP" in err
+    return (
+        err.startswith("LLMError")
+        or err.startswith("MCPError")
+        or "HTTP" in err
+        or "cannot reach MCP" in err
+    )
 
 
 def main(argv=None):
