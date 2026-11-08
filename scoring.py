@@ -215,7 +215,9 @@ def score(question, answer):
             "not found", "no data", "not available", "not in biobtree",
             "not covered", "no information", "unknown", "cannot find",
             "could not find", "not present", "no record", "does not exist",
-            "unable to find", "no such",
+            "unable to find", "no such", "not a variant", "is a gene",
+            "gene, not a variant", "no single", "not a single variant",
+            "does not have a single", "cannot be determined", "not a valid",
         )
         ok = any(m in t for m in markers)
         return {
