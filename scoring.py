@@ -185,6 +185,29 @@ def score(question, answer):
             },
         }
 
+    if qtype == "all_of":
+        candidates = list(accepted) + ([gold] if isinstance(gold, str) else list(gold or []))
+        hits = [c for c in candidates if _contains(c, answer)]
+        missing = [c for c in candidates if c not in hits]
+        return {
+            "score": 1.0 if not missing else 0.0,
+            "correct": not missing,
+            "detail": {"matched": hits, "missing": missing, "gold": gold},
+        }
+
+    if qtype == "coverage":
+        candidates = list(accepted) + ([gold] if isinstance(gold, str) else list(gold or []))
+        if not candidates:
+            return {"score": 0.0, "correct": False, "detail": "no gold"}
+        hits = [c for c in candidates if _contains(c, answer)]
+        frac = len(hits) / len(candidates)
+        threshold = question.get("threshold", 0.9)
+        return {
+            "score": frac,
+            "correct": frac >= threshold,
+            "detail": {"coverage": frac, "missing": [c for c in candidates if c not in hits]},
+        }
+
     if qtype == "abstain":
         # Correct behaviour: say the data is not available rather than invent it.
         t = normalize(answer)
