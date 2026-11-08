@@ -48,6 +48,15 @@ def main():
         if not ok:
             failures.append(label)
 
+    # gene counts contract
+    raw = c.call_tool("biobtree_variant", {"entities": ["BRCA1"], "section": "Counts"})
+    low = raw.lower()
+    counts_ok = ("count basis" in low and "classes sum to total" in low
+                 and "11,591" in raw and "2,506" in raw)
+    print(f"{'PASS' if counts_ok else 'FAIL'} gene Counts section (basis + total + classes sum)")
+    if not counts_ok:
+        failures.append("gene Counts section")
+
     # batch size
     ids = ["rs80357906", "rs80357907", "rs80357908", "rs1131690830", "rs587780101"]
     raw = c.call_tool("biobtree_variant", {"entities": ids})
