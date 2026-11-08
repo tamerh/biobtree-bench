@@ -56,6 +56,10 @@ CONDITION_TOOLS = {
     ],
     "ablation_raw": ["biobtree_search", "biobtree_map", "biobtree_entry"],
     "ablation_atlas": ["biobtree_atlas"],
+    # Tool ablations for the 180 subset.
+    "mcp_no_atlas": ["biobtree_search", "biobtree_map", "biobtree_entry", "biobtree_enrich"],
+    "mcp_no_enrich": ["biobtree_search", "biobtree_map", "biobtree_entry", "biobtree_atlas"],
+    "mcp_core": ["biobtree_search", "biobtree_map", "biobtree_entry"],
     # General web baseline: no BioBTree, no curated database. Same model and
     # iteration budget, so the comparison is "web agent vs MCP agent".
     "web": ["web_search", "web_fetch"],

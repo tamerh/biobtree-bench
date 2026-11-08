@@ -1,0 +1,817 @@
+{
+ "meta": {
+  "name": "paraphrase",
+  "created": "2026-11-08",
+  "source": "surface-form paraphrases of anchor_geneturing_180 (gold unchanged)",
+  "n": 63
+ },
+ "questions": [
+  {
+   "id": "P_G100_000_gene_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "Which human chromosome contains the FTCD gene?",
+   "answer_type": "chromosome",
+   "original_gold": "chr21",
+   "gold": "21",
+   "paraphrase_of": "G100_000_gene_location"
+  },
+  {
+   "id": "P_G100_001_gene_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "Which human chromosome contains the RN7SKP265 gene?",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3",
+   "paraphrase_of": "G100_001_gene_location"
+  },
+  {
+   "id": "P_G100_002_gene_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "Which human chromosome contains the RGS16 gene?",
+   "answer_type": "chromosome",
+   "original_gold": "chr1",
+   "gold": "1",
+   "paraphrase_of": "G100_002_gene_location"
+  },
+  {
+   "id": "P_G100_003_gene_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "Which human chromosome contains the GARRE1 gene?",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19",
+   "paraphrase_of": "G100_003_gene_location"
+  },
+  {
+   "id": "P_G100_004_gene_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "Which human chromosome contains the SRD5A1P1 gene?",
+   "answer_type": "chromosome",
+   "original_gold": "chrX",
+   "gold": "X",
+   "paraphrase_of": "G100_004_gene_location"
+  },
+  {
+   "id": "P_G100_005_gene_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "Which human chromosome contains the CTB-180A7.6 gene?",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19",
+   "paraphrase_of": "G100_005_gene_location"
+  },
+  {
+   "id": "P_G100_006_gene_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "Which human chromosome contains the RN7SL465P gene?",
+   "answer_type": "chromosome",
+   "original_gold": "chr6",
+   "gold": "6",
+   "paraphrase_of": "G100_006_gene_location"
+  },
+  {
+   "id": "P_G100_020_snp_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "On which human chromosome is rs951388492 located?",
+   "answer_type": "chromosome",
+   "original_gold": "chr14",
+   "gold": "14",
+   "paraphrase_of": "G100_020_snp_location"
+  },
+  {
+   "id": "P_G100_021_snp_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "On which human chromosome is rs1168687246 located?",
+   "answer_type": "chromosome",
+   "original_gold": "chr12",
+   "gold": "12",
+   "paraphrase_of": "G100_021_snp_location"
+  },
+  {
+   "id": "P_G100_022_snp_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "On which human chromosome is rs959002261 located?",
+   "answer_type": "chromosome",
+   "original_gold": "chr13",
+   "gold": "13",
+   "paraphrase_of": "G100_022_snp_location"
+  },
+  {
+   "id": "P_G100_023_snp_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "On which human chromosome is rs1170191379 located?",
+   "answer_type": "chromosome",
+   "original_gold": "chr20",
+   "gold": "20",
+   "paraphrase_of": "G100_023_snp_location"
+  },
+  {
+   "id": "P_G100_024_snp_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "On which human chromosome is rs139333413 located?",
+   "answer_type": "chromosome",
+   "original_gold": "chr4",
+   "gold": "4",
+   "paraphrase_of": "G100_024_snp_location"
+  },
+  {
+   "id": "P_G100_025_snp_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "On which human chromosome is rs1220520522 located?",
+   "answer_type": "chromosome",
+   "original_gold": "chr9",
+   "gold": "9",
+   "paraphrase_of": "G100_025_snp_location"
+  },
+  {
+   "id": "P_G100_026_snp_location",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "On which human chromosome is rs1333853138 located?",
+   "answer_type": "chromosome",
+   "original_gold": "chr22",
+   "gold": "22",
+   "paraphrase_of": "G100_026_snp_location"
+  },
+  {
+   "id": "P_G100_040_gene_alias",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene alias",
+   "question": "What is the official gene symbol for PTH1?",
+   "answer_type": "exact",
+   "original_gold": "PTH",
+   "gold": "PTH",
+   "paraphrase_of": "G100_040_gene_alias"
+  },
+  {
+   "id": "P_G100_041_gene_alias",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene alias",
+   "question": "What is the official gene symbol for C11orf27?",
+   "answer_type": "exact",
+   "original_gold": "UBTFL1",
+   "gold": "UBTFL1",
+   "paraphrase_of": "G100_041_gene_alias"
+  },
+  {
+   "id": "P_G100_042_gene_alias",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene alias",
+   "question": "What is the official gene symbol for ASV?",
+   "answer_type": "exact",
+   "original_gold": "SRC",
+   "gold": "SRC",
+   "paraphrase_of": "G100_042_gene_alias"
+  },
+  {
+   "id": "P_G100_043_gene_alias",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene alias",
+   "question": "What is the official gene symbol for Sph1?",
+   "answer_type": "exact",
+   "original_gold": "SNCAIP",
+   "gold": "SNCAIP",
+   "paraphrase_of": "G100_043_gene_alias"
+  },
+  {
+   "id": "P_G100_044_gene_alias",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene alias",
+   "question": "What is the official gene symbol for LSDMCA2?",
+   "answer_type": "exact",
+   "original_gold": "COX7B",
+   "gold": "COX7B",
+   "paraphrase_of": "G100_044_gene_alias"
+  },
+  {
+   "id": "P_G100_045_gene_alias",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene alias",
+   "question": "What is the official gene symbol for QSCN6L1?",
+   "answer_type": "exact",
+   "original_gold": "QSOX2",
+   "gold": "QSOX2",
+   "paraphrase_of": "G100_045_gene_alias"
+  },
+  {
+   "id": "P_G100_046_gene_alias",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene alias",
+   "question": "What is the official gene symbol for MKCSF?",
+   "answer_type": "exact",
+   "original_gold": "THPO",
+   "gold": "THPO",
+   "paraphrase_of": "G100_046_gene_alias"
+  },
+  {
+   "id": "P_G100_060_gene_name_conversion",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene name conversion",
+   "question": "Which official gene symbol corresponds to ENSG00000165487?",
+   "answer_type": "exact",
+   "original_gold": "MICU2",
+   "gold": "MICU2",
+   "paraphrase_of": "G100_060_gene_name_conversion"
+  },
+  {
+   "id": "P_G100_061_gene_name_conversion",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene name conversion",
+   "question": "Which official gene symbol corresponds to ENSG00000174944?",
+   "answer_type": "exact",
+   "original_gold": "P2RY14",
+   "gold": "P2RY14",
+   "paraphrase_of": "G100_061_gene_name_conversion"
+  },
+  {
+   "id": "P_G100_062_gene_name_conversion",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene name conversion",
+   "question": "Which official gene symbol corresponds to ENSG00000277363?",
+   "answer_type": "exact",
+   "original_gold": "SRCIN1",
+   "gold": "SRCIN1",
+   "paraphrase_of": "G100_062_gene_name_conversion"
+  },
+  {
+   "id": "P_G100_063_gene_name_conversion",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene name conversion",
+   "question": "Which official gene symbol corresponds to ENSG00000168591?",
+   "answer_type": "exact",
+   "original_gold": "TMUB2",
+   "gold": "TMUB2",
+   "paraphrase_of": "G100_063_gene_name_conversion"
+  },
+  {
+   "id": "P_G100_064_gene_name_conversion",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene name conversion",
+   "question": "Which official gene symbol corresponds to ENSG00000114859?",
+   "answer_type": "exact",
+   "original_gold": "CLCN2",
+   "gold": "CLCN2",
+   "paraphrase_of": "G100_064_gene_name_conversion"
+  },
+  {
+   "id": "P_G100_065_gene_name_conversion",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene name conversion",
+   "question": "Which official gene symbol corresponds to ENSG00000182022?",
+   "answer_type": "exact",
+   "original_gold": "CHST15",
+   "gold": "CHST15",
+   "paraphrase_of": "G100_065_gene_name_conversion"
+  },
+  {
+   "id": "P_G100_066_gene_name_conversion",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene name conversion",
+   "question": "Which official gene symbol corresponds to ENSG00000182885?",
+   "answer_type": "exact",
+   "original_gold": "ADGRG3",
+   "gold": "ADGRG3",
+   "paraphrase_of": "G100_066_gene_name_conversion"
+  },
+  {
+   "id": "P_G100_080_gene_snp_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene SNP association",
+   "question": "Which gene is associated with rs386766494?",
+   "answer_type": "exact",
+   "original_gold": "RBM19",
+   "gold": "RBM19",
+   "paraphrase_of": "G100_080_gene_snp_association"
+  },
+  {
+   "id": "P_G100_081_gene_snp_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene SNP association",
+   "question": "Which gene is associated with rs1412475456?",
+   "answer_type": "exact",
+   "original_gold": "LINC02758",
+   "gold": "LINC02758",
+   "paraphrase_of": "G100_081_gene_snp_association"
+  },
+  {
+   "id": "P_G100_082_gene_snp_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene SNP association",
+   "question": "Which gene is associated with rs1015227?",
+   "answer_type": "exact",
+   "original_gold": "SCHLAP1",
+   "gold": "SCHLAP1",
+   "paraphrase_of": "G100_082_gene_snp_association"
+  },
+  {
+   "id": "P_G100_083_gene_snp_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene SNP association",
+   "question": "Which gene is associated with rs141725904?",
+   "answer_type": "exact",
+   "original_gold": "LINC00290",
+   "gold": "LINC00290",
+   "paraphrase_of": "G100_083_gene_snp_association"
+  },
+  {
+   "id": "P_G100_084_gene_snp_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene SNP association",
+   "question": "Which gene is associated with rs1318148353?",
+   "answer_type": "exact",
+   "original_gold": "ERG",
+   "gold": "ERG",
+   "paraphrase_of": "G100_084_gene_snp_association"
+  },
+  {
+   "id": "P_G100_085_gene_snp_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene SNP association",
+   "question": "Which gene is associated with rs900408143?",
+   "answer_type": "exact",
+   "original_gold": "RBFOX1",
+   "gold": "RBFOX1",
+   "paraphrase_of": "G100_085_gene_snp_association"
+  },
+  {
+   "id": "P_G100_086_gene_snp_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene SNP association",
+   "question": "Which gene is associated with rs1442398096?",
+   "answer_type": "exact",
+   "original_gold": "INSL5",
+   "gold": "INSL5",
+   "paraphrase_of": "G100_086_gene_snp_association"
+  },
+  {
+   "id": "P_G100_100_tf_regulation",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "Does transcription factor RELA activate or repress TRAF1?",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ],
+   "paraphrase_of": "G100_100_tf_regulation"
+  },
+  {
+   "id": "P_G100_101_tf_regulation",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "Does transcription factor HIF1A activate or repress APEX1?",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ],
+   "paraphrase_of": "G100_101_tf_regulation"
+  },
+  {
+   "id": "P_G100_102_tf_regulation",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "Does transcription factor NFKB1 activate or repress CCL2?",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ],
+   "paraphrase_of": "G100_102_tf_regulation"
+  },
+  {
+   "id": "P_G100_103_tf_regulation",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "Does transcription factor YY1 activate or repress EGFR?",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ],
+   "paraphrase_of": "G100_103_tf_regulation"
+  },
+  {
+   "id": "P_G100_104_tf_regulation",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "Does transcription factor SPI1 activate or repress IL1B?",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ],
+   "paraphrase_of": "G100_104_tf_regulation"
+  },
+  {
+   "id": "P_G100_105_tf_regulation",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "Does transcription factor SP2 activate or repress DNMT3B?",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ],
+   "paraphrase_of": "G100_105_tf_regulation"
+  },
+  {
+   "id": "P_G100_106_tf_regulation",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "Does transcription factor HDAC4 activate or repress MEF2A?",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ],
+   "paraphrase_of": "G100_106_tf_regulation"
+  },
+  {
+   "id": "P_G100_120_gene_ontology",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "Which gene ontology term is most enriched among these genes: APOBEC2, APOBEC3D, UPP2, APOBEC3H, DPYD, APOBEC3A, APOBEC3F, APOBEC3C, APOBEC1, UPB1, AICDA, APOBEC3G, UPP1, CDADC1, APOBEC3B, CDA?",
+   "answer_type": "exact",
+   "original_gold": "pyrimidine nucleoside catabolic process",
+   "gold": "pyrimidine nucleoside catabolic process",
+   "paraphrase_of": "G100_120_gene_ontology"
+  },
+  {
+   "id": "P_G100_121_gene_ontology",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "Which gene ontology term is most enriched among these genes: CDK5, COL3A1, CTNNB1, DAB2IP, DAB1, FOXG1, SYNE2, SUN1, SRGAP2, DISC1, GLI3, LAMB1, PAFAH1B1, RELN, RTN4, ZMIZ1, P2RY12, SRGAP2C, NR2E1, LRP8, MBOAT7, CDK5R1, CDK5R2, BMERB1, ADGRG1?",
+   "answer_type": "exact",
+   "original_gold": "telencephalon glial cell migration",
+   "gold": "telencephalon glial cell migration",
+   "paraphrase_of": "G100_121_gene_ontology"
+  },
+  {
+   "id": "P_G100_122_gene_ontology",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "Which gene ontology term is most enriched among these genes: MIR15B, MIR16-1, MIR17, MIR195, MIR199A1, MIR214, MIR34A, MIR34B, MIR34C, PPP3CA, ROCK1, ROCK2?",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of connective tissue replacement",
+   "gold": "positive regulation of connective tissue replacement",
+   "paraphrase_of": "G100_122_gene_ontology"
+  },
+  {
+   "id": "P_G100_123_gene_ontology",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "Which gene ontology term is most enriched among these genes: STARD3, CLCN2, ADM, CYP11B1, CYP11B2, CYP19A1, DAB2, DGKQ, EGR1, FSHB, DKKL1, DKK3, HSD17B1, HSD17B3, LHB, WNT4, REST, BMP2, BMP5, BMP6, SRD5A2, AKR1C3, CACNA1H, H6PD?",
+   "answer_type": "exact",
+   "original_gold": "olefinic compound biosynthetic process",
+   "gold": "olefinic compound biosynthetic process",
+   "paraphrase_of": "G100_123_gene_ontology"
+  },
+  {
+   "id": "P_G100_124_gene_ontology",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "Which gene ontology term is most enriched among these genes: CHGA, ADRA1A, CCN2, HSP90AA1, KCNQ1, MIR1-1, ATP1A1, ATP2A1, NPPA, ACE2, TRPV4, RGS2, UCN, ACTN3, GSTO1?",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of striated muscle contraction",
+   "gold": "positive regulation of striated muscle contraction",
+   "paraphrase_of": "G100_124_gene_ontology"
+  },
+  {
+   "id": "P_G100_125_gene_ontology",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "Which gene ontology term is most enriched among these genes: SH2B3, MERTK, CSF1, SLC7A11, ANXA1, HMGB1, HCAR2, IL6, CXCR2, ITPKB, MPL, MTHFD1, GCNT4, PDE4B, PIK3CB, PIK3CD, XKR8, AXL, BTK, JAM3?",
+   "answer_type": "exact",
+   "original_gold": "neutrophil homeostasis",
+   "gold": "neutrophil homeostasis",
+   "paraphrase_of": "G100_125_gene_ontology"
+  },
+  {
+   "id": "P_G100_126_gene_ontology",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "Which gene ontology term is most enriched among these genes: FCRL3, PIK3AP1, SLC15A4, GRAMD4, LILRA4, PTPN22, HMGB1, RAB7B, IRAK1, IRAK4, TLR9, RTN4, EPG5, PTPRS, TNIP2, UNC93B1, HAVCR2, RSAD2, NR1H4?",
+   "answer_type": "exact",
+   "original_gold": "toll like receptor 9 signaling pathway",
+   "gold": "toll like receptor 9 signaling pathway",
+   "paraphrase_of": "G100_126_gene_ontology"
+  },
+  {
+   "id": "P_G100_140_protein_coding_genes",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Protein-coding genes",
+   "question": "Does the gene UCKL1-AS1 code for a protein?",
+   "answer_type": "enum",
+   "original_gold": "NA",
+   "gold": "NA",
+   "accepted": [
+    "NA",
+    "no",
+    "not protein-coding",
+    "non-coding",
+    "pseudogene",
+    "not applicable",
+    "not a protein"
+   ],
+   "paraphrase_of": "G100_140_protein_coding_genes"
+  },
+  {
+   "id": "P_G100_141_protein_coding_genes",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Protein-coding genes",
+   "question": "Does the gene CGGBP1 code for a protein?",
+   "answer_type": "enum",
+   "original_gold": "TRUE",
+   "gold": "TRUE",
+   "accepted": [
+    "TRUE",
+    "yes",
+    "protein-coding",
+    "codes a protein",
+    "protein coding"
+   ],
+   "paraphrase_of": "G100_141_protein_coding_genes"
+  },
+  {
+   "id": "P_G100_142_protein_coding_genes",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Protein-coding genes",
+   "question": "Does the gene MIR22HG code for a protein?",
+   "answer_type": "enum",
+   "original_gold": "NA",
+   "gold": "NA",
+   "accepted": [
+    "NA",
+    "no",
+    "not protein-coding",
+    "non-coding",
+    "pseudogene",
+    "not applicable",
+    "not a protein"
+   ],
+   "paraphrase_of": "G100_142_protein_coding_genes"
+  },
+  {
+   "id": "P_G100_143_protein_coding_genes",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Protein-coding genes",
+   "question": "Does the gene MIR153-2 code for a protein?",
+   "answer_type": "enum",
+   "original_gold": "NA",
+   "gold": "NA",
+   "accepted": [
+    "NA",
+    "no",
+    "not protein-coding",
+    "non-coding",
+    "pseudogene",
+    "not applicable",
+    "not a protein"
+   ],
+   "paraphrase_of": "G100_143_protein_coding_genes"
+  },
+  {
+   "id": "P_G100_144_protein_coding_genes",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Protein-coding genes",
+   "question": "Does the gene LOC124906984 code for a protein?",
+   "answer_type": "enum",
+   "original_gold": "TRUE",
+   "gold": "TRUE",
+   "accepted": [
+    "TRUE",
+    "yes",
+    "protein-coding",
+    "codes a protein",
+    "protein coding"
+   ],
+   "paraphrase_of": "G100_144_protein_coding_genes"
+  },
+  {
+   "id": "P_G100_145_protein_coding_genes",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Protein-coding genes",
+   "question": "Does the gene AWAT1 code for a protein?",
+   "answer_type": "enum",
+   "original_gold": "TRUE",
+   "gold": "TRUE",
+   "accepted": [
+    "TRUE",
+    "yes",
+    "protein-coding",
+    "codes a protein",
+    "protein coding"
+   ],
+   "paraphrase_of": "G100_145_protein_coding_genes"
+  },
+  {
+   "id": "P_G100_146_protein_coding_genes",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Protein-coding genes",
+   "question": "Does the gene HOTAIR code for a protein?",
+   "answer_type": "enum",
+   "original_gold": "NA",
+   "gold": "NA",
+   "accepted": [
+    "NA",
+    "no",
+    "not protein-coding",
+    "non-coding",
+    "pseudogene",
+    "not applicable",
+    "not a protein"
+   ],
+   "paraphrase_of": "G100_146_protein_coding_genes"
+  },
+  {
+   "id": "P_G100_160_gene_disease_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "Which gene is associated with Cleft palate with ankyloglossia?",
+   "answer_type": "exact",
+   "original_gold": "TBX22",
+   "gold": "TBX22",
+   "accepted": [
+    "TBX22"
+   ],
+   "paraphrase_of": "G100_160_gene_disease_association"
+  },
+  {
+   "id": "P_G100_161_gene_disease_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "Which gene is associated with Martsolf syndrome?",
+   "answer_type": "exact",
+   "original_gold": "RAB3GAP2, RAB3GAP1",
+   "gold": "RAB3GAP2, RAB3GAP1",
+   "accepted": [
+    "RAB3GAP2",
+    "RAB3GAP1"
+   ],
+   "paraphrase_of": "G100_161_gene_disease_association"
+  },
+  {
+   "id": "P_G100_162_gene_disease_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "Which gene is associated with Hemolytic anemia due to phosphofructokinase deficiency?",
+   "answer_type": "exact",
+   "original_gold": "PFKL",
+   "gold": "PFKL",
+   "accepted": [
+    "PFKL"
+   ],
+   "paraphrase_of": "G100_162_gene_disease_association"
+  },
+  {
+   "id": "P_G100_163_gene_disease_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "Which gene is associated with Sclerosing cholangitis?",
+   "answer_type": "exact",
+   "original_gold": "DCDC2",
+   "gold": "DCDC2",
+   "accepted": [
+    "DCDC2"
+   ],
+   "paraphrase_of": "G100_163_gene_disease_association"
+  },
+  {
+   "id": "P_G100_164_gene_disease_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "Which gene is associated with Buschke-Ollendorff syndrome?",
+   "answer_type": "exact",
+   "original_gold": "LEMD3",
+   "gold": "LEMD3",
+   "accepted": [
+    "LEMD3"
+   ],
+   "paraphrase_of": "G100_164_gene_disease_association"
+  },
+  {
+   "id": "P_G100_165_gene_disease_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "Which gene is associated with Meleda disease?",
+   "answer_type": "exact",
+   "original_gold": "SLURP1",
+   "gold": "SLURP1",
+   "accepted": [
+    "SLURP1"
+   ],
+   "paraphrase_of": "G100_165_gene_disease_association"
+  },
+  {
+   "id": "P_G100_166_gene_disease_association",
+   "track": "paraphrase",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "Which gene is associated with Hartsfield syndrome?",
+   "answer_type": "exact",
+   "original_gold": "FGFR1",
+   "gold": "FGFR1",
+   "accepted": [
+    "FGFR1"
+   ],
+   "paraphrase_of": "G100_166_gene_disease_association"
+  }
+ ]
+}
