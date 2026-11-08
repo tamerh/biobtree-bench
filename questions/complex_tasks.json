@@ -9,7 +9,7 @@
   {
    "id": "CX1_mirdb_count_493",
    "module": "complex_count",
-   "question": "How many predicted human targets does hsa-miR-493-3p have in miRDB v6.0?",
+   "question": "How many predicted human target sites (transcripts) does hsa-miR-493-3p have in miRDB v6.0?",
    "answer_type": "integer",
    "gold": 731,
    "track": "complex"
@@ -17,7 +17,7 @@
   {
    "id": "CX2_mirdb_count_4521",
    "module": "complex_count",
-   "question": "How many predicted human targets does hsa-miR-4521 have in miRDB v6.0?",
+   "question": "How many predicted human target sites (transcripts) does hsa-miR-4521 have in miRDB v6.0?",
    "answer_type": "integer",
    "gold": 684,
    "track": "complex"
@@ -25,7 +25,7 @@
   {
    "id": "CX3_mirdb_count_186",
    "module": "complex_count",
-   "question": "How many predicted human targets does hsa-miR-186-3p have in miRDB v6.0?",
+   "question": "How many predicted human target sites (transcripts) does hsa-miR-186-3p have in miRDB v6.0?",
    "answer_type": "integer",
    "gold": 1685,
    "track": "complex"
@@ -33,7 +33,7 @@
   {
    "id": "CX4_mirdb_count_let7g",
    "module": "complex_count",
-   "question": "How many predicted human targets does hsa-let-7g-5p have in miRDB v6.0?",
+   "question": "How many predicted human target sites (transcripts) does hsa-let-7g-5p have in miRDB v6.0?",
    "answer_type": "integer",
    "gold": 1784,
    "track": "complex"

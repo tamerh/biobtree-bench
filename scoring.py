@@ -39,10 +39,17 @@ def _contains(needle, haystack):
 
 
 def _integers(text):
-    return [int(x) for x in re.findall(r"(?<!\d)(\d{1,9})(?!\d)", str(text))]
+    out = []
+    for x in re.findall(r"(?<![\d.])(\d{1,3}(?:,\d{3})+|\d{1,9})(?![\d.])", str(text)):
+        out.append(int(x.replace(",", "")))
+    return out
 
 
 def _yes_no(text):
+    raw = str(text or "")
+    m = re.match(r"^\W*(yes|no)\b", raw.strip(), re.I)
+    if m:
+        return m.group(1).lower() == "yes"
     t = normalize(text)
     yes = re.search(r"\b(yes|true|associated|present|found|does|is)\b", t)
     no = re.search(r"\b(no|not|false|absent|none|unrelated|isn t|doesn t|not associated)\b", t)
@@ -191,7 +198,18 @@ def score(question, answer):
         except (TypeError, ValueError):
             return {"score": 0.0, "correct": False, "detail": "bad gold"}
         tol = float(question.get("tolerance", 0.15))
-        nums = [float(x) for x in re.findall(r"(?<![\d.])(\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)", str(answer))]
+        sup = str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺", "0123456789-+")
+        text = str(answer)
+        def sci(m):
+            mant, exp = m.group(1), m.group(2).translate(sup)
+            return f"{mant}e{exp}"
+        text = re.sub(r"([0-9]+(?:\.[0-9]+)?)\s*[×xX]\s*10\s*\^?\s*([⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺\-+]?[0-9⁰¹²³⁴⁵⁶⁷⁸⁹]+)", sci, text)
+        nums = []
+        for m in re.finditer(r"(?<![\d.])(\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)(\s*%)?", text):
+            v = float(m.group(1))
+            if m.group(2):
+                v = v / 100.0
+            nums.append(v)
         hit = next((n for n in nums if abs(n - target) <= tol * abs(target)), None)
         return {
             "score": 1.0 if hit is not None else 0.0,
