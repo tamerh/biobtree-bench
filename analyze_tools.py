@@ -48,6 +48,7 @@ def main(argv=None):
         scored = 0
         conf = collections.Counter()
         fp = collections.Counter()
+        fp_cells = 0
         no_call = 0
         per_expected = collections.defaultdict(lambda: [0, 0])
 
@@ -65,10 +66,11 @@ def main(argv=None):
                 correct += 1
                 per_expected[exp][0] += 1
             # calls to a tool that is not expected and not a generic pre-step
-            for c in calls:
-                tool = c["tool"]
-                if tool == "biobtree_variant" and exp != "biobtree_variant":
-                    fp["variant_calls_on_non_variant"] += 1
+            if exp != "biobtree_variant":
+                vcalls = [c for c in calls if c["tool"] == "biobtree_variant"]
+                if vcalls:
+                    fp_cells += 1
+                    fp["variant_calls_on_non_variant"] += len(vcalls)
 
         print(f"first-tool accuracy: {correct}/{scored} "
               f"({correct / scored:.2%})" if scored else "no tool calls")
@@ -83,7 +85,9 @@ def main(argv=None):
             mark = "" if exp == first else "  <-- mismatch"
             print(f"  {exp:<18} -> {first:<18} {n:3d}{mark}")
         if fp:
-            print("false positives:", dict(fp))
+            print(f"false positives: {fp_cells} non-variant cells "
+                  f"({fp_cells / max(len(recs) - per_expected.get('biobtree_variant', [0, 0])[1], 1):.1%}) "
+                  f"with {fp['variant_calls_on_non_variant']} calls")
         calls = [len(r.get("tool_calls") or []) for r in recs]
         print(f"calls/run: {sum(calls) / len(calls):.2f}")
 
