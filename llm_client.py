@@ -32,6 +32,11 @@ class LLMClient:
         if tools:
             payload["tools"] = tools
             payload["tool_choice"] = "auto"
+        if config.OPENROUTER_PROVIDER and "openrouter.ai" in self.base_url:
+            payload["provider"] = {
+                "only": [config.OPENROUTER_PROVIDER],
+                "allow_fallbacks": False,
+            }
 
         headers = {
             "Content-Type": "application/json",
@@ -108,6 +113,7 @@ class LLMClient:
                 "allowance_usd": float(oc.get("allowance") or 0),
             },
             "raw_model": body.get("model", model),
+            "provider": body.get("provider"),
             "finish_reason": choice.get("finish_reason"),
             "latency": latency,
         }

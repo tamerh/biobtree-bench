@@ -20,6 +20,9 @@ OPENCODE_SESSION = os.environ.get("OPENCODE_SESSION", "")
 # DeepSeek thinking mode via OpenRouter requires the previous reasoning_content
 # to be echoed back on tool-call continuations. Harmless to leave off elsewhere.
 PASS_REASONING_BACK = ("openrouter.ai" in OPENROUTER_URL)
+# Pin the upstream provider when using OpenRouter (provider routing is otherwise
+# an uncontrolled variable: latency and even model behaviour differ).
+OPENROUTER_PROVIDER = os.environ.get("OPENROUTER_PROVIDER", "")
 
 # Defaults recorded in every run
 DEFAULT_MODELS = [

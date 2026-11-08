@@ -59,6 +59,7 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
     tool_seconds = 0.0
     finish_reasons = []
     comp_tokens = []
+    providers = []
     iterations = 0
     answer = ""
     error = None
@@ -70,6 +71,8 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
             resp = llm.chat(model, messages, tools=tools)
             llm_seconds += time.time() - _t0
             finish_reasons.append(resp.get("finish_reason"))
+            if resp.get("provider"):
+                providers.append(resp["provider"])
             comp_tokens.append((resp["usage"].get("completion_tokens", 0),
                                 resp["usage"].get("total_tokens", 0) - resp["usage"].get("prompt_tokens", 0)))
             for k in usage:
@@ -158,6 +161,7 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
         "error": error,
         "finish_reasons": finish_reasons,
         "comp_tokens": comp_tokens,
+        "providers": sorted(set(providers)),
         "timing": {
             "llm_s": round(llm_seconds, 3),
             "tool_s": round(tool_seconds, 3),
