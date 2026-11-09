@@ -1,0 +1,20 @@
+{
+ "release_id": "2026-11-08.1",
+ "snapshot_taken": "2026-11-09T11:59:17+01:00",
+ "binary": {
+  "version": "v2.20.6",
+  "commit": "cf8ac3e",
+  "build_date": "2026-11-07"
+ },
+ "freshness_checked_at": "2026-11-08T15:47:58Z",
+ "federations": {
+  "main": "db_v56",
+  "dbsnp": "db_v4",
+  "cadd": "db_v2",
+  "conservation": "db_v2",
+  "gnomad": "db_v8",
+  "predictions": "db_v1"
+ },
+ "dataset_entries": 612,
+ "note": "release_id provisional; assigned by the paper, to be replaced if the build emits its own. Previous releases are not queryable."
+}
