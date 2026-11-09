@@ -11,7 +11,9 @@ import argparse
 import json
 import re
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -200,6 +202,9 @@ def main(argv=None):
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--resume", action="store_true",
                     help="skip cells already written without an infrastructure error")
+    ap.add_argument("--workers", type=int, default=1,
+                    help="run this many cells concurrently (default 1; each worker "
+                         "uses its own MCP and HTTP clients)")
     args = ap.parse_args(argv)
 
     questions = load_questions(args.questions)
@@ -237,6 +242,7 @@ def main(argv=None):
     out_dir.mkdir(parents=True, exist_ok=True)
     tr_dir.mkdir(parents=True, exist_ok=True)
 
+    tasks = []
     done = 0
     for q in questions:
         for model in args.models:
@@ -253,25 +259,47 @@ def main(argv=None):
                         if prev is not None and not is_infra_error(prev):
                             print(f"[{done}/{total}] {q['id']} | {model} | {cond} ... skip")
                             continue
-                print(f"[{done}/{total}] {q['id']} | {model} | {cond} ... ",
-                      end="", flush=True)
-                rec, tool_log, messages = run_one(
-                    q, model, cond, mcp, llm, args.max_iterations, web=web
-                )
-                (out_dir / f"{rec['run_id']}.json").write_text(
-                    json.dumps(rec, indent=2, ensure_ascii=False)
-                )
-                (tr_dir / f"{rec['run_id']}.json").write_text(
-                    json.dumps(
-                        {"record": rec, "tool_log": tool_log, "messages": messages},
-                        indent=2, ensure_ascii=False,
-                    )
-                )
-                flag = "OK " if rec.get("correct") else "   "
-                print(f"{flag} score={rec['score']} tok={rec['usage']['total_tokens']} "
-                      f"it={rec['iterations']} {rec.get('error') or ''}")
+                tasks.append((done, q, model, cond))
 
-    print(f"\nwrote {done} runs to {out_dir}")
+    print_lock = threading.Lock()
+    completed = {"n": 0}
+
+    def work(task):
+        index, q, model, cond = task
+        client_mcp = MCPClient()
+        client_llm = LLMClient()
+        client_web = WebClient() if cond == "web" else None
+        with print_lock:
+            print(f"[{index}/{total}] {q['id']} | {model} | {cond} ... ",
+                  end="", flush=True)
+        rec, tool_log, messages = run_one(
+            q, model, cond, client_mcp, client_llm, args.max_iterations, web=client_web
+        )
+        (out_dir / f"{rec['run_id']}.json").write_text(
+            json.dumps(rec, indent=2, ensure_ascii=False)
+        )
+        (tr_dir / f"{rec['run_id']}.json").write_text(
+            json.dumps(
+                {"record": rec, "tool_log": tool_log, "messages": messages},
+                indent=2, ensure_ascii=False,
+            )
+        )
+        flag = "OK " if rec.get("correct") else "   "
+        with print_lock:
+            completed["n"] += 1
+            return (f"[{index}/{total}] {q['id']} | {model} | {cond} "
+                    f"{flag} score={rec['score']} tok={rec['usage']['total_tokens']} "
+                    f"it={rec['iterations']} {rec.get('error') or ''}")
+
+    if args.workers > 1:
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
+            for line in pool.map(work, tasks):
+                print(line, flush=True)
+    else:
+        for task in tasks:
+            print(work(task), flush=True)
+
+    print(f"\nwrote {completed['n']} runs to {out_dir}")
 
 
 if __name__ == "__main__":
