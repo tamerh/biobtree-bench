@@ -64,8 +64,8 @@ def run_one(question, model, condition, mcp, llm, max_iterations, web=None):
         {"role": "user", "content": question["question"]},
     ]
 
-    usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0,
-             "cost_usd": 0.0, "allowance_usd": 0.0}
+    usage = {"prompt_tokens": 0, "completion_tokens": 0, "reasoning_tokens": 0,
+             "total_tokens": 0, "cost_usd": 0.0, "allowance_usd": 0.0}
     tool_log = []
     llm_seconds = 0.0
     tool_seconds = 0.0

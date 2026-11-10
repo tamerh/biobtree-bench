@@ -108,6 +108,8 @@ class LLMClient:
             "usage": {
                 "prompt_tokens": usage.get("prompt_tokens", 0),
                 "completion_tokens": usage.get("completion_tokens", 0),
+                "reasoning_tokens": (usage.get("completion_tokens_details") or {}).get(
+                    "reasoning_tokens", 0),
                 "total_tokens": usage.get("total_tokens", 0),
                 "cost_usd": float(cost or 0),
                 "allowance_usd": float(oc.get("allowance") or 0),
