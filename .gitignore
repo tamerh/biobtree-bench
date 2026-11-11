@@ -1,0 +1,10 @@
+# Raw run output (answers, tool calls, transcripts): too large for git.
+# cells.csv holds every cell used in the paper; see README.
+results/
+!results/final/
+results/final/*
+!results/final/go/
+results/final/go/*
+!results/final/go/_release/
+__pycache__/
+*.pyc

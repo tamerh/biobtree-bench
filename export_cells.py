@@ -5,7 +5,7 @@ large for git; this table keeps, for each cell, the question, the gold answer,
 the model's final answer, its score and its cost, so every number in the paper
 can be recomputed from the repository.
 
-Usage: python3 benchmark/export_cells.py   ->  benchmark/cells.csv
+Usage: python3 export_cells.py   ->  cells.csv
 """
 import ast
 import csv
