@@ -54,6 +54,16 @@ CONDITION_TOOLS = {
         "biobtree_atlas",
         "biobtree_enrich",
     ],
+    "biomcp": ["search", "fetch", "think", "article_searcher", "article_getter", "trial_searcher", "trial_getter", "trial_protocol_getter", "trial_references_getter", "trial_outcomes_getter", "trial_locations_getter", "variant_searcher", "variant_getter", "alphagenome_predictor", "gene_getter", "enrichr_analyzer", "disease_getter", "drug_getter", "nci_organization_searcher", "nci_organization_getter", "nci_intervention_searcher", "nci_intervention_getter", "nci_biomarker_searcher", "nci_disease_searcher", "openfda_adverse_searcher", "openfda_adverse_getter", "openfda_label_searcher", "openfda_label_getter", "openfda_device_searcher", "openfda_device_getter", "openfda_approval_searcher", "openfda_approval_getter", "openfda_recall_searcher", "openfda_recall_getter", "openfda_shortage_searcher", "openfda_shortage_getter"],
+    # External structured-tool baseline: the official Open Targets MCP.
+    # Tools are GraphQL-oriented; the model writes queries against the schema.
+    "ot_mcp": [
+        "search_entities",
+        "query_open_targets_graphql",
+        "batch_query_open_targets_graphql",
+        "get_open_targets_graphql_schema",
+        "get_type_dependencies",
+    ],
     "ablation_raw": ["biobtree_search", "biobtree_map", "biobtree_entry"],
     "ablation_atlas": ["biobtree_atlas"],
     # Tool ablations for the 180 subset.

@@ -1,0 +1,440 @@
+{
+ "questions": [
+  {
+   "id": "G100_800_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Spinal muscular atrophy with congenital bone fractures is",
+   "answer_type": "exact",
+   "original_gold": "TRIP4, ASCC1",
+   "gold": "TRIP4, ASCC1",
+   "accepted": [
+    "TRIP4",
+    "ASCC1"
+   ]
+  },
+  {
+   "id": "G100_801_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Proteasome-associated autoinflammatory syndrome is",
+   "answer_type": "exact",
+   "original_gold": "PSMB9, PSMG2, POMP, PSMB10",
+   "gold": "PSMB9, PSMG2, POMP, PSMB10",
+   "accepted": [
+    "PSMB9",
+    "PSMG2",
+    "POMP",
+    "PSMB10"
+   ]
+  },
+  {
+   "id": "G100_802_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Neurodevelopmental disorder with absent language and variable seizures is",
+   "answer_type": "exact",
+   "original_gold": "WASF1",
+   "gold": "WASF1",
+   "accepted": [
+    "WASF1"
+   ]
+  },
+  {
+   "id": "G100_803_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Fasting plasma glucose level is",
+   "answer_type": "exact",
+   "original_gold": "GCKR",
+   "gold": "GCKR",
+   "accepted": [
+    "GCKR"
+   ]
+  },
+  {
+   "id": "G100_804_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Medullary thyroid carcinoma is",
+   "answer_type": "exact",
+   "original_gold": "RET",
+   "gold": "RET",
+   "accepted": [
+    "RET"
+   ]
+  },
+  {
+   "id": "G100_805_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Immunodeficiency with inflammatory disease and congenital thrombocytopenia is",
+   "answer_type": "exact",
+   "original_gold": "ARPC1B",
+   "gold": "ARPC1B",
+   "accepted": [
+    "ARPC1B"
+   ]
+  },
+  {
+   "id": "G100_806_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to HSD10 mitochondrial disease is",
+   "answer_type": "exact",
+   "original_gold": "HSD17B10",
+   "gold": "HSD17B10",
+   "accepted": [
+    "HSD17B10"
+   ]
+  },
+  {
+   "id": "G100_807_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Multiple endocrine neoplasia IIB is",
+   "answer_type": "exact",
+   "original_gold": "RET",
+   "gold": "RET",
+   "accepted": [
+    "RET"
+   ]
+  },
+  {
+   "id": "G100_808_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Holt-Oram syndrome is",
+   "answer_type": "exact",
+   "original_gold": "TBX5",
+   "gold": "TBX5",
+   "accepted": [
+    "TBX5"
+   ]
+  },
+  {
+   "id": "G100_809_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Monilethrix is",
+   "answer_type": "exact",
+   "original_gold": "KRT81, KRT83, KRT86",
+   "gold": "KRT81, KRT83, KRT86",
+   "accepted": [
+    "KRT81",
+    "KRT83",
+    "KRT86"
+   ]
+  },
+  {
+   "id": "G100_000_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "FTCD gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr21",
+   "gold": "21"
+  },
+  {
+   "id": "G100_001_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RN7SKP265 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_002_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RGS16 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr1",
+   "gold": "1"
+  },
+  {
+   "id": "G100_003_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "GARRE1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_004_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SRD5A1P1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrX",
+   "gold": "X"
+  },
+  {
+   "id": "G100_005_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CTB-180A7.6 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_006_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RN7SL465P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr6",
+   "gold": "6"
+  },
+  {
+   "id": "G100_007_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-255A11.4 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr9",
+   "gold": "9"
+  },
+  {
+   "id": "G100_008_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-829H16.3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr14",
+   "gold": "14"
+  },
+  {
+   "id": "G100_009_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RNU6-42P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_100_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs566712659 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr17",
+   "gold": "17"
+  },
+  {
+   "id": "G100_101_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs1168687246 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr12",
+   "gold": "12"
+  },
+  {
+   "id": "G100_102_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs976400036 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_103_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs555675816 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr8",
+   "gold": "8"
+  },
+  {
+   "id": "G100_104_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs959002261 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr13",
+   "gold": "13"
+  },
+  {
+   "id": "G100_105_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs1394261856 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr17",
+   "gold": "17"
+  },
+  {
+   "id": "G100_106_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs898785051 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr15",
+   "gold": "15"
+  },
+  {
+   "id": "G100_107_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs1316704883 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr21",
+   "gold": "21"
+  },
+  {
+   "id": "G100_108_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs1456357049 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr18",
+   "gold": "18"
+  },
+  {
+   "id": "G100_109_snp_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "SNP location",
+   "question": "SNP rs1246801490 is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr18",
+   "gold": "18"
+  },
+  {
+   "id": "G100_600_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with MIR675, PARP1, FLCN, H19, PID1 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of atp biosynthetic process",
+   "gold": "negative regulation of atp biosynthetic process"
+  },
+  {
+   "id": "G100_601_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with TLR6, MALT1, COPS8, CHI3L1, TIRAP, CARD10, IRAK1, MAS1, MAP3K7, TLR3, TRAF2, TRAF6, CARD14, ZFP91, TNFRSF10B, TNFRSF10A, TRAF4, TNFSF15 is",
+   "answer_type": "exact",
+   "original_gold": "activation of nf kappab inducing kinase activity",
+   "gold": "activation of nf kappab inducing kinase activity"
+  },
+  {
+   "id": "G100_602_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FSTL4, NFATC4, NTRK2, BDNF, SLC2A4, RAPGEF2 is",
+   "answer_type": "exact",
+   "original_gold": "brain derived neurotrophic factor receptor signaling pathway",
+   "gold": "brain derived neurotrophic factor receptor signaling pathway"
+  },
+  {
+   "id": "G100_603_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with HDAC6, SEMA4D, CRABP2, DCC, DVL1, EFNA5, EPHA7, FGF13, FSTL4, SPART, COBL, LPAR3, IFRD1, APP, NGF, NIN, PTPRS, BDNF, SPP1, WNT3, RND2, ULK1, WNT3A, ULK2, IST1 is",
+   "answer_type": "exact",
+   "original_gold": "collateral sprouting",
+   "gold": "collateral sprouting"
+  },
+  {
+   "id": "G100_604_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SLC24A4, CNGB1, IL4R, MMP14, CFAP69 is",
+   "answer_type": "exact",
+   "original_gold": "response to odorant",
+   "gold": "response to odorant"
+  },
+  {
+   "id": "G100_605_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CRH, ADRA2A, ADRA2B, ADRA2C, SLC29A4, GABBR1, SLC22A1, SLC22A3, VIP, CARTPT is",
+   "answer_type": "exact",
+   "original_gold": "epinephrine transport",
+   "gold": "epinephrine transport"
+  },
+  {
+   "id": "G100_606_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with DEFA4, IL36RN, LTF, RARRES2, FAM3A is",
+   "answer_type": "exact",
+   "original_gold": "antifungal humoral response",
+   "gold": "antifungal humoral response"
+  },
+  {
+   "id": "G100_607_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with NAA30, NAA20, NAA35, NAA16, NAA60, NAA25, NAA15, NAA38 is",
+   "answer_type": "exact",
+   "original_gold": "n terminal peptidyl methionine acetylation",
+   "gold": "n terminal peptidyl methionine acetylation"
+  },
+  {
+   "id": "G100_608_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with DCANP1, NEUROG1, TIFAB, PAX2, ATP8B1 is",
+   "answer_type": "exact",
+   "original_gold": "vestibulocochlear nerve formation",
+   "gold": "vestibulocochlear nerve formation"
+  },
+  {
+   "id": "G100_609_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with EN1, FGF8, SSBP3, GBX2, HES1, WNT1, KDM2B is",
+   "answer_type": "exact",
+   "original_gold": "midbrain hindbrain boundary development",
+   "gold": "midbrain hindbrain boundary development"
+  }
+ ]
+}

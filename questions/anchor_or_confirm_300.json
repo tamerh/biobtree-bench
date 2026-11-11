@@ -1,0 +1,3504 @@
+{
+ "questions": [
+  {
+   "id": "G100_000_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "FTCD gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr21",
+   "gold": "21"
+  },
+  {
+   "id": "G100_001_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RN7SKP265 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_002_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RGS16 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr1",
+   "gold": "1"
+  },
+  {
+   "id": "G100_003_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "GARRE1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_004_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SRD5A1P1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrX",
+   "gold": "X"
+  },
+  {
+   "id": "G100_005_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CTB-180A7.6 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_006_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RN7SL465P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr6",
+   "gold": "6"
+  },
+  {
+   "id": "G100_007_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-255A11.4 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr9",
+   "gold": "9"
+  },
+  {
+   "id": "G100_008_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-829H16.3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr14",
+   "gold": "14"
+  },
+  {
+   "id": "G100_009_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RNU6-42P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_010_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RNU7-129P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr18",
+   "gold": "18"
+  },
+  {
+   "id": "G100_011_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "LINC02599 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr8",
+   "gold": "8"
+  },
+  {
+   "id": "G100_012_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-363G15.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr4",
+   "gold": "4"
+  },
+  {
+   "id": "G100_013_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "GGCX gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr2",
+   "gold": "2"
+  },
+  {
+   "id": "G100_014_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "FOXL2NB gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_015_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "MPZL3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr11",
+   "gold": "11"
+  },
+  {
+   "id": "G100_016_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-655G22.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_017_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RPS26P3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr9",
+   "gold": "9"
+  },
+  {
+   "id": "G100_018_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "TRGC2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr7",
+   "gold": "7"
+  },
+  {
+   "id": "G100_019_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-476M19.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr12",
+   "gold": "12"
+  },
+  {
+   "id": "G100_020_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "LINC01859 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_021_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP13-1032I1.10 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr17",
+   "gold": "17"
+  },
+  {
+   "id": "G100_022_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SLC9A7P1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr12",
+   "gold": "12"
+  },
+  {
+   "id": "G100_023_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "ENSG10010137820.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr2",
+   "gold": "2"
+  },
+  {
+   "id": "G100_024_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "AC002117.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr17",
+   "gold": "17"
+  },
+  {
+   "id": "G100_025_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CRYBG2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr1",
+   "gold": "1"
+  },
+  {
+   "id": "G100_026_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "COL6A1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr21",
+   "gold": "21"
+  },
+  {
+   "id": "G100_027_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-475N22.7 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_028_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "AC096732.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr4",
+   "gold": "4"
+  },
+  {
+   "id": "G100_029_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "FAM66D gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr8",
+   "gold": "8"
+  },
+  {
+   "id": "G100_030_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "ZNF574 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_031_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-571M6.7 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr12",
+   "gold": "12"
+  },
+  {
+   "id": "G100_032_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "AKIRIN1P2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrX",
+   "gold": "X"
+  },
+  {
+   "id": "G100_033_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "ZPBP gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr7",
+   "gold": "7"
+  },
+  {
+   "id": "G100_034_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-123M21.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr12",
+   "gold": "12"
+  },
+  {
+   "id": "G100_035_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "AB015752.3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr8",
+   "gold": "8"
+  },
+  {
+   "id": "G100_036_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CTD-2169H9.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr5",
+   "gold": "5"
+  },
+  {
+   "id": "G100_037_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "EML3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr11",
+   "gold": "11"
+  },
+  {
+   "id": "G100_038_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-17A4.3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr8",
+   "gold": "8"
+  },
+  {
+   "id": "G100_039_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "ERCC8 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr5",
+   "gold": "5"
+  },
+  {
+   "id": "G100_040_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-507B12.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr15",
+   "gold": "15"
+  },
+  {
+   "id": "G100_041_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-303E16.8 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr16",
+   "gold": "16"
+  },
+  {
+   "id": "G100_042_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "C10orf53 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr10",
+   "gold": "10"
+  },
+  {
+   "id": "G100_043_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "TRAF6P1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr10",
+   "gold": "10"
+  },
+  {
+   "id": "G100_044_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "AC006042.8 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr7",
+   "gold": "7"
+  },
+  {
+   "id": "G100_045_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "AC018892.8 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr2",
+   "gold": "2"
+  },
+  {
+   "id": "G100_046_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "TBX2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr17",
+   "gold": "17"
+  },
+  {
+   "id": "G100_047_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "LA16c-329F2.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr16",
+   "gold": "16"
+  },
+  {
+   "id": "G100_048_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RPS3AP46 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr14",
+   "gold": "14"
+  },
+  {
+   "id": "G100_049_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CTC-268N12.3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr17",
+   "gold": "17"
+  },
+  {
+   "id": "G100_050_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "UBE2D4 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr7",
+   "gold": "7"
+  },
+  {
+   "id": "G100_051_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "LPAR2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_052_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "TRAJ55 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr14",
+   "gold": "14"
+  },
+  {
+   "id": "G100_053_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SNORA14B gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr1",
+   "gold": "1"
+  },
+  {
+   "id": "G100_054_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RNU6-1277P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr14",
+   "gold": "14"
+  },
+  {
+   "id": "G100_055_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "NPTN gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr15",
+   "gold": "15"
+  },
+  {
+   "id": "G100_056_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-173H9.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr2",
+   "gold": "2"
+  },
+  {
+   "id": "G100_057_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SLAIN2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr4",
+   "gold": "4"
+  },
+  {
+   "id": "G100_058_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SCO2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr22",
+   "gold": "22"
+  },
+  {
+   "id": "G100_059_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CTD-2272D18.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr8",
+   "gold": "8"
+  },
+  {
+   "id": "G100_060_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "ZNF117 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr7",
+   "gold": "7"
+  },
+  {
+   "id": "G100_061_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "TTTY6B gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrY",
+   "gold": "Y"
+  },
+  {
+   "id": "G100_062_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "MRRF gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr9",
+   "gold": "9"
+  },
+  {
+   "id": "G100_063_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "COL3A1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr2",
+   "gold": "2"
+  },
+  {
+   "id": "G100_064_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SIGLEC19P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  },
+  {
+   "id": "G100_065_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "ABCB10 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr1",
+   "gold": "1"
+  },
+  {
+   "id": "G100_066_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-468E2.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr14",
+   "gold": "14"
+  },
+  {
+   "id": "G100_067_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "MUC7 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr4",
+   "gold": "4"
+  },
+  {
+   "id": "G100_068_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "IFRD1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr7",
+   "gold": "7"
+  },
+  {
+   "id": "G100_069_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "ENSG10010137169.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr4",
+   "gold": "4"
+  },
+  {
+   "id": "G100_070_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "MTND6P21 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr21",
+   "gold": "21"
+  },
+  {
+   "id": "G100_071_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "KMT5B gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr11",
+   "gold": "11"
+  },
+  {
+   "id": "G100_072_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-215H18.5 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr11",
+   "gold": "11"
+  },
+  {
+   "id": "G100_073_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "HMGN2P48 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrX",
+   "gold": "X"
+  },
+  {
+   "id": "G100_074_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "OR51H2P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr11",
+   "gold": "11"
+  },
+  {
+   "id": "G100_075_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "TNRC18P3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr7",
+   "gold": "7"
+  },
+  {
+   "id": "G100_076_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CTB-56J15.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr5",
+   "gold": "5"
+  },
+  {
+   "id": "G100_077_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "MTND2P25 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrX",
+   "gold": "X"
+  },
+  {
+   "id": "G100_078_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RNU6-1143P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr11",
+   "gold": "11"
+  },
+  {
+   "id": "G100_079_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RN7SL689P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr5",
+   "gold": "5"
+  },
+  {
+   "id": "G100_080_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SNORD4B gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr17",
+   "gold": "17"
+  },
+  {
+   "id": "G100_081_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "MIR767 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrX",
+   "gold": "X"
+  },
+  {
+   "id": "G100_082_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "ATP11AUN gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr13",
+   "gold": "13"
+  },
+  {
+   "id": "G100_083_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-1299A16.3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr4",
+   "gold": "4"
+  },
+  {
+   "id": "G100_084_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-179D22.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr9",
+   "gold": "9"
+  },
+  {
+   "id": "G100_085_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-96B5.3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr10",
+   "gold": "10"
+  },
+  {
+   "id": "G100_086_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "OR4D8P gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr11",
+   "gold": "11"
+  },
+  {
+   "id": "G100_087_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CTD-2184D3.3 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr15",
+   "gold": "15"
+  },
+  {
+   "id": "G100_088_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RRS1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr8",
+   "gold": "8"
+  },
+  {
+   "id": "G100_089_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SETP14 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_090_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-112J3.16 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr9",
+   "gold": "9"
+  },
+  {
+   "id": "G100_091_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-1102P22.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr16",
+   "gold": "16"
+  },
+  {
+   "id": "G100_092_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "SYAP1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrX",
+   "gold": "X"
+  },
+  {
+   "id": "G100_093_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "TTTY7 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chrY",
+   "gold": "Y"
+  },
+  {
+   "id": "G100_094_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "CTD-2216L14.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr14",
+   "gold": "14"
+  },
+  {
+   "id": "G100_095_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP11-21L23.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr11",
+   "gold": "11"
+  },
+  {
+   "id": "G100_096_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "AC018712.2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr2",
+   "gold": "2"
+  },
+  {
+   "id": "G100_097_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "STMN2 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr8",
+   "gold": "8"
+  },
+  {
+   "id": "G100_098_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "AC093802.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr2",
+   "gold": "2"
+  },
+  {
+   "id": "G100_099_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RP4-612B18.1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr1",
+   "gold": "1"
+  },
+  {
+   "id": "G100_500_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor BRCA1 and gene STAT2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_501_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor LMO4 and gene BMP7 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_502_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor AIP and gene RSF1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_503_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CREB1 and gene PTGS2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_504_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor NRIP1 and gene SLC7A1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_505_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor YY1 and gene EGFR is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_506_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor IRF7 and gene IFNA1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_507_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor FOXQ1 and gene RSPO2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_508_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor ETS1 and gene TGFBR2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_509_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor ING4 and gene ANGPT1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_510_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor PAX4 and gene GCG is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_511_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor FOXO3 and gene MYOCD is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_512_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CEBPB and gene ADM is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_513_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor IRF1 and gene MYB is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_514_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP1 and gene SOD2 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_515_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP1 and gene RASSF1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_516_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CDX2 and gene ACAT2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_517_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor NFE2L2 and gene KRT16 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_518_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CEBPB and gene IRF4 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_519_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor GLI1 and gene BCL2 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_520_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor ETV4 and gene ERBB2 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_521_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CTNNB1 and gene MMP14 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_522_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor STAT3 and gene SALL4 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_523_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor TP53 and gene XPO1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_524_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor FOXA1 and gene RPRM is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_525_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor YBX1 and gene CDC20 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_526_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor NFKB1 and gene CD83 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_527_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor MYC and gene ST3GAL1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_528_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor AR and gene PC is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_529_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor PRDM1 and gene LMO2 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_530_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor HDAC4 and gene MEF2A is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_531_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor RARA and gene FGFBP1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_532_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP1 and gene PTTG1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_533_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CREB5 and gene TNFRSF11B is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_534_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP3 and gene COL2A1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_535_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor RFWD2 and gene COP1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_536_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor HOXC13 and gene SPI1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_537_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor TP53 and gene CTSD is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_538_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SRF and gene FOSL1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_539_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor HIC1 and gene MYC is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_540_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SIRT1 and gene PER1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_541_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP1 and gene HTT is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_542_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CTCF and gene MYC is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_543_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor EGR1 and gene ALOX5 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_544_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor IRF2 and gene CXCR4 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_545_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SOX9 and gene AMH is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_546_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor GATA4 and gene SI is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_547_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor RELA and gene IL10 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_548_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor USF1 and gene TERT is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_549_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor MSC and gene CDC6 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_550_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor PPARA and gene SREBF2 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_551_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor KAT2B and gene CDKN1B is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_552_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor FLI1 and gene FLI1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_553_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor HIF1A and gene APEX1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_554_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor RELA and gene TRAF1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_555_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor FOXL2 and gene CCND2 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_556_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor NFKB1 and gene CCL2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_557_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CEBPB and gene CYP19A1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_558_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor YY1 and gene CREBBP is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_559_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor KLF10 and gene EGFR is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_560_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor NFKB1 and gene MMP9 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_561_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor NCOA3 and gene BCL2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_562_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP1 and gene HSD17B2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_563_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor ZNF224 and gene ALDOA is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_564_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor HSF1 and gene HSD17B6 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_565_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor MYCN and gene TP53 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_566_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor TRIM16 and gene VIM is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_567_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor MYCN and gene MCM10 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_568_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor DR1 and gene NR1I2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_569_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SOX10 and gene GJB1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_570_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor JUND and gene MYB is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_571_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor MYC and gene IFNA1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_572_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor HIF1A and gene AGTR1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_573_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP1 and gene CTGF is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_574_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor APC and gene NOS2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_575_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor BRCA1 and gene FST is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_576_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor ZIC1 and gene FAM57A is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_577_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor TCF3 and gene MYC is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_578_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor FOXA1 and gene APOB is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_579_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor AHR and gene IL6 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_580_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor MITF and gene OCA2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_581_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor RELA and gene ALOX5 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_582_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor EPAS1 and gene CA9 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_583_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor ERG and gene EPB41L3 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_584_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CDX2 and gene PTGS2 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_585_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor TRIB3 and gene ATF4 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_586_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP2 and gene DNMT3B is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_587_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor JUN and gene NEIL1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_588_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor HNF4A and gene MMP7 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_589_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor EGR1 and gene CCND1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_590_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor FOXA1 and gene BCL2 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_591_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SMAD4 and gene RUNX1T1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_592_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor NRF1 and gene CAPNS1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_593_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SPI1 and gene IL1B is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_594_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor GLI1 and gene TNFRSF10B is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_595_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor ETS1 and gene PTHLH is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_596_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor DDIT3 and gene ATG5 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_597_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CREM and gene CREB1 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_598_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor TP53 and gene STAT3 is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_599_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor FHL2 and gene CDKN1B is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_600_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with MIR675, PARP1, FLCN, H19, PID1 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of atp biosynthetic process",
+   "gold": "negative regulation of atp biosynthetic process"
+  },
+  {
+   "id": "G100_601_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with TLR6, MALT1, COPS8, CHI3L1, TIRAP, CARD10, IRAK1, MAS1, MAP3K7, TLR3, TRAF2, TRAF6, CARD14, ZFP91, TNFRSF10B, TNFRSF10A, TRAF4, TNFSF15 is",
+   "answer_type": "exact",
+   "original_gold": "activation of nf kappab inducing kinase activity",
+   "gold": "activation of nf kappab inducing kinase activity"
+  },
+  {
+   "id": "G100_602_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FSTL4, NFATC4, NTRK2, BDNF, SLC2A4, RAPGEF2 is",
+   "answer_type": "exact",
+   "original_gold": "brain derived neurotrophic factor receptor signaling pathway",
+   "gold": "brain derived neurotrophic factor receptor signaling pathway"
+  },
+  {
+   "id": "G100_603_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with HDAC6, SEMA4D, CRABP2, DCC, DVL1, EFNA5, EPHA7, FGF13, FSTL4, SPART, COBL, LPAR3, IFRD1, APP, NGF, NIN, PTPRS, BDNF, SPP1, WNT3, RND2, ULK1, WNT3A, ULK2, IST1 is",
+   "answer_type": "exact",
+   "original_gold": "collateral sprouting",
+   "gold": "collateral sprouting"
+  },
+  {
+   "id": "G100_604_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SLC24A4, CNGB1, IL4R, MMP14, CFAP69 is",
+   "answer_type": "exact",
+   "original_gold": "response to odorant",
+   "gold": "response to odorant"
+  },
+  {
+   "id": "G100_605_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CRH, ADRA2A, ADRA2B, ADRA2C, SLC29A4, GABBR1, SLC22A1, SLC22A3, VIP, CARTPT is",
+   "answer_type": "exact",
+   "original_gold": "epinephrine transport",
+   "gold": "epinephrine transport"
+  },
+  {
+   "id": "G100_606_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with DEFA4, IL36RN, LTF, RARRES2, FAM3A is",
+   "answer_type": "exact",
+   "original_gold": "antifungal humoral response",
+   "gold": "antifungal humoral response"
+  },
+  {
+   "id": "G100_607_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with NAA30, NAA20, NAA35, NAA16, NAA60, NAA25, NAA15, NAA38 is",
+   "answer_type": "exact",
+   "original_gold": "n terminal peptidyl methionine acetylation",
+   "gold": "n terminal peptidyl methionine acetylation"
+  },
+  {
+   "id": "G100_608_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with DCANP1, NEUROG1, TIFAB, PAX2, ATP8B1 is",
+   "answer_type": "exact",
+   "original_gold": "vestibulocochlear nerve formation",
+   "gold": "vestibulocochlear nerve formation"
+  },
+  {
+   "id": "G100_609_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with EN1, FGF8, SSBP3, GBX2, HES1, WNT1, KDM2B is",
+   "answer_type": "exact",
+   "original_gold": "midbrain hindbrain boundary development",
+   "gold": "midbrain hindbrain boundary development"
+  },
+  {
+   "id": "G100_610_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with MOXD2P, COMT, DBH, DHPS, PAOX, SLC44A1, MOXD1, DMGDH, HNMT, MIR21, MAOA, MAOB, SULT1A4, ATP2B4, ALDH7A1, SMOX, CHDH, SAT1, SLC6A3, SULT1A3 is",
+   "answer_type": "exact",
+   "original_gold": "amine catabolic process",
+   "gold": "amine catabolic process"
+  },
+  {
+   "id": "G100_611_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with AFMID, ACMSD, IDO2, HAAO, IL4I1, GCDH, IDO1, ATP7A, TDO2, KMO, KYNU is",
+   "answer_type": "exact",
+   "original_gold": "tryptophan metabolic process",
+   "gold": "tryptophan metabolic process"
+  },
+  {
+   "id": "G100_612_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ADCYAP1R1, IP6K3, PTK2B, FGF2, PPIP5K2, IPMK, GPER1, HRH1, ITPKA, ITPKB, LHCGR, MAS1, NTSR1, P2RY1, P2RY6, IP6K2, CD244, PLCG2, PLEK, AVPR1B, PTAFR, PTH, PTH1R, IPPK, SNCA, ITPKC, PPIP5K1, IP6K1 is",
+   "answer_type": "exact",
+   "original_gold": "inositol phosphate biosynthetic process",
+   "gold": "inositol phosphate biosynthetic process"
+  },
+  {
+   "id": "G100_613_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with TLR6, GBP5, NEK7, PYDC2, DDX3X, NLRC3, CARD8, SIRT2, PYDC1, NLRP2B, USP50, MEFV, MYD88, PLCG2, TREM2, EIF2AK2, DHX33, STMP1, TLR4, ATAT1, CPTP, CD36 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of nlrp3 inflammasome complex assembly",
+   "gold": "regulation of nlrp3 inflammasome complex assembly"
+  },
+  {
+   "id": "G100_614_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with EXT1, SMAD7, MEX3C, RARG, SOX9, TGFBR2 is",
+   "answer_type": "exact",
+   "original_gold": "chondrocyte hypertrophy",
+   "gold": "chondrocyte hypertrophy"
+  },
+  {
+   "id": "G100_615_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with JAG1, FGF9, DLL1, HMGN1, HES1, RBPJ, ASCL1, NODAL, NOTCH1, PAX6, SERPINE2, NR2E1 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of development heterochronic",
+   "gold": "regulation of development heterochronic"
+  },
+  {
+   "id": "G100_616_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with TTC36, GPS2, MIR138-1, UBR5, TRIM44, PPIA, OTUB1, OTUB2, PARP10, TRIP12, PLAA is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of protein polyubiquitination",
+   "gold": "negative regulation of protein polyubiquitination"
+  },
+  {
+   "id": "G100_617_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ENAM, CFTR, ODAPH, AMELX, AMTN, SLC4A2, TFAP2A, WNT6 is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of tooth mineralization",
+   "gold": "positive regulation of tooth mineralization"
+  },
+  {
+   "id": "G100_618_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with PARK7, PARP1, HIF1A, MCL1, NONO, PRKN, TREM2, FBXW7, PINK1 is",
+   "answer_type": "exact",
+   "original_gold": "neuron intrinsic apoptotic signaling pathway in response to oxidative stress",
+   "gold": "neuron intrinsic apoptotic signaling pathway in response to oxidative stress"
+  },
+  {
+   "id": "G100_619_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with EPO, EPOR, KIT, RHEX, MT1X, MT2A, HAMP is",
+   "answer_type": "exact",
+   "original_gold": "response to erythropoietin",
+   "gold": "response to erythropoietin"
+  },
+  {
+   "id": "G100_620_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ADA, TNFSF13B, RC3H1, FOXJ1, MEF2C, PKN1, BCL6, TNFAIP3 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of germinal center formation",
+   "gold": "regulation of germinal center formation"
+  },
+  {
+   "id": "G100_621_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ATP6AP2, CMA1, CPA3, CTSG, CTSZ, CYBA, ACE, AGT, AGTR1, AGTR2, EDNRB, ENPEP, F2R, F2RL1, NOX1, RHOA, PCSK5, SERPINF2, SUCNR1, ACE2, REN, RPS6KA2, TACR1, OR51E2, NDST2 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of systemic arterial blood pressure by renin angiotensin",
+   "gold": "regulation of systemic arterial blood pressure by renin angiotensin"
+  },
+  {
+   "id": "G100_622_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ESR1, CAND1, PSMC6, TP53, WNT10B is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of rna polymerase ii transcription preinitiation complex assembly",
+   "gold": "positive regulation of rna polymerase ii transcription preinitiation complex assembly"
+  },
+  {
+   "id": "G100_623_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with OSR1, FOXC2, GPR4, NOTCH1, PDGFB, ACTA2 is",
+   "answer_type": "exact",
+   "original_gold": "mesangial cell development",
+   "gold": "mesangial cell development"
+  },
+  {
+   "id": "G100_624_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with HCN4, GJC1, GJA5, ANK2, HCN1, KCNA5, SCN3B, HCN3, HCN2, RYR2, SCN5A, CACNA1D, CACNA1G, TBX18 is",
+   "answer_type": "exact",
+   "original_gold": "sa node cell to atrial cardiac muscle cell communication",
+   "gold": "sa node cell to atrial cardiac muscle cell communication"
+  },
+  {
+   "id": "G100_625_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with C1QL1, CBLN4, CBLN2, CTBP2, DCTN1, DLG1, DLG4, NLGN1, SHANK2, ERC1, ERC2, PCLO, ARF6, CHCHD10, OPHN1, SDF4, ADGRB3, RAB3A, CBLN3, CBLN1, SYNGAP1, BSN is",
+   "answer_type": "exact",
+   "original_gold": "maintenance of synapse structure",
+   "gold": "maintenance of synapse structure"
+  },
+  {
+   "id": "G100_626_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with LRRK2, DLX2, DRD2, EPHA7, FGF13, FGFR2, RERE, BCL11A, RTN4, SHOX2, MAP3K13 is",
+   "answer_type": "exact",
+   "original_gold": "branching morphogenesis of a nerve",
+   "gold": "branching morphogenesis of a nerve"
+  },
+  {
+   "id": "G100_627_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with GPER1, HRH1, LHCGR, P2RY1, P2RY6 is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of inositol trisphosphate biosynthetic process",
+   "gold": "positive regulation of inositol trisphosphate biosynthetic process"
+  },
+  {
+   "id": "G100_628_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with NHLH2, PLXNA1, PLXNA3, UBB, NDNF, NRP2, NRP1, SEMA3E is",
+   "answer_type": "exact",
+   "original_gold": "hypothalamus gonadotrophin releasing hormone neuron differentiation",
+   "gold": "hypothalamus gonadotrophin releasing hormone neuron differentiation"
+  },
+  {
+   "id": "G100_629_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ANK3, RANGRF, MIR208A, PTPN3, SLMAP, CAV3 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of membrane depolarization during action potential",
+   "gold": "regulation of membrane depolarization during action potential"
+  },
+  {
+   "id": "G100_630_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SLC27A5, AKT1, AKT2, ACSL1, SLC27A1, ACSL5, SLC2A1, THBS1, IRS2, CD36 is",
+   "answer_type": "exact",
+   "original_gold": "long chain fatty acid import across plasma membrane",
+   "gold": "long chain fatty acid import across plasma membrane"
+  },
+  {
+   "id": "G100_631_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with TRAP1, PARK7, HGF, MIRLET7B, MIR21, MET, DDR2, PINK1 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of hydrogen peroxide mediated programmed cell death",
+   "gold": "negative regulation of hydrogen peroxide mediated programmed cell death"
+  },
+  {
+   "id": "G100_632_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with DIAPH1, DRD2, DRD3, DRD4, GABRB1, GABRB2, GABRB3, GABRG2, AOC1, HRH1, RAB44 is",
+   "answer_type": "exact",
+   "original_gold": "response to histamine",
+   "gold": "response to histamine"
+  },
+  {
+   "id": "G100_633_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SEC61B, SEC63, CHMP4B, SEC61G, GLP1R, CHMP4A, SEC61A1, HSPA5, GET3, GET4, SGTB, SEC61A2, SGTA, SEC62, BAG6, UBL4A is",
+   "answer_type": "exact",
+   "original_gold": "post translational protein targeting to endoplasmic reticulum membrane",
+   "gold": "post translational protein targeting to endoplasmic reticulum membrane"
+  },
+  {
+   "id": "G100_634_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with STARD3, CLCN2, ADM, CYP11B1, CYP11B2, CYP19A1, DAB2, DGKQ, EGR1, FSHB, DKKL1, DKK3, HSD17B1, HSD17B3, LHB, WNT4, REST, BMP2, BMP5, BMP6, SRD5A2, AKR1C3, CACNA1H, H6PD is",
+   "answer_type": "exact",
+   "original_gold": "olefinic compound biosynthetic process",
+   "gold": "olefinic compound biosynthetic process"
+  },
+  {
+   "id": "G100_635_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with PARP3, APLF, TFIP11, HMGB1, RAD51, XRCC1 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of dna ligation",
+   "gold": "regulation of dna ligation"
+  },
+  {
+   "id": "G100_636_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ATP6AP2, CD2AP, TSKU, GATA6, LUM, FURIN, FOXP3, LAPTM4B, CX3CL1, THBS1, TYROBP, SERPINB7 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of transforming growth factor beta1 production",
+   "gold": "regulation of transforming growth factor beta1 production"
+  },
+  {
+   "id": "G100_637_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ALKBH3, JMJD6, ALKBH5, FTO, ALKBH1 is",
+   "answer_type": "exact",
+   "original_gold": "oxidative rna demethylation",
+   "gold": "oxidative rna demethylation"
+  },
+  {
+   "id": "G100_638_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with DPY19L3, DPY19L1, DPY19L2, DPY19L4, DPM3 is",
+   "answer_type": "exact",
+   "original_gold": "protein c linked glycosylation",
+   "gold": "protein c linked glycosylation"
+  },
+  {
+   "id": "G100_639_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SEC24B, CTHRC1, DVL1, DVL2, DVL3, FOXF2, FZD2, NPHP3, PAFAH1B1, PTK7, GRHL3, SFRP1, SFRP2, WNT5A, FZD1, CELSR1 is",
+   "answer_type": "exact",
+   "original_gold": "establishment of planar polarity of embryonic epithelium",
+   "gold": "establishment of planar polarity of embryonic epithelium"
+  },
+  {
+   "id": "G100_640_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with TCP11X1, LRRK2, EDNRB, SIRT2, TRIM58, NPPC, NPR2, WEE2, PAEP, BCL11A, RAC3, BCL2, RET, CLEC7A, BNC1, SHB, AURKA, TBX6, TCP11, MAP3K13, KIF14 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of cell maturation",
+   "gold": "regulation of cell maturation"
+  },
+  {
+   "id": "G100_641_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FMR1, FBXL2, TMEM41B, PHB1, DDX56 is",
+   "answer_type": "exact",
+   "original_gold": "modulation by host of viral rna genome replication",
+   "gold": "modulation by host of viral rna genome replication"
+  },
+  {
+   "id": "G100_642_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with RALBP1, RHOV, ABCA1, ABL1, APOA1, APOC3, APOE, RHOJ, SHTN1, RHOU, RIT2, WAS, NRP1, NTN1, CDC42 is",
+   "answer_type": "exact",
+   "original_gold": "cdc42 protein signal transduction",
+   "gold": "cdc42 protein signal transduction"
+  },
+  {
+   "id": "G100_643_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ADA, CNR1, EDNRB, OXT, OXTR, P2RY1, VIP is",
+   "answer_type": "exact",
+   "original_gold": "regulation of penile erection",
+   "gold": "regulation of penile erection"
+  },
+  {
+   "id": "G100_644_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with BNIPL, RFTN1, GHRL, TMPRSS4, WRN is",
+   "answer_type": "exact",
+   "original_gold": "regulation of growth rate",
+   "gold": "regulation of growth rate"
+  },
+  {
+   "id": "G100_645_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SLC35B1, SLC35A1, SLC35D2, SLC35A4, SLC35D1, SLC35A3, SLC35D3, SLC35C2, SLC35A5, SLC35C1, SLC35A2, SLC35B4 is",
+   "answer_type": "exact",
+   "original_gold": "nucleotide sugar transmembrane transport",
+   "gold": "nucleotide sugar transmembrane transport"
+  },
+  {
+   "id": "G100_646_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SH2B3, MERTK, CSF1, SLC7A11, ANXA1, HMGB1, HCAR2, IL6, CXCR2, ITPKB, MPL, MTHFD1, GCNT4, PDE4B, PIK3CB, PIK3CD, XKR8, AXL, BTK, JAM3 is",
+   "answer_type": "exact",
+   "original_gold": "neutrophil homeostasis",
+   "gold": "neutrophil homeostasis"
+  },
+  {
+   "id": "G100_647_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CDH3, GIPC1, MFSD12, CTNS, CYP1A2, DCT, DDT, OPN3, SLC7A11, RAB38, APPL1, SLC24A5, MC1R, ASIP, CITED1, OCA2, SLC45A2, ATP7A, BDH2, PMEL, TRPC1, TYR, TYRP1, WNT5A, RAPGEF2, ZEB2 is",
+   "answer_type": "exact",
+   "original_gold": "secondary metabolite biosynthetic process",
+   "gold": "secondary metabolite biosynthetic process"
+  },
+  {
+   "id": "G100_648_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FCRL3, PIK3AP1, SLC15A4, GRAMD4, LILRA4, PTPN22, HMGB1, RAB7B, IRAK1, IRAK4, TLR9, RTN4, EPG5, PTPRS, TNIP2, UNC93B1, HAVCR2, RSAD2, NR1H4 is",
+   "answer_type": "exact",
+   "original_gold": "toll like receptor 9 signaling pathway",
+   "gold": "toll like receptor 9 signaling pathway"
+  },
+  {
+   "id": "G100_649_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with INS, PHKG2, PPP1CA, PPP1R3D, PPP1R3B is",
+   "answer_type": "exact",
+   "original_gold": "regulation of glycogen catabolic process",
+   "gold": "regulation of glycogen catabolic process"
+  },
+  {
+   "id": "G100_650_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SLC6A20, RGS2, RGS4, SLC6A9, SLC6A5 is",
+   "answer_type": "exact",
+   "original_gold": "glycine import across plasma membrane",
+   "gold": "glycine import across plasma membrane"
+  },
+  {
+   "id": "G100_651_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CDH5, TUBB4A, STMN2, DYRK1A, FKBP4, MAPRE1, EML2, CLIP3, INPP5J, STMN1, MAP2, SNCA, TBCD, ARHGEF7 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of microtubule polymerization",
+   "gold": "negative regulation of microtubule polymerization"
+  },
+  {
+   "id": "G100_652_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ALDH1L1, ALDH1L2, RPIA, NNT, SHPK, MTOR, G6PD, PGLS, DERA, PGAM1, PGD, PRPS2, TIGAR, RPTOR, RPE, RBKS, MLST8, TALDO1, TKT, TP53, RPEL1, H6PD is",
+   "answer_type": "exact",
+   "original_gold": "nadph regeneration",
+   "gold": "nadph regeneration"
+  },
+  {
+   "id": "G100_653_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CHGA, ADRA1A, CCN2, HSP90AA1, KCNQ1, MIR1-1, NPPA, ACE2, RGS2, UCN is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of cardiac muscle contraction",
+   "gold": "positive regulation of cardiac muscle contraction"
+  },
+  {
+   "id": "G100_654_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ATG7, GABARAP, GABARAPL2, GABARAPL1, GABARAPL3, MAP1LC3C, BECN2, MAP1LC3B2, MAP1LC3B, MAP1LC3A, BECN1, ATG5 is",
+   "answer_type": "exact",
+   "original_gold": "cellular response to nitrogen starvation",
+   "gold": "cellular response to nitrogen starvation"
+  },
+  {
+   "id": "G100_655_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ENG, HEY1, HEY2, RBPJ, DLL4, BMPR1A, SRF, ACVRL1 is",
+   "answer_type": "exact",
+   "original_gold": "dorsal aorta morphogenesis",
+   "gold": "dorsal aorta morphogenesis"
+  },
+  {
+   "id": "G100_656_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CTNNB1, EDA, FOXF1, HOXA5, RSPO2, LEF1, HYDIN, MAPK1, MAPK3, MAP2K1, MAP2K2, RARA, RARG, SHH, BMP4, SOX9, SRF, TGFBR2, WNT7B is",
+   "answer_type": "exact",
+   "original_gold": "trachea development",
+   "gold": "trachea development"
+  },
+  {
+   "id": "G100_657_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CYP1A1, CYP2A6, CYP2A7, CYP2A13, CYP2D6, PON3, UGT1A8, UGT1A7 is",
+   "answer_type": "exact",
+   "original_gold": "phenylpropanoid metabolic process",
+   "gold": "phenylpropanoid metabolic process"
+  },
+  {
+   "id": "G100_658_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with APOBEC2, APOBEC3D, UPP2, APOBEC3H, DPYD, APOBEC3A, APOBEC3F, APOBEC3C, APOBEC1, UPB1, AICDA, APOBEC3G, UPP1, CDADC1, APOBEC3B, CDA is",
+   "answer_type": "exact",
+   "original_gold": "pyrimidine nucleoside catabolic process",
+   "gold": "pyrimidine nucleoside catabolic process"
+  },
+  {
+   "id": "G100_659_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ADA, NOC2L, FOXP1, IL2, MIR17HG, MIF, PDCD1, SLC39A10, BCL2, BCL6, IRS2, BCL10, AURKB, ORMDL3, CD74 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of b cell apoptotic process",
+   "gold": "negative regulation of b cell apoptotic process"
+  },
+  {
+   "id": "G100_660_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ALKBH2, CYP1A2, CYP3A7, CYP2C8, CYP2C9, CYP2D6, CYP3A4, CYP3A5, TET3, ALKBH3, JMJD6, ALKBH4, TET2, ALKBH5, CYP3A43, TDG, FTO, TET1, ALKBH1 is",
+   "answer_type": "exact",
+   "original_gold": "oxidative demethylation",
+   "gold": "oxidative demethylation"
+  },
+  {
+   "id": "G100_661_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with RIDA, DAB2, DAXX, EDN1, EDNRB, ALPL, GHSR, HNRNPA1, HNRNPD, HPCA, HSF1, HSPA5, ABCC6, SLC26A5, NEFL, PHEX, PITX3, RNLS, MAPK13, ANKH, ZNF16, ZC3H12A, FGF23, RUNX2 is",
+   "answer_type": "exact",
+   "original_gold": "response to salt",
+   "gold": "response to salt"
+  },
+  {
+   "id": "G100_662_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ENG, FGF8, HEY2, HEYL, RBPJ, SMAD4, MSX1, MSX2, NOTCH1, TMEM100, BMP4, SNAI2, SNAI1, TGFB1, TGFB2, TGFB3, TGFBR1, TGFBR2, ACVR1, NOG is",
+   "answer_type": "exact",
+   "original_gold": "epithelial to mesenchymal transition involved in endocardial cushion formation",
+   "gold": "epithelial to mesenchymal transition involved in endocardial cushion formation"
+  },
+  {
+   "id": "G100_663_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with NKX2-5, FOXC1, FOXC2, CCN1, BMP4, TGFB2, HAND2 is",
+   "answer_type": "exact",
+   "original_gold": "apoptotic process involved in heart morphogenesis",
+   "gold": "apoptotic process involved in heart morphogenesis"
+  },
+  {
+   "id": "G100_664_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CNTFR, ERBB3, KCNB1, RHOA, NEFL, VPS54, MAP2K7, BAX, RAPSN, BCL2, ROCK1, MAP2K4, MAP3K12, ZPR1, CRLF1 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of motor neuron apoptotic process",
+   "gold": "regulation of motor neuron apoptotic process"
+  },
+  {
+   "id": "G100_665_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with GLUL, ASL, LGSN, BAX, BCL2, NR1H4 is",
+   "answer_type": "exact",
+   "original_gold": "nitrogen utilization",
+   "gold": "nitrogen utilization"
+  },
+  {
+   "id": "G100_666_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ENSG00000290147, ADORA2B, NCS1, GUCA1A, GUCA1B, GUCA2A, GUCA2B, NOS1, NOS2, NOS3, RCVRN, GUCA1C is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of guanylate cyclase activity",
+   "gold": "positive regulation of guanylate cyclase activity"
+  },
+  {
+   "id": "G100_667_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with KCNE3, ENSG00000276289, KCNE5, KCNE4, KCNRG, ANK3, KCNE1, MIR1-1, MIR133A1, MTNR1B, SUMO1, KCNAB1, KCNE2 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of delayed rectifier potassium channel activity",
+   "gold": "negative regulation of delayed rectifier potassium channel activity"
+  },
+  {
+   "id": "G100_668_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with UBQLN1, STIMATE, PLCG2, STIM2, STIM1, PLA2G6, CASQ1, CRACR2A is",
+   "answer_type": "exact",
+   "original_gold": "regulation of store operated calcium channel activity",
+   "gold": "regulation of store operated calcium channel activity"
+  },
+  {
+   "id": "G100_669_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CPN1, CTSH, ACE, ECE1, IDE, MME, XPNPEP1 is",
+   "answer_type": "exact",
+   "original_gold": "bradykinin catabolic process",
+   "gold": "bradykinin catabolic process"
+  },
+  {
+   "id": "G100_670_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CPS1, CTPS1, DHODH, MTOR, CMPK1, CTPS2, UMPS, CAD is",
+   "answer_type": "exact",
+   "original_gold": "pyrimidine nucleobase biosynthetic process",
+   "gold": "pyrimidine nucleobase biosynthetic process"
+  },
+  {
+   "id": "G100_671_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CHGA, ADRA1A, CCN2, HSP90AA1, KCNQ1, MIR1-1, ATP1A1, ATP2A1, NPPA, ACE2, TRPV4, RGS2, UCN, ACTN3, GSTO1 is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of striated muscle contraction",
+   "gold": "positive regulation of striated muscle contraction"
+  },
+  {
+   "id": "G100_672_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CDK5, COL3A1, CTNNB1, DAB2IP, DAB1, FOXG1, SYNE2, SUN1, SRGAP2, DISC1, GLI3, LAMB1, PAFAH1B1, RELN, RTN4, ZMIZ1, P2RY12, SRGAP2C, NR2E1, LRP8, MBOAT7, CDK5R1, CDK5R2, BMERB1, ADGRG1 is",
+   "answer_type": "exact",
+   "original_gold": "telencephalon glial cell migration",
+   "gold": "telencephalon glial cell migration"
+  },
+  {
+   "id": "G100_673_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with PDGFA, PDGFRA, CBL, CBLB, IFT20, ADIPOQ, PHF14 is",
+   "answer_type": "exact",
+   "original_gold": "platelet derived growth factor receptor alpha signaling pathway",
+   "gold": "platelet derived growth factor receptor alpha signaling pathway"
+  },
+  {
+   "id": "G100_674_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CYP1A1, CYP1A2, CYP1B1, CYP2A13, CYP3A4, CYP3A5, DDC, AKR7A3, FMO1, FMO2, N6AMT1, ARL1, NFE2L2, PAM, CYP2W1, AS3MT, TH is",
+   "answer_type": "exact",
+   "original_gold": "toxin metabolic process",
+   "gold": "toxin metabolic process"
+  },
+  {
+   "id": "G100_675_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ENSG00000274276, CDO1, CTH, AGXT, SLC7A11, GGT1, GCLC, GCLM, MPST, MTHFD1, CSAD, TST, CBS is",
+   "answer_type": "exact",
+   "original_gold": "cysteine metabolic process",
+   "gold": "cysteine metabolic process"
+  },
+  {
+   "id": "G100_676_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CLP1, TSEN15, DDX1, ERN1, FAM98A, FAM98B, TSEN54, ZBTB8OS, RTCB, RTRAF, TSEN34, C2orf49, TSEN2, TRPT1 is",
+   "answer_type": "exact",
+   "original_gold": "rna splicing via endonucleolytic cleavage and ligation",
+   "gold": "rna splicing via endonucleolytic cleavage and ligation"
+  },
+  {
+   "id": "G100_677_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ARID5A, TBX21, IL1B, IL1R1, IL18, XCL1, SLAMF1, IL18R1 is",
+   "answer_type": "exact",
+   "original_gold": "t helper 1 cell cytokine production",
+   "gold": "t helper 1 cell cytokine production"
+  },
+  {
+   "id": "G100_678_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with KAT5, H1-7, PRM1, SRPK1, SYCP1, TSSK6, SELENOF is",
+   "answer_type": "exact",
+   "original_gold": "sperm dna condensation",
+   "gold": "sperm dna condensation"
+  },
+  {
+   "id": "G100_679_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with RCL1, TBL3, RPP40, NOP9, RRS1, BOP1, UTP20, ABT1, FCF1, TSR1, RPS21, KRI1, NOL9, UTP23, NOP14, BMS1 is",
+   "answer_type": "exact",
+   "original_gold": "endonucleolytic cleavage involved in rrna processing",
+   "gold": "endonucleolytic cleavage involved in rrna processing"
+  },
+  {
+   "id": "G100_680_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SETBP1, SETD2, ASH1L, PRDM9, SETMAR is",
+   "answer_type": "exact",
+   "original_gold": "histone h3 k36 dimethylation",
+   "gold": "histone h3 k36 dimethylation"
+  },
+  {
+   "id": "G100_681_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with PLK3, PLK5, GOLGA2, STX5, VRK1, GBF1, CDK1 is",
+   "answer_type": "exact",
+   "original_gold": "golgi disassembly",
+   "gold": "golgi disassembly"
+  },
+  {
+   "id": "G100_682_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with EXOSC8, NT5C3B, EXOSC6, DIS3L2, DCP2, DIS3, EXOSC7, EXOSC2, DCPS, CNOT7, EXOSC3, EXOSC9, POLR2G, EXOSC4, EXOSC5, CNOT6, SKIV2L, CNOT8, TTC37 is",
+   "answer_type": "exact",
+   "original_gold": "nuclear transcribed mrna catabolic process exonucleolytic",
+   "gold": "nuclear transcribed mrna catabolic process exonucleolytic"
+  },
+  {
+   "id": "G100_683_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FAF1, ZSWIM2, MAL, ATF3, PMAIP1, PTEN, SFRP1, SKIL, BMPR1B, STK3, STK4, THBS1, TIMP3, PEA15 is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of extrinsic apoptotic signaling pathway via death domain receptors",
+   "gold": "positive regulation of extrinsic apoptotic signaling pathway via death domain receptors"
+  },
+  {
+   "id": "G100_684_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CARD16, PIERCE1, ST20, POLH, IMPACT, TP53 is",
+   "answer_type": "exact",
+   "original_gold": "cellular response to uv c",
+   "gold": "cellular response to uv c"
+  },
+  {
+   "id": "G100_685_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SLC25A13, SLC7A13, LRRC8D, LRRC8A, SLC1A6, SLC3A1, SLC25A22, LRRC8E, SLC25A18, LRRC8C, SLC25A12 is",
+   "answer_type": "exact",
+   "original_gold": "aspartate transmembrane transport",
+   "gold": "aspartate transmembrane transport"
+  },
+  {
+   "id": "G100_686_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with NR1H3, CES1, TTC39B, ABCA1, MIR146A, TREM2, PPARA, PPARD, PPARG, NR1H2, ABCG1 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of cholesterol storage",
+   "gold": "negative regulation of cholesterol storage"
+  },
+  {
+   "id": "G100_687_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with LILRB1, HRH3, CNR1, SLC29A4, GPM6B, HTR1A, HTR1B, ITGB3, MAOB, NOS1, P2RX1, SLC6A4, SLC18A1, SLC18A2, SLC22A1, SLC22A3, SLC22A2, SNCA, SYK is",
+   "answer_type": "exact",
+   "original_gold": "serotonin transport",
+   "gold": "serotonin transport"
+  },
+  {
+   "id": "G100_688_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with MIR15B, MIR16-1, MIR17, MIR195, MIR199A1, MIR214, MIR34A, MIR34B, MIR34C, PPP3CA, ROCK1, ROCK2 is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of connective tissue replacement",
+   "gold": "positive regulation of connective tissue replacement"
+  },
+  {
+   "id": "G100_689_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with GALM, GALE, GALK1, GALK2, GALT, B4GALT1, GLB1, SLC35A2, CHST1 is",
+   "answer_type": "exact",
+   "original_gold": "galactose metabolic process",
+   "gold": "galactose metabolic process"
+  },
+  {
+   "id": "G100_690_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CTCF, CTNNB1, SGO2, SGO1, PPP2R1A, BUB1, BUB1B, MEIKIN, NAA50, NAA10, AXIN2, BOD1 is",
+   "answer_type": "exact",
+   "original_gold": "centromeric sister chromatid cohesion",
+   "gold": "centromeric sister chromatid cohesion"
+  },
+  {
+   "id": "G100_691_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with MTOR, PGAM1, TIGAR, RPTOR, MLST8, TP53 is",
+   "answer_type": "exact",
+   "original_gold": "regulation of pentose phosphate shunt",
+   "gold": "regulation of pentose phosphate shunt"
+  },
+  {
+   "id": "G100_692_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FGF2, FGF4, CCN1, RARA, GDF5 is",
+   "answer_type": "exact",
+   "original_gold": "chondroblast differentiation",
+   "gold": "chondroblast differentiation"
+  },
+  {
+   "id": "G100_693_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CTNNB1, MUSTN1, TCF7L2, SLC2A10, PXYLP1 is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of proteoglycan biosynthetic process",
+   "gold": "positive regulation of proteoglycan biosynthetic process"
+  },
+  {
+   "id": "G100_694_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ALDH1A3, PAX2, WNT16, PHACTR4, SOX11, TFAP2A, WNT5A is",
+   "answer_type": "exact",
+   "original_gold": "optic cup morphogenesis involved in camera type eye development",
+   "gold": "optic cup morphogenesis involved in camera type eye development"
+  },
+  {
+   "id": "G100_695_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ACSM1, ACOT4, CRAT, ACADS, MMUT, PCCA, PCCB, PCK1, PCK2, PHYH, OXSM, THNSL2, TYRP1, ACSS1, MCEE is",
+   "answer_type": "exact",
+   "original_gold": "short chain fatty acid metabolic process",
+   "gold": "short chain fatty acid metabolic process"
+  },
+  {
+   "id": "G100_696_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with PARP2, CITED2, PARP1, CTSB, TCF23, CYP27B1, EPOR, GHSR, GJB2, JUNB, LIF, MEN1, NDP, TPPP3, GHRL, PPARD, ASH1L, PTGS2, PTN, SPP1, STC1, BSG, VDR, STC2, DEDD is",
+   "answer_type": "exact",
+   "original_gold": "decidualization",
+   "gold": "decidualization"
+  },
+  {
+   "id": "G100_697_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CLCN7, CLCNKA, CLCNKB, OSTM1, P2RY4, P2RY6, SLC26A6, SLC12A2, BEST1 is",
+   "answer_type": "exact",
+   "original_gold": "transepithelial chloride transport",
+   "gold": "transepithelial chloride transport"
+  },
+  {
+   "id": "G100_698_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ARL6IP5, SLC43A2, TCAF2, ANO9, GOPC, RGS2, RGS4, TNF, SLC43A1 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of anion transmembrane transport",
+   "gold": "negative regulation of anion transmembrane transport"
+  },
+  {
+   "id": "G100_699_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FRS2, PRICKLE1, EGFR, DKK1, HEY2, DLL1, MIR200B, MIR222, SMAD4, SOX6, BMP2, MIR590, FZD7, WNT3A is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of cardiocyte differentiation",
+   "gold": "negative regulation of cardiocyte differentiation"
+  }
+ ]
+}

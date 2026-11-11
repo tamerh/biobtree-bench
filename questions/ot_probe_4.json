@@ -1,0 +1,44 @@
+{
+ "questions": [
+  {
+   "id": "G100_000_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "FTCD gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr21",
+   "gold": "21"
+  },
+  {
+   "id": "G100_001_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RN7SKP265 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr3",
+   "gold": "3"
+  },
+  {
+   "id": "G100_002_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "RGS16 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr1",
+   "gold": "1"
+  },
+  {
+   "id": "G100_003_gene_location",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene location",
+   "question": "GARRE1 gene is located on human genome chromosome",
+   "answer_type": "chromosome",
+   "original_gold": "chr19",
+   "gold": "19"
+  }
+ ]
+}

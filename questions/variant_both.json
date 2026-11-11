@@ -1,0 +1,1364 @@
+{
+ "questions": [
+  {
+   "id": "V1_rs140826989",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs140826989, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Pathogenic",
+    "expert panel"
+   ],
+   "meta": {
+    "rsid": "rs140826989",
+    "gene": "GAA",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_000152.5(GAA):c.1548G>A (p.Trp516Ter)"
+   }
+  },
+  {
+   "id": "V3_rs140826989",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs140826989 in?",
+   "answer_type": "exact",
+   "gold": "GAA",
+   "meta": {
+    "rsid": "rs140826989",
+    "gene": "GAA"
+   }
+  },
+  {
+   "id": "V1_rs1376900184",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs1376900184, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs1376900184",
+    "gene": "NF1",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_001042492.3(NF1):c.5818G>T (p.Glu1940Ter)"
+   }
+  },
+  {
+   "id": "V3_rs1376900184",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs1376900184 in?",
+   "answer_type": "exact",
+   "gold": "NF1",
+   "meta": {
+    "rsid": "rs1376900184",
+    "gene": "NF1"
+   }
+  },
+  {
+   "id": "V1_rs104894322",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs104894322, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs104894322",
+    "gene": "AICDA",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_020661.4(AICDA):c.415A>G (p.Met139Val)"
+   }
+  },
+  {
+   "id": "V3_rs104894322",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs104894322 in?",
+   "answer_type": "exact",
+   "gold": "AICDA",
+   "meta": {
+    "rsid": "rs104894322",
+    "gene": "AICDA"
+   }
+  },
+  {
+   "id": "V1_rs121964923",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs121964923, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs121964923",
+    "gene": "DPYS",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_001385.3(DPYS):c.1001A>G (p.Gln334Arg)"
+   }
+  },
+  {
+   "id": "V3_rs121964923",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs121964923 in?",
+   "answer_type": "exact",
+   "gold": "DPYS",
+   "meta": {
+    "rsid": "rs121964923",
+    "gene": "DPYS"
+   }
+  },
+  {
+   "id": "V1_rs727504893",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs727504893, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs727504893",
+    "gene": "USH2A",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_206933.4(USH2A):c.632G>A (p.Trp211Ter)"
+   }
+  },
+  {
+   "id": "V3_rs727504893",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs727504893 in?",
+   "answer_type": "exact",
+   "gold": "USH2A",
+   "meta": {
+    "rsid": "rs727504893",
+    "gene": "USH2A"
+   }
+  },
+  {
+   "id": "V1_rs746709222",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs746709222, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs746709222",
+    "gene": "AGK",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_018238.4(AGK):c.409C>T (p.Arg137Ter)"
+   }
+  },
+  {
+   "id": "V3_rs746709222",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs746709222 in?",
+   "answer_type": "exact",
+   "gold": "AGK",
+   "meta": {
+    "rsid": "rs746709222",
+    "gene": "AGK"
+   }
+  },
+  {
+   "id": "V1_rs886042447",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs886042447, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs886042447",
+    "gene": "COL6A3",
+    "type": "Deletion",
+    "hgvs": "NM_004369.4(COL6A3):c.4124del (p.Gln1375fs)"
+   }
+  },
+  {
+   "id": "V3_rs886042447",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs886042447 in?",
+   "answer_type": "exact",
+   "gold": "COL6A3",
+   "meta": {
+    "rsid": "rs886042447",
+    "gene": "COL6A3"
+   }
+  },
+  {
+   "id": "V1_rs886038030",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs886038030, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Pathogenic",
+    "expert panel"
+   ],
+   "meta": {
+    "rsid": "rs886038030",
+    "gene": "BRCA1",
+    "type": "Duplication",
+    "hgvs": "NM_007294.4(BRCA1):c.4015dup (p.Glu1339fs)"
+   }
+  },
+  {
+   "id": "V3_rs886038030",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs886038030 in?",
+   "answer_type": "exact",
+   "gold": "BRCA1",
+   "meta": {
+    "rsid": "rs886038030",
+    "gene": "BRCA1"
+   }
+  },
+  {
+   "id": "V1_rs193922259",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs193922259, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs193922259",
+    "gene": "GCK",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_000162.5(GCK):c.103A>T (p.Arg35Ter)"
+   }
+  },
+  {
+   "id": "V3_rs193922259",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs193922259 in?",
+   "answer_type": "exact",
+   "gold": "GCK",
+   "meta": {
+    "rsid": "rs193922259",
+    "gene": "GCK"
+   }
+  },
+  {
+   "id": "V1_rs2139628826",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs2139628826, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs2139628826",
+    "gene": "SPTB",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_001355436.2(SPTB):c.648-2A>G"
+   }
+  },
+  {
+   "id": "V3_rs2139628826",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs2139628826 in?",
+   "answer_type": "exact",
+   "gold": "SPTB",
+   "meta": {
+    "rsid": "rs2139628826",
+    "gene": "SPTB"
+   }
+  },
+  {
+   "id": "V1_rs200448428",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs200448428, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs200448428",
+    "gene": "RPGRIP1L",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_015272.5(RPGRIP1L):c.3221-2A>G"
+   }
+  },
+  {
+   "id": "V3_rs200448428",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs200448428 in?",
+   "answer_type": "exact",
+   "gold": "RPGRIP1L",
+   "meta": {
+    "rsid": "rs200448428",
+    "gene": "RPGRIP1L"
+   }
+  },
+  {
+   "id": "V1_rs1085307997",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs1085307997, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs1085307997",
+    "gene": "RYR2",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_001035.3(RYR2):c.11914A>G (p.Met3972Val)"
+   }
+  },
+  {
+   "id": "V3_rs1085307997",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs1085307997 in?",
+   "answer_type": "exact",
+   "gold": "RYR2",
+   "meta": {
+    "rsid": "rs1085307997",
+    "gene": "RYR2"
+   }
+  },
+  {
+   "id": "V1_rs756921209",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs756921209, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs756921209",
+    "gene": "EXT2",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_207122.2(EXT2):c.1662+1G>C"
+   }
+  },
+  {
+   "id": "V3_rs756921209",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs756921209 in?",
+   "answer_type": "exact",
+   "gold": "EXT2",
+   "meta": {
+    "rsid": "rs756921209",
+    "gene": "EXT2"
+   }
+  },
+  {
+   "id": "V1_rs1412048304",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs1412048304, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs1412048304",
+    "gene": "CYP11B1",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_000497.4(CYP11B1):c.1145T>G (p.Leu382Arg)"
+   }
+  },
+  {
+   "id": "V3_rs1412048304",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs1412048304 in?",
+   "answer_type": "exact",
+   "gold": "CYP11B1",
+   "meta": {
+    "rsid": "rs1412048304",
+    "gene": "CYP11B1"
+   }
+  },
+  {
+   "id": "V1_rs886037738",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs886037738, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs886037738",
+    "gene": "TSEN2",
+    "type": "Deletion",
+    "hgvs": "NM_025265.4(TSEN2):c.960+1_960+5del"
+   }
+  },
+  {
+   "id": "V3_rs886037738",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs886037738 in?",
+   "answer_type": "exact",
+   "gold": "TSEN2",
+   "meta": {
+    "rsid": "rs886037738",
+    "gene": "TSEN2"
+   }
+  },
+  {
+   "id": "V1_rs606231127",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs606231127, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely pathogenic",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs606231127",
+    "gene": "STRA6",
+    "type": "Duplication",
+    "hgvs": "NM_022369.4(STRA6):c.527dup (p.Ser177fs)"
+   }
+  },
+  {
+   "id": "V3_rs606231127",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs606231127 in?",
+   "answer_type": "exact",
+   "gold": "STRA6",
+   "meta": {
+    "rsid": "rs606231127",
+    "gene": "STRA6"
+   }
+  },
+  {
+   "id": "V1_rs574206272",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs574206272, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Uncertain significance",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs574206272",
+    "gene": "ZMIZ1",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_020338.4(ZMIZ1):c.173C>T (p.Thr58Met)"
+   }
+  },
+  {
+   "id": "V3_rs574206272",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs574206272 in?",
+   "answer_type": "exact",
+   "gold": "ZMIZ1",
+   "meta": {
+    "rsid": "rs574206272",
+    "gene": "ZMIZ1"
+   }
+  },
+  {
+   "id": "V1_rs367654407",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs367654407, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Uncertain significance",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs367654407",
+    "gene": "TNFRSF4",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_003327.4(TNFRSF4):c.253A>G (p.Thr85Ala)"
+   }
+  },
+  {
+   "id": "V3_rs367654407",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs367654407 in?",
+   "answer_type": "exact",
+   "gold": "TNFRSF4",
+   "meta": {
+    "rsid": "rs367654407",
+    "gene": "TNFRSF4"
+   }
+  },
+  {
+   "id": "V1_rs562417353",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs562417353, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Uncertain significance",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs562417353",
+    "gene": "MCM3AP",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_003906.5(MCM3AP):c.4006G>A (p.Val1336Met)"
+   }
+  },
+  {
+   "id": "V3_rs562417353",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs562417353 in?",
+   "answer_type": "exact",
+   "gold": "MCM3AP",
+   "meta": {
+    "rsid": "rs562417353",
+    "gene": "MCM3AP"
+   }
+  },
+  {
+   "id": "V1_rs782384228",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs782384228, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Uncertain significance",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs782384228",
+    "gene": "PLEC",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_201384.3(PLEC):c.13277G>A (p.Arg4426His)"
+   }
+  },
+  {
+   "id": "V3_rs782384228",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs782384228 in?",
+   "answer_type": "exact",
+   "gold": "PLEC",
+   "meta": {
+    "rsid": "rs782384228",
+    "gene": "PLEC"
+   }
+  },
+  {
+   "id": "V1_rs1040801425",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs1040801425, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Uncertain significance",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs1040801425",
+    "gene": "HTRA2",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_013247.5(HTRA2):c.1285G>A (p.Glu429Lys)"
+   }
+  },
+  {
+   "id": "V3_rs1040801425",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs1040801425 in?",
+   "answer_type": "exact",
+   "gold": "HTRA2",
+   "meta": {
+    "rsid": "rs1040801425",
+    "gene": "HTRA2"
+   }
+  },
+  {
+   "id": "V1_rs1417506136",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs1417506136, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Uncertain significance",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs1417506136",
+    "gene": "GATA2",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_032638.5(GATA2):c.298G>A (p.Gly100Arg)"
+   }
+  },
+  {
+   "id": "V3_rs1417506136",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs1417506136 in?",
+   "answer_type": "exact",
+   "gold": "GATA2",
+   "meta": {
+    "rsid": "rs1417506136",
+    "gene": "GATA2"
+   }
+  },
+  {
+   "id": "V1_rs750725752",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs750725752, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Uncertain significance",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs750725752",
+    "gene": "EMC1",
+    "type": "Deletion",
+    "hgvs": "NM_015047.3(EMC1):c.464_466del (p.His155del)"
+   }
+  },
+  {
+   "id": "V3_rs750725752",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs750725752 in?",
+   "answer_type": "exact",
+   "gold": "EMC1",
+   "meta": {
+    "rsid": "rs750725752",
+    "gene": "EMC1"
+   }
+  },
+  {
+   "id": "V1_rs1224610838",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs1224610838, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Uncertain significance",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs1224610838",
+    "gene": "TRDN",
+    "type": "Duplication",
+    "hgvs": "NM_006073.4(TRDN):c.1717dup (p.Thr573fs)"
+   }
+  },
+  {
+   "id": "V3_rs1224610838",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs1224610838 in?",
+   "answer_type": "exact",
+   "gold": "TRDN",
+   "meta": {
+    "rsid": "rs1224610838",
+    "gene": "TRDN"
+   }
+  },
+  {
+   "id": "V1_rs368709206",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs368709206, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs368709206",
+    "gene": "ILK",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_004517.4(ILK):c.728+13G>A"
+   }
+  },
+  {
+   "id": "V3_rs368709206",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs368709206 in?",
+   "answer_type": "exact",
+   "gold": "ILK",
+   "meta": {
+    "rsid": "rs368709206",
+    "gene": "ILK"
+   }
+  },
+  {
+   "id": "V1_rs771118520",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs771118520, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs771118520",
+    "gene": "A2ML1",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_144670.6(A2ML1):c.3576A>G (p.Val1192=)"
+   }
+  },
+  {
+   "id": "V3_rs771118520",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs771118520 in?",
+   "answer_type": "exact",
+   "gold": "A2ML1",
+   "meta": {
+    "rsid": "rs771118520",
+    "gene": "A2ML1"
+   }
+  },
+  {
+   "id": "V1_rs906190453",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs906190453, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs906190453",
+    "gene": "RYR1",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_000540.3(RYR1):c.1365C>T (p.Ser455=)"
+   }
+  },
+  {
+   "id": "V3_rs906190453",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs906190453 in?",
+   "answer_type": "exact",
+   "gold": "RYR1",
+   "meta": {
+    "rsid": "rs906190453",
+    "gene": "RYR1"
+   }
+  },
+  {
+   "id": "V1_rs1557231780",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs1557231780, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs1557231780",
+    "gene": "ATP7A",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_000052.7(ATP7A):c.817T>C (p.Tyr273His)"
+   }
+  },
+  {
+   "id": "V3_rs1557231780",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs1557231780 in?",
+   "answer_type": "exact",
+   "gold": "ATP7A",
+   "meta": {
+    "rsid": "rs1557231780",
+    "gene": "ATP7A"
+   }
+  },
+  {
+   "id": "V1_rs760733256",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs760733256, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs760733256",
+    "gene": "NF2",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_000268.4(NF2):c.448-4C>G"
+   }
+  },
+  {
+   "id": "V3_rs760733256",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs760733256 in?",
+   "answer_type": "exact",
+   "gold": "NF2",
+   "meta": {
+    "rsid": "rs760733256",
+    "gene": "NF2"
+   }
+  },
+  {
+   "id": "V1_rs765423929",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs765423929, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs765423929",
+    "gene": "FERMT3",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_031471.6(FERMT3):c.1635C>G (p.Ser545=)"
+   }
+  },
+  {
+   "id": "V3_rs765423929",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs765423929 in?",
+   "answer_type": "exact",
+   "gold": "FERMT3",
+   "meta": {
+    "rsid": "rs765423929",
+    "gene": "FERMT3"
+   }
+  },
+  {
+   "id": "V1_rs572104795",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs572104795, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs572104795",
+    "gene": "DYNC2H1",
+    "type": "Microsatellite",
+    "hgvs": "NM_001377.3(DYNC2H1):c.11935-12_11935-10del"
+   }
+  },
+  {
+   "id": "V3_rs572104795",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs572104795 in?",
+   "answer_type": "exact",
+   "gold": "DYNC2H1",
+   "meta": {
+    "rsid": "rs572104795",
+    "gene": "DYNC2H1"
+   }
+  },
+  {
+   "id": "V1_rs761349565",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs761349565, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Likely benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs761349565",
+    "gene": "ZAP70",
+    "type": "Duplication",
+    "hgvs": "NM_001079.4(ZAP70):c.790+12_790+15dup"
+   }
+  },
+  {
+   "id": "V3_rs761349565",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs761349565 in?",
+   "answer_type": "exact",
+   "gold": "ZAP70",
+   "meta": {
+    "rsid": "rs761349565",
+    "gene": "ZAP70"
+   }
+  },
+  {
+   "id": "V1_rs2229267",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs2229267, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs2229267",
+    "gene": "LRP2",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_004525.3(LRP2):c.4875T>C (p.Cys1625=)"
+   }
+  },
+  {
+   "id": "V3_rs2229267",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs2229267 in?",
+   "answer_type": "exact",
+   "gold": "LRP2",
+   "meta": {
+    "rsid": "rs2229267",
+    "gene": "LRP2"
+   }
+  },
+  {
+   "id": "V1_rs70198",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs70198, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs70198",
+    "gene": "CTDP1",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_004715.5(CTDP1):c.399-287C>T"
+   }
+  },
+  {
+   "id": "V3_rs70198",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs70198 in?",
+   "answer_type": "exact",
+   "gold": "CTDP1",
+   "meta": {
+    "rsid": "rs70198",
+    "gene": "CTDP1"
+   }
+  },
+  {
+   "id": "V1_rs11928322",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs11928322, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs11928322",
+    "gene": "CFAP44",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_001164496.2(CFAP44):c.549T>C (p.Gly183=)"
+   }
+  },
+  {
+   "id": "V3_rs11928322",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs11928322 in?",
+   "answer_type": "exact",
+   "gold": "CFAP44",
+   "meta": {
+    "rsid": "rs11928322",
+    "gene": "CFAP44"
+   }
+  },
+  {
+   "id": "V1_rs116174650",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs116174650, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs116174650",
+    "gene": "E2F7",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_203394.3(E2F7):c.2529C>T (p.Tyr843=)"
+   }
+  },
+  {
+   "id": "V3_rs116174650",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs116174650 in?",
+   "answer_type": "exact",
+   "gold": "E2F7",
+   "meta": {
+    "rsid": "rs116174650",
+    "gene": "E2F7"
+   }
+  },
+  {
+   "id": "V1_rs3811763",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs3811763, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs3811763",
+    "gene": "TENM3",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_001080477.4(TENM3):c.6817C>T (p.Leu2273=)"
+   }
+  },
+  {
+   "id": "V3_rs3811763",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs3811763 in?",
+   "answer_type": "exact",
+   "gold": "TENM3",
+   "meta": {
+    "rsid": "rs3811763",
+    "gene": "TENM3"
+   }
+  },
+  {
+   "id": "V1_rs3779647",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs3779647, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Benign",
+    "multiple submitters",
+    "no conflicts"
+   ],
+   "meta": {
+    "rsid": "rs3779647",
+    "gene": "GSR",
+    "type": "single nucleotide variant",
+    "hgvs": "NM_000637.5(GSR):c.493-130G>A"
+   }
+  },
+  {
+   "id": "V3_rs3779647",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs3779647 in?",
+   "answer_type": "exact",
+   "gold": "GSR",
+   "meta": {
+    "rsid": "rs3779647",
+    "gene": "GSR"
+   }
+  },
+  {
+   "id": "V1_rs112881775",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs112881775, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Benign",
+    "expert panel"
+   ],
+   "meta": {
+    "rsid": "rs112881775",
+    "gene": "BRCA1",
+    "type": "Deletion",
+    "hgvs": "NM_007294.3(BRCA1):c.-2617_-2616del"
+   }
+  },
+  {
+   "id": "V3_rs112881775",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs112881775 in?",
+   "answer_type": "exact",
+   "gold": "BRCA1",
+   "meta": {
+    "rsid": "rs112881775",
+    "gene": "BRCA1"
+   }
+  },
+  {
+   "id": "V1_rs11571701",
+   "track": "variant",
+   "module": "variant_classification",
+   "question": "For the variant rs11571701, what is the ClinVar clinical significance and the review status?",
+   "answer_type": "all_of",
+   "accepted": [
+    "Benign",
+    "expert panel"
+   ],
+   "meta": {
+    "rsid": "rs11571701",
+    "gene": "BRCA2",
+    "type": "Duplication",
+    "hgvs": "NM_000059.4(BRCA2):c.7008-1934_7008-1933dup"
+   }
+  },
+  {
+   "id": "V3_rs11571701",
+   "track": "variant",
+   "module": "variant_gene",
+   "question": "Which gene is the variant rs11571701 in?",
+   "answer_type": "exact",
+   "gold": "BRCA2",
+   "meta": {
+    "rsid": "rs11571701",
+    "gene": "BRCA2"
+   }
+  },
+  {
+   "id": "V5_absent_0",
+   "track": "variant",
+   "module": "variant_abstain",
+   "question": "Find the variant rs99999999990 and report its clinical significance.",
+   "answer_type": "abstain",
+   "meta": {
+    "rsid": "rs99999999990"
+   }
+  },
+  {
+   "id": "V5_absent_1",
+   "track": "variant",
+   "module": "variant_abstain",
+   "question": "Find the variant rs99999999991 and report its clinical significance.",
+   "answer_type": "abstain",
+   "meta": {
+    "rsid": "rs99999999991"
+   }
+  },
+  {
+   "id": "V5_absent_2",
+   "track": "variant",
+   "module": "variant_abstain",
+   "question": "Find the variant rs99999999992 and report its clinical significance.",
+   "answer_type": "abstain",
+   "meta": {
+    "rsid": "rs99999999992"
+   }
+  },
+  {
+   "id": "V5_geneonly_0",
+   "track": "variant",
+   "module": "variant_abstain",
+   "question": "What is the clinical significance of the variant BRCA1?",
+   "answer_type": "abstain",
+   "meta": {
+    "gene": "BRCA1"
+   }
+  },
+  {
+   "id": "V5_geneonly_1",
+   "track": "variant",
+   "module": "variant_abstain",
+   "question": "What is the clinical significance of the variant TP53?",
+   "answer_type": "abstain",
+   "meta": {
+    "gene": "TP53"
+   }
+  },
+  {
+   "id": "V5_geneonly_2",
+   "track": "variant",
+   "module": "variant_abstain",
+   "question": "What is the clinical significance of the variant CFTR?",
+   "answer_type": "abstain",
+   "meta": {
+    "gene": "CFTR"
+   }
+  },
+  {
+   "id": "V6_batch30",
+   "track": "variant",
+   "module": "variant_batch",
+   "question": "Here are 30 variants from a clinical report. For each rsID, give a table with the gene, ClinVar clinical significance, and review status.\nrs1040801425, rs2139628826, rs771118520, rs121964923, rs727504893, rs11928322, rs886042447, rs1224610838, rs3811763, rs765423929, rs574206272, rs70198, rs1376900184, rs104894322, rs1412048304, rs3779647, rs906190453, rs886038030, rs2229267, rs367654407, rs368709206, rs1557231780, rs761349565, rs750725752, rs562417353, rs112881775, rs886037738, rs760733256, rs140826989, rs11571701",
+   "answer_type": "coverage",
+   "accepted": [
+    "HTRA2",
+    "Uncertain significance",
+    "SPTB",
+    "Likely pathogenic",
+    "A2ML1",
+    "Likely benign",
+    "DPYS",
+    "Pathogenic",
+    "USH2A",
+    "Pathogenic",
+    "CFAP44",
+    "Benign",
+    "COL6A3",
+    "Pathogenic",
+    "TRDN",
+    "Uncertain significance",
+    "TENM3",
+    "Benign",
+    "FERMT3",
+    "Likely benign",
+    "ZMIZ1",
+    "Uncertain significance",
+    "CTDP1",
+    "Benign",
+    "NF1",
+    "Pathogenic",
+    "AICDA",
+    "Pathogenic",
+    "CYP11B1",
+    "Likely pathogenic",
+    "GSR",
+    "Benign",
+    "RYR1",
+    "Likely benign",
+    "BRCA1",
+    "Pathogenic",
+    "LRP2",
+    "Benign",
+    "TNFRSF4",
+    "Uncertain significance",
+    "ILK",
+    "Likely benign",
+    "ATP7A",
+    "Likely benign",
+    "ZAP70",
+    "Likely benign",
+    "EMC1",
+    "Uncertain significance",
+    "MCM3AP",
+    "Uncertain significance",
+    "BRCA1",
+    "Benign",
+    "TSEN2",
+    "Likely pathogenic",
+    "NF2",
+    "Likely benign",
+    "GAA",
+    "Pathogenic",
+    "BRCA2",
+    "Benign"
+   ],
+   "threshold": 0.9,
+   "meta": {
+    "rsids": [
+     "rs1040801425",
+     "rs2139628826",
+     "rs771118520",
+     "rs121964923",
+     "rs727504893",
+     "rs11928322",
+     "rs886042447",
+     "rs1224610838",
+     "rs3811763",
+     "rs765423929",
+     "rs574206272",
+     "rs70198",
+     "rs1376900184",
+     "rs104894322",
+     "rs1412048304",
+     "rs3779647",
+     "rs906190453",
+     "rs886038030",
+     "rs2229267",
+     "rs367654407",
+     "rs368709206",
+     "rs1557231780",
+     "rs761349565",
+     "rs750725752",
+     "rs562417353",
+     "rs112881775",
+     "rs886037738",
+     "rs760733256",
+     "rs140826989",
+     "rs11571701"
+    ]
+   }
+  }
+ ]
+}

@@ -80,7 +80,11 @@ def score(question, answer):
         elif gold is not None:
             candidates = [gold]
         candidates = list(candidates) + list(accepted)
-        hit = next((c for c in candidates if _contains(c, answer)), None)
+        # Match only in the leading answer: a gold mentioned late as a side note
+        # is not the answer (see docs/internal/PILOT_FINDINGS.md scoring audit).
+        lead = question.get("lead_chars")
+        hay = str(answer)[:lead] if lead else str(answer)
+        hit = next((c for c in candidates if _contains(c, hay)), None)
         return {
             "score": 1.0 if hit is not None else 0.0,
             "correct": hit is not None,
@@ -102,7 +106,9 @@ def score(question, answer):
 
     if qtype == "enum":
         candidates = list(accepted) + ([gold] if gold is not None else [])
-        hit = next((c for c in candidates if _contains(c, answer)), None)
+        lead = question.get("lead_chars")
+        hay = str(answer)[:lead] if lead else str(answer)
+        hit = next((c for c in candidates if _contains(c, hay)), None)
         return {
             "score": 1.0 if hit is not None else 0.0,
             "correct": hit is not None,

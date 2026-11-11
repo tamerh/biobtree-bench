@@ -1,0 +1,312 @@
+{
+ "questions": [
+  {
+   "id": "G100_513_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor IRF1 and gene MYB is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_516_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CDX2 and gene ACAT2 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_518_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CEBPB and gene IRF4 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_527_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor MYC and gene ST3GAL1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_531_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor RARA and gene FGFBP1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_532_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SP1 and gene PTTG1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_538_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor SRF and gene FOSL1 is",
+   "answer_type": "enum",
+   "original_gold": "Activation",
+   "gold": "Activation",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_542_tf_regulation",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "TF regulation",
+   "question": "The regulatory relationship between transcription factor CTCF and gene MYC is",
+   "answer_type": "enum",
+   "original_gold": "Repression",
+   "gold": "Repression",
+   "accepted": [
+    "Activation",
+    "Repression",
+    "No"
+   ]
+  },
+  {
+   "id": "G100_600_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with MIR675, PARP1, FLCN, H19, PID1 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of atp biosynthetic process",
+   "gold": "negative regulation of atp biosynthetic process"
+  },
+  {
+   "id": "G100_601_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with TLR6, MALT1, COPS8, CHI3L1, TIRAP, CARD10, IRAK1, MAS1, MAP3K7, TLR3, TRAF2, TRAF6, CARD14, ZFP91, TNFRSF10B, TNFRSF10A, TRAF4, TNFSF15 is",
+   "answer_type": "exact",
+   "original_gold": "activation of nf kappab inducing kinase activity",
+   "gold": "activation of nf kappab inducing kinase activity"
+  },
+  {
+   "id": "G100_602_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FSTL4, NFATC4, NTRK2, BDNF, SLC2A4, RAPGEF2 is",
+   "answer_type": "exact",
+   "original_gold": "brain derived neurotrophic factor receptor signaling pathway",
+   "gold": "brain derived neurotrophic factor receptor signaling pathway"
+  },
+  {
+   "id": "G100_607_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with NAA30, NAA20, NAA35, NAA16, NAA60, NAA25, NAA15, NAA38 is",
+   "answer_type": "exact",
+   "original_gold": "n terminal peptidyl methionine acetylation",
+   "gold": "n terminal peptidyl methionine acetylation"
+  },
+  {
+   "id": "G100_617_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with ENAM, CFTR, ODAPH, AMELX, AMTN, SLC4A2, TFAP2A, WNT6 is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of tooth mineralization",
+   "gold": "positive regulation of tooth mineralization"
+  },
+  {
+   "id": "G100_618_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with PARK7, PARP1, HIF1A, MCL1, NONO, PRKN, TREM2, FBXW7, PINK1 is",
+   "answer_type": "exact",
+   "original_gold": "neuron intrinsic apoptotic signaling pathway in response to oxidative stress",
+   "gold": "neuron intrinsic apoptotic signaling pathway in response to oxidative stress"
+  },
+  {
+   "id": "G100_627_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with GPER1, HRH1, LHCGR, P2RY1, P2RY6 is",
+   "answer_type": "exact",
+   "original_gold": "positive regulation of inositol trisphosphate biosynthetic process",
+   "gold": "positive regulation of inositol trisphosphate biosynthetic process"
+  },
+  {
+   "id": "G100_630_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SLC27A5, AKT1, AKT2, ACSL1, SLC27A1, ACSL5, SLC2A1, THBS1, IRS2, CD36 is",
+   "answer_type": "exact",
+   "original_gold": "long chain fatty acid import across plasma membrane",
+   "gold": "long chain fatty acid import across plasma membrane"
+  },
+  {
+   "id": "G100_803_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Fasting plasma glucose level is",
+   "answer_type": "exact",
+   "original_gold": "GCKR",
+   "gold": "GCKR",
+   "accepted": [
+    "GCKR"
+   ]
+  },
+  {
+   "id": "G100_812_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Intracranial hemorrhage in brain cerebrovascular malformations is",
+   "answer_type": "exact",
+   "original_gold": "IL6",
+   "gold": "IL6",
+   "accepted": [
+    "IL6"
+   ]
+  },
+  {
+   "id": "G100_813_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Thyroid cancer is",
+   "answer_type": "exact",
+   "original_gold": "HABP2, NKX2-1, SRGAP1, FOXE1",
+   "gold": "HABP2, NKX2-1, SRGAP1, FOXE1",
+   "accepted": [
+    "HABP2",
+    "NKX2-1",
+    "SRGAP1",
+    "FOXE1"
+   ]
+  },
+  {
+   "id": "G100_818_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Vascular malformation is",
+   "answer_type": "exact",
+   "original_gold": "ELMO2",
+   "gold": "ELMO2",
+   "accepted": [
+    "ELMO2"
+   ]
+  },
+  {
+   "id": "G100_829_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Liver failure is",
+   "answer_type": "exact",
+   "original_gold": "TRMU",
+   "gold": "TRMU",
+   "accepted": [
+    "TRMU"
+   ]
+  },
+  {
+   "id": "G100_836_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Hemorrhagic diathesis due to antithrombin Pittsburgh is",
+   "answer_type": "exact",
+   "original_gold": "SERPINA1",
+   "gold": "SERPINA1",
+   "accepted": [
+    "SERPINA1"
+   ]
+  },
+  {
+   "id": "G100_840_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Gastrointestinal defects and immunodeficiency syndrome is",
+   "answer_type": "exact",
+   "original_gold": "PI4KA, TTC7A",
+   "gold": "PI4KA, TTC7A",
+   "accepted": [
+    "PI4KA",
+    "TTC7A"
+   ]
+  },
+  {
+   "id": "G100_842_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Brain abnormalities is",
+   "answer_type": "exact",
+   "original_gold": "CSF1R",
+   "gold": "CSF1R",
+   "accepted": [
+    "CSF1R"
+   ]
+  }
+ ]
+}

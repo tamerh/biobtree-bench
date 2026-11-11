@@ -1,0 +1,64 @@
+{
+ "questions": [
+  {
+   "id": "G100_600_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with MIR675, PARP1, FLCN, H19, PID1 is",
+   "answer_type": "exact",
+   "original_gold": "negative regulation of atp biosynthetic process",
+   "gold": "negative regulation of atp biosynthetic process"
+  },
+  {
+   "id": "G100_601_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with TLR6, MALT1, COPS8, CHI3L1, TIRAP, CARD10, IRAK1, MAS1, MAP3K7, TLR3, TRAF2, TRAF6, CARD14, ZFP91, TNFRSF10B, TNFRSF10A, TRAF4, TNFSF15 is",
+   "answer_type": "exact",
+   "original_gold": "activation of nf kappab inducing kinase activity",
+   "gold": "activation of nf kappab inducing kinase activity"
+  },
+  {
+   "id": "G100_602_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with FSTL4, NFATC4, NTRK2, BDNF, SLC2A4, RAPGEF2 is",
+   "answer_type": "exact",
+   "original_gold": "brain derived neurotrophic factor receptor signaling pathway",
+   "gold": "brain derived neurotrophic factor receptor signaling pathway"
+  },
+  {
+   "id": "G100_603_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with HDAC6, SEMA4D, CRABP2, DCC, DVL1, EFNA5, EPHA7, FGF13, FSTL4, SPART, COBL, LPAR3, IFRD1, APP, NGF, NIN, PTPRS, BDNF, SPP1, WNT3, RND2, ULK1, WNT3A, ULK2, IST1 is",
+   "answer_type": "exact",
+   "original_gold": "collateral sprouting",
+   "gold": "collateral sprouting"
+  },
+  {
+   "id": "G100_604_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with SLC24A4, CNGB1, IL4R, MMP14, CFAP69 is",
+   "answer_type": "exact",
+   "original_gold": "response to odorant",
+   "gold": "response to odorant"
+  },
+  {
+   "id": "G100_605_gene_ontology",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene ontology",
+   "question": "The enriched gene ontology term associated with CRH, ADRA2A, ADRA2B, ADRA2C, SLC29A4, GABBR1, SLC22A1, SLC22A3, VIP, CARTPT is",
+   "answer_type": "exact",
+   "original_gold": "epinephrine transport",
+   "gold": "epinephrine transport"
+  }
+ ]
+}

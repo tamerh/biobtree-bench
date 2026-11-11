@@ -1,0 +1,60 @@
+{
+ "questions": [
+  {
+   "id": "G100_800_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Spinal muscular atrophy with congenital bone fractures is",
+   "answer_type": "exact",
+   "original_gold": "TRIP4, ASCC1",
+   "gold": "TRIP4, ASCC1",
+   "accepted": [
+    "TRIP4",
+    "ASCC1"
+   ]
+  },
+  {
+   "id": "G100_801_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Proteasome-associated autoinflammatory syndrome is",
+   "answer_type": "exact",
+   "original_gold": "PSMB9, PSMG2, POMP, PSMB10",
+   "gold": "PSMB9, PSMG2, POMP, PSMB10",
+   "accepted": [
+    "PSMB9",
+    "PSMG2",
+    "POMP",
+    "PSMB10"
+   ]
+  },
+  {
+   "id": "G100_802_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Neurodevelopmental disorder with absent language and variable seizures is",
+   "answer_type": "exact",
+   "original_gold": "WASF1",
+   "gold": "WASF1",
+   "accepted": [
+    "WASF1"
+   ]
+  },
+  {
+   "id": "G100_803_gene_disease_association",
+   "track": "anchor",
+   "source": "GeneTuring",
+   "module": "Gene disease association",
+   "question": "The name of the gene related to Fasting plasma glucose level is",
+   "answer_type": "exact",
+   "original_gold": "GCKR",
+   "gold": "GCKR",
+   "accepted": [
+    "GCKR"
+   ]
+  }
+ ]
+}

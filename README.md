@@ -82,6 +82,12 @@ transcript under `results/transcripts/`:
 - score + scoring detail
 - run config (MCP URL, max iterations, temperature, BioBTree version if exposed)
 
+The raw run folders are too large for git and are not committed. `cells.csv`
+holds every cell used in the paper (9,391 rows: set, run, question id, model,
+condition, question, gold, answer, correct, tool calls, tokens, seconds, cost
+at list price, error, timestamp); it is regenerated from the run folders with
+`python3 benchmark/export_cells.py`.
+
 ## Scoring
 
 `questions/*.json` carry `answer_type`:
