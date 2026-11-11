@@ -84,6 +84,30 @@ Each cell is written as one JSON file under `results/`, with a full transcript
 under `results/transcripts/`. Temperature and output length are set with
 `BENCH_TEMPERATURE` and `BENCH_MAX_TOKENS`.
 
+## Data sources and licences
+
+The code is released under the MIT licence (`LICENSE`). The question sets keep
+the licence of the benchmark they are derived from, and so do the rows of
+`cells.csv` built on them (the `set` column identifies the source):
+
+| files | source | licence |
+|---|---|---|
+| `anchor_geneturing_900.json`, `anchor_tfgo_200.json`, `anchor_or_confirm_300.json`, `paraphrase_63.json`; `cells.csv` rows of sets `geneturing`, `tf_go_same_day_repeat`, `provider_replication`, `paraphrase` | GeneTuring (Shang et al., 2025) | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
+| `labbench_dbqa.json`; `cells.csv` rows of set `labbench` | LAB-Bench (Laurent et al., 2024) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| `variant_retrieval.json`, `variant_batch.json`, `complex_tasks.json`; all other `cells.csv` rows | this work | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+
+Questions are used verbatim, except in the paraphrase set, which rewords anchor
+questions. GeneTuring gold answers were normalised for automatic scoring; the
+original answer is kept in the `original_gold` field. Please cite the original
+benchmarks when you use their questions:
+
+- Shang Y, Liao Y, Ji Z, Hou L. Benchmarking large language models for genomic
+  knowledge with GeneTuring. *Briefings in Bioinformatics* 26(5), 2025.
+  https://doi.org/10.1093/bib/bbaf492
+- Laurent JM, Janizek JD, Ruzo M, et al. LAB-Bench: Measuring capabilities of
+  language models for biology research. arXiv:2407.10362, 2024.
+  https://doi.org/10.48550/arXiv.2407.10362
+
 ## Scoring
 
 Each question carries an `answer_type`: `exact` (normalised string match,
